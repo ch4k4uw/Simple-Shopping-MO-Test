@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Base\Domain.Base.csproj" />
+    <ProjectReference Include="..\Domain.Common.Base\Domain.Common.Base.csproj" />
+    <ProjectReference Include="..\Domain.ProductCatalog.Base\Domain.ProductCatalog.Base.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Unity" Version="5.8.6" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\Application.csproj" />
+    <ProjectReference Include="..\..\Domain.Base\Domain.Base.csproj" />
+    <ProjectReference Include="..\..\Domain.Common.Base\Domain.Common.Base.csproj" />
+    <ProjectReference Include="..\..\Domain.Common\Domain.Common.csproj" />
+    <ProjectReference Include="..\..\Domain.ProductCatalog.Base\Domain.ProductCatalog.Base.csproj" />
+    <ProjectReference Include="..\..\Domain.ProductCatalog\Domain.ProductCatalog.csproj" />
+    <ProjectReference Include="..\..\Domain.ShoppingCart.Base\Domain.ShoppingCart.Base.csproj" />
+    <ProjectReference Include="..\..\Domain.ShoppingCart\Domain.ShoppingCart.csproj" />
+    <ProjectReference Include="..\..\Infrastructure.Base\Infrastructure.Base.csproj" />
+  </ItemGroup>
+</Project>

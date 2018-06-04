@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="RestSharp" Version="106.3.0" />
+    <PackageReference Include="System.Reactive" Version="4.0.0" />
+    <PackageReference Include="Unity" Version="5.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Base\Domain.Base.csproj" />
+    <ProjectReference Include="..\Domain.Common.Base\Domain.Common.Base.csproj" />
+    <ProjectReference Include="..\Domain.ProductCatalog.Base\Domain.ProductCatalog.Base.csproj" />
+  </ItemGroup>
+
+</Project>
