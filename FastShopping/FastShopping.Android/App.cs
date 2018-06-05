@@ -1,6 +1,8 @@
 ﻿using Android.App;
 using Android.Content;
 using Android.Runtime;
+using FastShopping.Droid.ProductCatalog.Base.Mvp.Presenter;
+using FastShopping.Droid.ProductCatalog.Presenter;
 using Infrastructure.Android.CrossCutting.Ioc;
 using System;
 using System.Reactive.Concurrency;
@@ -15,6 +17,8 @@ namespace FastShopping.Droid
     {
         public static IUnityContainer Container { get; private set; }
 
+        public static bool AlreadyStartedUp { get; private set; }
+
         public App(): base()
         {
         }
@@ -27,31 +31,43 @@ namespace FastShopping.Droid
         {
             base.OnCreate();
 
+            AlreadyStartedUp = false;
+
             Observable
-                .Start(() =>
-                {
-                    Register(this);
-                })
+                .Defer(() =>
+                    Observable.Start(() =>
+                    {
+                        Register(this);
+                    })
+                )
                 .ObserveOn(ReactiveUI.HandlerScheduler.MainThreadScheduler)
-                .SubscribeOn(DefaultScheduler.Instance)
+                .SubscribeOn(DefaultScheduler.Instance/*NewThreadScheduler.Default*/)
                 .Subscribe(result => 
                 {
-                    
+                    StartSystem(this);
+                    AlreadyStartedUp = true;
                 }, (Exception err) => 
                 {
-                    
+                    InterruptSystem(this, err);
                 });
 
         }
 
-        private void StartSystem()
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="context"></param>
+        public static void StartSystem(Context context)
         {
-
+            var mainActivity = new Intent(context, typeof(MainActivity));
+            context.StartActivity(mainActivity);
         }
 
-        private void InterruptSystem()
+        private static void InterruptSystem(Context context, Exception err)
         {
-
+            var mainActivity = new Intent(context, typeof(MainActivity));
+            mainActivity.PutExtra("error_message", err.Message);
+            context.StartActivity(mainActivity);
         }
 
         private static void Register(Context context)
@@ -62,6 +78,7 @@ namespace FastShopping.Droid
 
                 Container.RegisterInstance(context, new ContainerControlledLifetimeManager());
                 Container.RegisterInstance(ReactiveUI.HandlerScheduler.MainThreadScheduler, new ContainerControlledLifetimeManager());
+                Container.RegisterType<IProductCatalogPresenter, ProductCatalogPresenter>();
 
                 DI.Register(Container);
                 CrossCutting.IoC.DI.Register(Container);

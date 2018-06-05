@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fl">
+    <TextView
+        android:id="@+id/promotion"
+        tools:text="Promoção Queima de Estoque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#999"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp" />
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/promotion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/cl1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+        <!--<ToggleButton
+                android:background="@android:drawable/star_on"
+                android:id="@+id/favorite"
+                android:textOn=""
+                android:textOff=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />-->
+            <RatingBar
+                android:numStars="1"
+                android:isIndicator="false"
+                android:stepSize="1"
+                android:id="@+id/favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/clQtt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/favorite"
+                app:layout_constraintRight_toRightOf="@+id/add"
+                app:layout_constraintLeft_toLeftOf="@+id/remove"
+                android:layout_marginTop="1dp">
+                <TextView
+                    android:id="@+id/quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                <TextView
+                    android:id="@+id/unity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UN"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/quantity"
+                    app:layout_constraintLeft_toRightOf="@+id/quantity"
+                    android:layout_marginLeft="3dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            </android.support.constraint.ConstraintLayout>
+            <TextView
+                android:id="@+id/name"
+                android:lines="2"
+                android:ellipsize="start"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="Game Horizon Dawn - PS4"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/remove"
+                app:layout_constraintLeft_toLeftOf="@+id/gdl"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <android.support.constraint.Guideline
+                android:id="@+id/gdl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintGuide_begin="95dp"
+                android:orientation="vertical" />
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="#777"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/gdl" />
+            <TextView
+                android:id="@+id/discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.5%"
+                app:layout_constraintTop_toBottomOf="@+id/name"
+                app:layout_constraintBottom_toTopOf="@+id/price"
+                app:layout_constraintLeft_toRightOf="@+id/gdl"
+                android:drawableLeft="@drawable/ic_arrow_down"
+                android:background="@drawable/discount_background"
+                android:textColor="#fff"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 144,38"
+                app:layout_constraintBottom_toBottomOf="@+id/remove"
+                app:layout_constraintLeft_toRightOf="@+id/gdl"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <Button
+                android:id="@+id/remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/clQtt"
+                app:layout_constraintRight_toLeftOf="@+id/add"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/product_remove_button" />
+            <Button
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@+id/remove"
+                app:layout_constraintRight_toRightOf="parent"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:width="0dp"
+                android:height="0dp"
+                android:background="@drawable/product_add_button" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

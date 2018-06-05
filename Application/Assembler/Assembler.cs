@@ -24,7 +24,8 @@ namespace Application.Assembler
                 Discount = product.Discount,
                 Photo = product.Detail.Photo,
                 Price = product.Detail.Price,
-                Quantity = product.Quantity
+                Quantity = product.Quantity,
+                IsFavorite = product.IsFavorite
             };
         }
 
@@ -42,7 +43,9 @@ namespace Application.Assembler
                 Discount = x.Discount,
                 Photo = x.Detail.Photo,
                 Price = x.Detail.Price,
-                Quantity = x.Quantity
+                Quantity = x.Quantity,
+                PromotionName = x.Promotion.Name,
+                IsFavorite = x.IsFavorite
             }).ToList();
         }
 

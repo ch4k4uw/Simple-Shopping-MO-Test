@@ -20,7 +20,7 @@ namespace Infrastructure.Base.Repository
 
     internal class FavoriteProductCommandRepository : Repository, IFavoriteProductCommandRepository
     {
-        public FavoriteProductCommandRepository(IScheduler uiThreadScheduler, IRestApi restApi, IEntityFactory entityFactory) : base(uiThreadScheduler, restApi, entityFactory)
+        public FavoriteProductCommandRepository(IScheduler uiThreadScheduler, ISimpleDb simpleDb, IEntityFactory entityFactory) : base(uiThreadScheduler, simpleDb, entityFactory)
         {
         }
 

@@ -7,9 +7,9 @@ namespace Application.Dto.Result
 {
     public class ProductCategory: ISerializable
     {
-        public long Id { get; internal set; }
+        public long Id { get; set; }
 
-        public string Name { get; internal set; }
+        public string Name { get; set; }
 
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {

@@ -22,9 +22,25 @@
     <item name="windowActionModeOverlay">true</item>
 
     <item name="android:datePickerDialogTheme">@style/AppCompatDialogStyle</item>
+
+    <item name="removeProductStyle">@style/ProductRemoveButtonStyle</item>
+    <item name="addProductStyle">@style/ProductAddButtonStyle</item>
   </style>
 
   <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
     <item name="colorAccent">#FF4081</item>
+  </style>
+
+  <style name="ProductEditionButtonStyle" parent="Widget.AppCompat.Button">
+    <item name="android:minHeight">0dip</item>
+    <item name="android:minWidth">0dip</item>
+  </style>
+
+  <style name="ProductRemoveButtonStyle" parent="ProductEditionButtonStyle">
+    <item name="android:background">@drawable/product_remove_button</item>
+  </style>
+
+  <style name="ProductAddButtonStyle" parent="ProductEditionButtonStyle">
+    <item name="android:background">@drawable/product_add_button</item>
   </style>
 </resources>

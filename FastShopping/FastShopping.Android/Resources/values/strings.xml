@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string name="app_name">Fast Shopping</string>
+  <string name="app_short_desc">Simple fast shopping</string>
+  <string name="hello_message">Shopping Started.</string>
+  <string name="shopping_finished_message">Shopping finalize.\nWait while we start other for you ~.^</string>
+  <string name="menu_filter">Filter</string>
+  <string name="all_categories_menu_item">All Categories</string>
+</resources>

@@ -1,0 +1,103 @@
+<resources>
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="nav_drawer_profile_image_size">64dp</dimen>
+
+    <!-- Navigation Drawer -->
+    <dimen name="navigation_drawer_max_width">280dp</dimen>
+
+    <dimen name="spacing_8">8dp</dimen>
+    <dimen name="spacing_56">56dp</dimen>
+    <dimen name="profile_image_top_margin">38dp</dimen>
+    <dimen name="vertical_keyline_first">16dp</dimen>
+
+    <dimen name="elevation_app_bar">4dp</dimen>
+    <dimen name="elevation_nav_drawer">16dp</dimen>
+
+    <!--
+        https://material.io/guidelines/components/lists.html#lists-specs
+        Three-line list
+            Text only
+
+     -->
+
+    <dimen name="three_lines_plain_text_list_item_primary_font">16sp</dimen>
+    <dimen name="three_lines_plain_text_list_item_secondary_font">14sp</dimen>
+    <dimen name="three_lines_plain_text_list_item_tile_height">88dp</dimen>
+    <dimen name="three_lines_plain_text_list_item_text_left_padding">16dp</dimen>
+    <dimen name="three_lines_plain_text_list_item_text_right_padding">16dp</dimen>
+    <dimen name="three_lines_plain_text_list_item_text_top_padding">16dp</dimen>
+    <dimen name="three_lines_plain_text_list_item_text_bottom_padding">20dp</dimen>
+    <dimen name="three_lines_plain_text_list_padding_top">8dp</dimen>
+
+    <dimen name="list_item_icon_padding_left">16dp</dimen>
+    <dimen name="list_item_padding_left">72dp</dimen>
+    <dimen name="list_item_padding_right">16dp</dimen>
+
+    <dimen name="list_item_padding_top1">20dp</dimen>
+    <dimen name="text_view_top_margin1">10dp</dimen>
+    <dimen name="text_view_bottom_margin1">15dp</dimen>
+
+    <dimen name="filter_button_left_padding">16dp</dimen>
+    <dimen name="filter_button_right_padding">16dp</dimen>
+    
+    <dimen name="collapsing_toolbar_height">300dp</dimen>
+    <dimen name="collapsing_toolbar_title_margin_start">48dp</dimen><!-- 72 -->
+    <dimen name="collapsing_toolbar_title_margin_end">64dp</dimen>
+
+    <dimen name="customers_list_width">310dp</dimen>
+    <dimen name="customers_list_item_margin_right">0dp</dimen>
+    
+    <dimen name="fab_margin_start">16dp</dimen>
+    <dimen name="fab_margin_end">16dp</dimen>
+    <dimen name="fab_margin_top">16dp</dimen>
+    <dimen name="fab_margin_bottom">16dp</dimen>
+    
+    <dimen name="authenticator_fragment_controls_company_name_top_margin">20dp</dimen>
+
+    <dimen name="login_fragment_avatar_margin">7dp</dimen>
+
+    <dimen name="product_edition_button_stroke_width">1dp</dimen>
+    <dimen name="product_edition_icon_margin">8dp</dimen>
+    <dimen name="product_edition_icon_horizontal_margin">18dp</dimen>
+
+    <dimen name="product_list_item_margin">0dp</dimen>
+    <dimen name="product_list_item_product_description_text_size">19sp</dimen>
+    <dimen name="product_list_item_product_value_text_size">18sp</dimen>
+    <dimen name="product_list_item_product_quantity_text_size">13sp</dimen>
+    <dimen name="product_list_margin">10dp</dimen>
+
+    <dimen name="product_edition_dialog_width">0dp</dimen>
+    <dimen name="product_edition_dialog_margin">25dp</dimen>
+    <dimen name="product_edition_dialog_margin_top">10dp</dimen>
+    <dimen name="product_edition_dialog_total_margin_top">50dp</dimen>
+
+    <dimen name="product_details_edition_controls_margin">0dp</dimen>
+    <dimen name="product_details_edition_controls_margin_top">10dp</dimen>
+    <dimen name="product_details_edition_controls_total_margin_top">10dp</dimen>
+
+    <!-- Products Details Edition Button -->
+    <dimen name="product_details_edition_button_stroke_width">2dp</dimen>
+    <dimen name="product_details_edition_button_divider_width">1dp</dimen><!-- Must be a half of stroke_width -->
+    <dimen name="product_details_edition_button_stroke_corner_radius">7dp</dimen><!-- Must be stroke_width + background_radius-->
+    <dimen name="product_details_edition_button_background_radius">5dp</dimen>
+    <dimen name="product_details_edition_button_width">96dp</dimen>
+    <dimen name="product_details_edition_button_height">48dp</dimen>
+    <!-- -->
+
+    <dimen name="sale_item_img_size">60dp</dimen>
+
+    <item name="product_list_item_image_aspect_ratio" type="dimen">99%</item>
+
+    <dimen name="navigation_bar_height">48dp</dimen>
+    <dimen name="navigation_bar_width">0dp</dimen>
+</resources>
+

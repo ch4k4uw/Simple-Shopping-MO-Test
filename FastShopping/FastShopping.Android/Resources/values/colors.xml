@@ -4,4 +4,18 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <!-- Product Edition Buttons Drawable Colors -->
+    <color name="productEditionButtonBorderColorNormal">#0AAA</color>
+    <color name="productEditionButtonBorderColorDisabled">#1AAA</color>
+    <color name="productEditionDeleteButtonBackgroundColorNormal">#F4511E</color>
+    <!--#ec3700-->
+    <color name="productEditionDeleteButtonBackgroundColorDisabled">#77F4511E</color>
+    <color name="productEditionDeleteButtonBackgroundColorPressed">#FF5722</color>
+    <!--#ec6a00-->
+    <color name="productEditionButtonBackgroundColorNormal">#999</color>
+    <color name="productEditionButtonBackgroundColorDisabled">#7999</color>
+    <color name="productEditionButtonBackgroundColorPressed">#666</color>
+    <color name="productEditionButtonBackgroundStrongerColorNormal">#666</color>
+    <color name="productEditionButtonBackgroundStrongerColorDisabled">#7666</color>
+    <color name="productEditionButtonBackgroundStrongerColorPressed">#333</color>
 </resources>

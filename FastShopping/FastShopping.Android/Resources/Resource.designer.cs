@@ -26,6 +26,2107 @@ namespace FastShopping.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::CoordinatorWorkaround.Droid.Resource.Animation.abc_fade_in = global::FastShopping.Droid.Resource.Animation.abc_fade_in;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.abc_fade_out = global::FastShopping.Droid.Resource.Animation.abc_fade_out;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::FastShopping.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.abc_popup_enter = global::FastShopping.Droid.Resource.Animation.abc_popup_enter;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.abc_popup_exit = global::FastShopping.Droid.Resource.Animation.abc_popup_exit;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::FastShopping.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.abc_slide_in_bottom = global::FastShopping.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.abc_slide_in_top = global::FastShopping.Droid.Resource.Animation.abc_slide_in_top;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.abc_slide_out_bottom = global::FastShopping.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.abc_slide_out_top = global::FastShopping.Droid.Resource.Animation.abc_slide_out_top;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::FastShopping.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::FastShopping.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.design_snackbar_in = global::FastShopping.Droid.Resource.Animation.design_snackbar_in;
+			global::CoordinatorWorkaround.Droid.Resource.Animation.design_snackbar_out = global::FastShopping.Droid.Resource.Animation.design_snackbar_out;
+			global::CoordinatorWorkaround.Droid.Resource.Animator.design_appbar_state_list_animator = global::FastShopping.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionBarDivider = global::FastShopping.Droid.Resource.Attribute.actionBarDivider;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionBarItemBackground = global::FastShopping.Droid.Resource.Attribute.actionBarItemBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionBarPopupTheme = global::FastShopping.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionBarSize = global::FastShopping.Droid.Resource.Attribute.actionBarSize;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionBarSplitStyle = global::FastShopping.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionBarStyle = global::FastShopping.Droid.Resource.Attribute.actionBarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionBarTabBarStyle = global::FastShopping.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionBarTabStyle = global::FastShopping.Droid.Resource.Attribute.actionBarTabStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionBarTabTextStyle = global::FastShopping.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionBarTheme = global::FastShopping.Droid.Resource.Attribute.actionBarTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionBarWidgetTheme = global::FastShopping.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionButtonStyle = global::FastShopping.Droid.Resource.Attribute.actionButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionDropDownStyle = global::FastShopping.Droid.Resource.Attribute.actionDropDownStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionLayout = global::FastShopping.Droid.Resource.Attribute.actionLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionMenuTextAppearance = global::FastShopping.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionMenuTextColor = global::FastShopping.Droid.Resource.Attribute.actionMenuTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModeBackground = global::FastShopping.Droid.Resource.Attribute.actionModeBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::FastShopping.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModeCloseDrawable = global::FastShopping.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModeCopyDrawable = global::FastShopping.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModeCutDrawable = global::FastShopping.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModeFindDrawable = global::FastShopping.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModePasteDrawable = global::FastShopping.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModePopupWindowStyle = global::FastShopping.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::FastShopping.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModeShareDrawable = global::FastShopping.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModeSplitBackground = global::FastShopping.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModeStyle = global::FastShopping.Droid.Resource.Attribute.actionModeStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::FastShopping.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionOverflowButtonStyle = global::FastShopping.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionOverflowMenuStyle = global::FastShopping.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionProviderClass = global::FastShopping.Droid.Resource.Attribute.actionProviderClass;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.actionViewClass = global::FastShopping.Droid.Resource.Attribute.actionViewClass;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.activityChooserViewStyle = global::FastShopping.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::FastShopping.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.alertDialogCenterButtons = global::FastShopping.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.alertDialogStyle = global::FastShopping.Droid.Resource.Attribute.alertDialogStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.alertDialogTheme = global::FastShopping.Droid.Resource.Attribute.alertDialogTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.allowStacking = global::FastShopping.Droid.Resource.Attribute.allowStacking;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.alpha = global::FastShopping.Droid.Resource.Attribute.alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.arrowHeadLength = global::FastShopping.Droid.Resource.Attribute.arrowHeadLength;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.arrowShaftLength = global::FastShopping.Droid.Resource.Attribute.arrowShaftLength;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::FastShopping.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.background = global::FastShopping.Droid.Resource.Attribute.background;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.backgroundSplit = global::FastShopping.Droid.Resource.Attribute.backgroundSplit;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.backgroundStacked = global::FastShopping.Droid.Resource.Attribute.backgroundStacked;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.backgroundTint = global::FastShopping.Droid.Resource.Attribute.backgroundTint;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.backgroundTintMode = global::FastShopping.Droid.Resource.Attribute.backgroundTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.barLength = global::FastShopping.Droid.Resource.Attribute.barLength;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.behavior_autoHide = global::FastShopping.Droid.Resource.Attribute.behavior_autoHide;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.behavior_hideable = global::FastShopping.Droid.Resource.Attribute.behavior_hideable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.behavior_overlapTop = global::FastShopping.Droid.Resource.Attribute.behavior_overlapTop;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.behavior_peekHeight = global::FastShopping.Droid.Resource.Attribute.behavior_peekHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.behavior_skipCollapsed = global::FastShopping.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.borderWidth = global::FastShopping.Droid.Resource.Attribute.borderWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.borderlessButtonStyle = global::FastShopping.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.bottomSheetDialogTheme = global::FastShopping.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.bottomSheetStyle = global::FastShopping.Droid.Resource.Attribute.bottomSheetStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.buttonBarButtonStyle = global::FastShopping.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::FastShopping.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::FastShopping.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::FastShopping.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.buttonBarStyle = global::FastShopping.Droid.Resource.Attribute.buttonBarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.buttonGravity = global::FastShopping.Droid.Resource.Attribute.buttonGravity;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.buttonPanelSideLayout = global::FastShopping.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.buttonStyle = global::FastShopping.Droid.Resource.Attribute.buttonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.buttonStyleSmall = global::FastShopping.Droid.Resource.Attribute.buttonStyleSmall;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.buttonTint = global::FastShopping.Droid.Resource.Attribute.buttonTint;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.buttonTintMode = global::FastShopping.Droid.Resource.Attribute.buttonTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.cardBackgroundColor = global::FastShopping.Droid.Resource.Attribute.cardBackgroundColor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.cardCornerRadius = global::FastShopping.Droid.Resource.Attribute.cardCornerRadius;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.cardElevation = global::FastShopping.Droid.Resource.Attribute.cardElevation;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.cardMaxElevation = global::FastShopping.Droid.Resource.Attribute.cardMaxElevation;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.cardPreventCornerOverlap = global::FastShopping.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.cardUseCompatPadding = global::FastShopping.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.checkboxStyle = global::FastShopping.Droid.Resource.Attribute.checkboxStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.checkedTextViewStyle = global::FastShopping.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.closeIcon = global::FastShopping.Droid.Resource.Attribute.closeIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.closeItemLayout = global::FastShopping.Droid.Resource.Attribute.closeItemLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.collapseContentDescription = global::FastShopping.Droid.Resource.Attribute.collapseContentDescription;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.collapseIcon = global::FastShopping.Droid.Resource.Attribute.collapseIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.collapsedTitleGravity = global::FastShopping.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::FastShopping.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.color = global::FastShopping.Droid.Resource.Attribute.color;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.colorAccent = global::FastShopping.Droid.Resource.Attribute.colorAccent;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.colorBackgroundFloating = global::FastShopping.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.colorButtonNormal = global::FastShopping.Droid.Resource.Attribute.colorButtonNormal;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.colorControlActivated = global::FastShopping.Droid.Resource.Attribute.colorControlActivated;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.colorControlHighlight = global::FastShopping.Droid.Resource.Attribute.colorControlHighlight;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.colorControlNormal = global::FastShopping.Droid.Resource.Attribute.colorControlNormal;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.colorPrimary = global::FastShopping.Droid.Resource.Attribute.colorPrimary;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.colorPrimaryDark = global::FastShopping.Droid.Resource.Attribute.colorPrimaryDark;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.colorSwitchThumbNormal = global::FastShopping.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.commitIcon = global::FastShopping.Droid.Resource.Attribute.commitIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.contentInsetEnd = global::FastShopping.Droid.Resource.Attribute.contentInsetEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.contentInsetEndWithActions = global::FastShopping.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.contentInsetLeft = global::FastShopping.Droid.Resource.Attribute.contentInsetLeft;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.contentInsetRight = global::FastShopping.Droid.Resource.Attribute.contentInsetRight;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.contentInsetStart = global::FastShopping.Droid.Resource.Attribute.contentInsetStart;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::FastShopping.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.contentPadding = global::FastShopping.Droid.Resource.Attribute.contentPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.contentPaddingBottom = global::FastShopping.Droid.Resource.Attribute.contentPaddingBottom;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.contentPaddingLeft = global::FastShopping.Droid.Resource.Attribute.contentPaddingLeft;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.contentPaddingRight = global::FastShopping.Droid.Resource.Attribute.contentPaddingRight;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.contentPaddingTop = global::FastShopping.Droid.Resource.Attribute.contentPaddingTop;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.contentScrim = global::FastShopping.Droid.Resource.Attribute.contentScrim;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.controlBackground = global::FastShopping.Droid.Resource.Attribute.controlBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.counterEnabled = global::FastShopping.Droid.Resource.Attribute.counterEnabled;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.counterMaxLength = global::FastShopping.Droid.Resource.Attribute.counterMaxLength;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.counterOverflowTextAppearance = global::FastShopping.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.counterTextAppearance = global::FastShopping.Droid.Resource.Attribute.counterTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.customNavigationLayout = global::FastShopping.Droid.Resource.Attribute.customNavigationLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.defaultQueryHint = global::FastShopping.Droid.Resource.Attribute.defaultQueryHint;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.dialogPreferredPadding = global::FastShopping.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.dialogTheme = global::FastShopping.Droid.Resource.Attribute.dialogTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.displayOptions = global::FastShopping.Droid.Resource.Attribute.displayOptions;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.divider = global::FastShopping.Droid.Resource.Attribute.divider;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.dividerHorizontal = global::FastShopping.Droid.Resource.Attribute.dividerHorizontal;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.dividerPadding = global::FastShopping.Droid.Resource.Attribute.dividerPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.dividerVertical = global::FastShopping.Droid.Resource.Attribute.dividerVertical;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.drawableSize = global::FastShopping.Droid.Resource.Attribute.drawableSize;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.drawerArrowStyle = global::FastShopping.Droid.Resource.Attribute.drawerArrowStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.dropDownListViewStyle = global::FastShopping.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::FastShopping.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.editTextBackground = global::FastShopping.Droid.Resource.Attribute.editTextBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.editTextColor = global::FastShopping.Droid.Resource.Attribute.editTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.editTextStyle = global::FastShopping.Droid.Resource.Attribute.editTextStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.elevation = global::FastShopping.Droid.Resource.Attribute.elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.errorEnabled = global::FastShopping.Droid.Resource.Attribute.errorEnabled;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.errorTextAppearance = global::FastShopping.Droid.Resource.Attribute.errorTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::FastShopping.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.expanded = global::FastShopping.Droid.Resource.Attribute.expanded;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.expandedTitleGravity = global::FastShopping.Droid.Resource.Attribute.expandedTitleGravity;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.expandedTitleMargin = global::FastShopping.Droid.Resource.Attribute.expandedTitleMargin;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.expandedTitleMarginBottom = global::FastShopping.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.expandedTitleMarginEnd = global::FastShopping.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.expandedTitleMarginStart = global::FastShopping.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.expandedTitleMarginTop = global::FastShopping.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.expandedTitleTextAppearance = global::FastShopping.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::FastShopping.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.fabSize = global::FastShopping.Droid.Resource.Attribute.fabSize;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.foregroundInsidePadding = global::FastShopping.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.gapBetweenBars = global::FastShopping.Droid.Resource.Attribute.gapBetweenBars;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.goIcon = global::FastShopping.Droid.Resource.Attribute.goIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.headerLayout = global::FastShopping.Droid.Resource.Attribute.headerLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.height = global::FastShopping.Droid.Resource.Attribute.height;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.hideOnContentScroll = global::FastShopping.Droid.Resource.Attribute.hideOnContentScroll;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.hintAnimationEnabled = global::FastShopping.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.hintEnabled = global::FastShopping.Droid.Resource.Attribute.hintEnabled;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.hintTextAppearance = global::FastShopping.Droid.Resource.Attribute.hintTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.homeAsUpIndicator = global::FastShopping.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.homeLayout = global::FastShopping.Droid.Resource.Attribute.homeLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.icon = global::FastShopping.Droid.Resource.Attribute.icon;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.iconifiedByDefault = global::FastShopping.Droid.Resource.Attribute.iconifiedByDefault;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.imageButtonStyle = global::FastShopping.Droid.Resource.Attribute.imageButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.indeterminateProgressStyle = global::FastShopping.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.initialActivityCount = global::FastShopping.Droid.Resource.Attribute.initialActivityCount;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.insetForeground = global::FastShopping.Droid.Resource.Attribute.insetForeground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.isLightTheme = global::FastShopping.Droid.Resource.Attribute.isLightTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.itemBackground = global::FastShopping.Droid.Resource.Attribute.itemBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.itemIconTint = global::FastShopping.Droid.Resource.Attribute.itemIconTint;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.itemPadding = global::FastShopping.Droid.Resource.Attribute.itemPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.itemTextAppearance = global::FastShopping.Droid.Resource.Attribute.itemTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.itemTextColor = global::FastShopping.Droid.Resource.Attribute.itemTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.keylines = global::FastShopping.Droid.Resource.Attribute.keylines;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.layout = global::FastShopping.Droid.Resource.Attribute.layout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.layoutManager = global::FastShopping.Droid.Resource.Attribute.layoutManager;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.layout_anchor = global::FastShopping.Droid.Resource.Attribute.layout_anchor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.layout_anchorGravity = global::FastShopping.Droid.Resource.Attribute.layout_anchorGravity;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.layout_behavior = global::FastShopping.Droid.Resource.Attribute.layout_behavior;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.layout_collapseMode = global::FastShopping.Droid.Resource.Attribute.layout_collapseMode;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::FastShopping.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::FastShopping.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.layout_insetEdge = global::FastShopping.Droid.Resource.Attribute.layout_insetEdge;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.layout_keyline = global::FastShopping.Droid.Resource.Attribute.layout_keyline;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.layout_scrollFlags = global::FastShopping.Droid.Resource.Attribute.layout_scrollFlags;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.layout_scrollInterpolator = global::FastShopping.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::FastShopping.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.listDividerAlertDialog = global::FastShopping.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.listItemLayout = global::FastShopping.Droid.Resource.Attribute.listItemLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.listLayout = global::FastShopping.Droid.Resource.Attribute.listLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.listMenuViewStyle = global::FastShopping.Droid.Resource.Attribute.listMenuViewStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.listPopupWindowStyle = global::FastShopping.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.listPreferredItemHeight = global::FastShopping.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::FastShopping.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::FastShopping.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::FastShopping.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::FastShopping.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.logo = global::FastShopping.Droid.Resource.Attribute.logo;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.logoDescription = global::FastShopping.Droid.Resource.Attribute.logoDescription;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.maxActionInlineWidth = global::FastShopping.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.maxButtonHeight = global::FastShopping.Droid.Resource.Attribute.maxButtonHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.measureWithLargestChild = global::FastShopping.Droid.Resource.Attribute.measureWithLargestChild;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::FastShopping.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.mediaRouteButtonStyle = global::FastShopping.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::FastShopping.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::FastShopping.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::FastShopping.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::FastShopping.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::FastShopping.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::FastShopping.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::FastShopping.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.mediaRouteStopDrawable = global::FastShopping.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.mediaRouteTheme = global::FastShopping.Droid.Resource.Attribute.mediaRouteTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::FastShopping.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.menu = global::FastShopping.Droid.Resource.Attribute.menu;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.multiChoiceItemLayout = global::FastShopping.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.navigationContentDescription = global::FastShopping.Droid.Resource.Attribute.navigationContentDescription;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.navigationIcon = global::FastShopping.Droid.Resource.Attribute.navigationIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.navigationMode = global::FastShopping.Droid.Resource.Attribute.navigationMode;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.overlapAnchor = global::FastShopping.Droid.Resource.Attribute.overlapAnchor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.paddingBottomNoButtons = global::FastShopping.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.paddingEnd = global::FastShopping.Droid.Resource.Attribute.paddingEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.paddingStart = global::FastShopping.Droid.Resource.Attribute.paddingStart;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.paddingTopNoTitle = global::FastShopping.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.panelBackground = global::FastShopping.Droid.Resource.Attribute.panelBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.panelMenuListTheme = global::FastShopping.Droid.Resource.Attribute.panelMenuListTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.panelMenuListWidth = global::FastShopping.Droid.Resource.Attribute.panelMenuListWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.passwordToggleContentDescription = global::FastShopping.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.passwordToggleDrawable = global::FastShopping.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.passwordToggleEnabled = global::FastShopping.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.passwordToggleTint = global::FastShopping.Droid.Resource.Attribute.passwordToggleTint;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.passwordToggleTintMode = global::FastShopping.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.popupMenuStyle = global::FastShopping.Droid.Resource.Attribute.popupMenuStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.popupTheme = global::FastShopping.Droid.Resource.Attribute.popupTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.popupWindowStyle = global::FastShopping.Droid.Resource.Attribute.popupWindowStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.preserveIconSpacing = global::FastShopping.Droid.Resource.Attribute.preserveIconSpacing;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.pressedTranslationZ = global::FastShopping.Droid.Resource.Attribute.pressedTranslationZ;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.progressBarPadding = global::FastShopping.Droid.Resource.Attribute.progressBarPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.progressBarStyle = global::FastShopping.Droid.Resource.Attribute.progressBarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.queryBackground = global::FastShopping.Droid.Resource.Attribute.queryBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.queryHint = global::FastShopping.Droid.Resource.Attribute.queryHint;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.radioButtonStyle = global::FastShopping.Droid.Resource.Attribute.radioButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.ratingBarStyle = global::FastShopping.Droid.Resource.Attribute.ratingBarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.ratingBarStyleIndicator = global::FastShopping.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.ratingBarStyleSmall = global::FastShopping.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.reverseLayout = global::FastShopping.Droid.Resource.Attribute.reverseLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.rippleColor = global::FastShopping.Droid.Resource.Attribute.rippleColor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.scrimAnimationDuration = global::FastShopping.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::FastShopping.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.searchHintIcon = global::FastShopping.Droid.Resource.Attribute.searchHintIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.searchIcon = global::FastShopping.Droid.Resource.Attribute.searchIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.searchViewStyle = global::FastShopping.Droid.Resource.Attribute.searchViewStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.seekBarStyle = global::FastShopping.Droid.Resource.Attribute.seekBarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.selectableItemBackground = global::FastShopping.Droid.Resource.Attribute.selectableItemBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::FastShopping.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.showAsAction = global::FastShopping.Droid.Resource.Attribute.showAsAction;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.showDividers = global::FastShopping.Droid.Resource.Attribute.showDividers;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.showText = global::FastShopping.Droid.Resource.Attribute.showText;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.showTitle = global::FastShopping.Droid.Resource.Attribute.showTitle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.singleChoiceItemLayout = global::FastShopping.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.spanCount = global::FastShopping.Droid.Resource.Attribute.spanCount;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.spinBars = global::FastShopping.Droid.Resource.Attribute.spinBars;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::FastShopping.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.spinnerStyle = global::FastShopping.Droid.Resource.Attribute.spinnerStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.splitTrack = global::FastShopping.Droid.Resource.Attribute.splitTrack;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.srcCompat = global::FastShopping.Droid.Resource.Attribute.srcCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.stackFromEnd = global::FastShopping.Droid.Resource.Attribute.stackFromEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.state_above_anchor = global::FastShopping.Droid.Resource.Attribute.state_above_anchor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.state_collapsed = global::FastShopping.Droid.Resource.Attribute.state_collapsed;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.state_collapsible = global::FastShopping.Droid.Resource.Attribute.state_collapsible;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.statusBarBackground = global::FastShopping.Droid.Resource.Attribute.statusBarBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.statusBarScrim = global::FastShopping.Droid.Resource.Attribute.statusBarScrim;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.subMenuArrow = global::FastShopping.Droid.Resource.Attribute.subMenuArrow;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.submitBackground = global::FastShopping.Droid.Resource.Attribute.submitBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.subtitle = global::FastShopping.Droid.Resource.Attribute.subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.subtitleTextAppearance = global::FastShopping.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.subtitleTextColor = global::FastShopping.Droid.Resource.Attribute.subtitleTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.subtitleTextStyle = global::FastShopping.Droid.Resource.Attribute.subtitleTextStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.suggestionRowLayout = global::FastShopping.Droid.Resource.Attribute.suggestionRowLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.switchMinWidth = global::FastShopping.Droid.Resource.Attribute.switchMinWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.switchPadding = global::FastShopping.Droid.Resource.Attribute.switchPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.switchStyle = global::FastShopping.Droid.Resource.Attribute.switchStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.switchTextAppearance = global::FastShopping.Droid.Resource.Attribute.switchTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabBackground = global::FastShopping.Droid.Resource.Attribute.tabBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabContentStart = global::FastShopping.Droid.Resource.Attribute.tabContentStart;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabGravity = global::FastShopping.Droid.Resource.Attribute.tabGravity;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabIndicatorColor = global::FastShopping.Droid.Resource.Attribute.tabIndicatorColor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabIndicatorHeight = global::FastShopping.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabMaxWidth = global::FastShopping.Droid.Resource.Attribute.tabMaxWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabMinWidth = global::FastShopping.Droid.Resource.Attribute.tabMinWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabMode = global::FastShopping.Droid.Resource.Attribute.tabMode;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabPadding = global::FastShopping.Droid.Resource.Attribute.tabPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabPaddingBottom = global::FastShopping.Droid.Resource.Attribute.tabPaddingBottom;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabPaddingEnd = global::FastShopping.Droid.Resource.Attribute.tabPaddingEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabPaddingStart = global::FastShopping.Droid.Resource.Attribute.tabPaddingStart;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabPaddingTop = global::FastShopping.Droid.Resource.Attribute.tabPaddingTop;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabSelectedTextColor = global::FastShopping.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabTextAppearance = global::FastShopping.Droid.Resource.Attribute.tabTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tabTextColor = global::FastShopping.Droid.Resource.Attribute.tabTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.textAllCaps = global::FastShopping.Droid.Resource.Attribute.textAllCaps;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::FastShopping.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.textAppearanceListItem = global::FastShopping.Droid.Resource.Attribute.textAppearanceListItem;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::FastShopping.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.textAppearanceListItemSmall = global::FastShopping.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::FastShopping.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::FastShopping.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::FastShopping.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::FastShopping.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.textColorAlertDialogListItem = global::FastShopping.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.textColorError = global::FastShopping.Droid.Resource.Attribute.textColorError;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.textColorSearchUrl = global::FastShopping.Droid.Resource.Attribute.textColorSearchUrl;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.theme = global::FastShopping.Droid.Resource.Attribute.theme;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.thickness = global::FastShopping.Droid.Resource.Attribute.thickness;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.thumbTextPadding = global::FastShopping.Droid.Resource.Attribute.thumbTextPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.thumbTint = global::FastShopping.Droid.Resource.Attribute.thumbTint;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.thumbTintMode = global::FastShopping.Droid.Resource.Attribute.thumbTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tickMark = global::FastShopping.Droid.Resource.Attribute.tickMark;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tickMarkTint = global::FastShopping.Droid.Resource.Attribute.tickMarkTint;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tickMarkTintMode = global::FastShopping.Droid.Resource.Attribute.tickMarkTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tint = global::FastShopping.Droid.Resource.Attribute.tint;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.tintMode = global::FastShopping.Droid.Resource.Attribute.tintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.title = global::FastShopping.Droid.Resource.Attribute.title;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.titleEnabled = global::FastShopping.Droid.Resource.Attribute.titleEnabled;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.titleMargin = global::FastShopping.Droid.Resource.Attribute.titleMargin;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.titleMarginBottom = global::FastShopping.Droid.Resource.Attribute.titleMarginBottom;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.titleMarginEnd = global::FastShopping.Droid.Resource.Attribute.titleMarginEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.titleMarginStart = global::FastShopping.Droid.Resource.Attribute.titleMarginStart;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.titleMarginTop = global::FastShopping.Droid.Resource.Attribute.titleMarginTop;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.titleMargins = global::FastShopping.Droid.Resource.Attribute.titleMargins;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.titleTextAppearance = global::FastShopping.Droid.Resource.Attribute.titleTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.titleTextColor = global::FastShopping.Droid.Resource.Attribute.titleTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.titleTextStyle = global::FastShopping.Droid.Resource.Attribute.titleTextStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.toolbarId = global::FastShopping.Droid.Resource.Attribute.toolbarId;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::FastShopping.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.toolbarStyle = global::FastShopping.Droid.Resource.Attribute.toolbarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.track = global::FastShopping.Droid.Resource.Attribute.track;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.trackTint = global::FastShopping.Droid.Resource.Attribute.trackTint;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.trackTintMode = global::FastShopping.Droid.Resource.Attribute.trackTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.useCompatPadding = global::FastShopping.Droid.Resource.Attribute.useCompatPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.voiceIcon = global::FastShopping.Droid.Resource.Attribute.voiceIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.windowActionBar = global::FastShopping.Droid.Resource.Attribute.windowActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.windowActionBarOverlay = global::FastShopping.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.windowActionModeOverlay = global::FastShopping.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.windowFixedHeightMajor = global::FastShopping.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.windowFixedHeightMinor = global::FastShopping.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.windowFixedWidthMajor = global::FastShopping.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.windowFixedWidthMinor = global::FastShopping.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.windowMinWidthMajor = global::FastShopping.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.windowMinWidthMinor = global::FastShopping.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::CoordinatorWorkaround.Droid.Resource.Attribute.windowNoTitle = global::FastShopping.Droid.Resource.Attribute.windowNoTitle;
+			global::CoordinatorWorkaround.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::FastShopping.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::CoordinatorWorkaround.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::FastShopping.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::CoordinatorWorkaround.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::FastShopping.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::CoordinatorWorkaround.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::FastShopping.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::CoordinatorWorkaround.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::FastShopping.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::FastShopping.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::FastShopping.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::FastShopping.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_btn_colored_text_material = global::FastShopping.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_color_highlight_material = global::FastShopping.Droid.Resource.Color.abc_color_highlight_material;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_hint_foreground_material_dark = global::FastShopping.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_hint_foreground_material_light = global::FastShopping.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_input_method_navigation_guard = global::FastShopping.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::FastShopping.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::FastShopping.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_primary_text_material_dark = global::FastShopping.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_primary_text_material_light = global::FastShopping.Droid.Resource.Color.abc_primary_text_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_search_url_text = global::FastShopping.Droid.Resource.Color.abc_search_url_text;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_search_url_text_normal = global::FastShopping.Droid.Resource.Color.abc_search_url_text_normal;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_search_url_text_pressed = global::FastShopping.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_search_url_text_selected = global::FastShopping.Droid.Resource.Color.abc_search_url_text_selected;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_secondary_text_material_dark = global::FastShopping.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_secondary_text_material_light = global::FastShopping.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_tint_btn_checkable = global::FastShopping.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_tint_default = global::FastShopping.Droid.Resource.Color.abc_tint_default;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_tint_edittext = global::FastShopping.Droid.Resource.Color.abc_tint_edittext;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_tint_seek_thumb = global::FastShopping.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_tint_spinner = global::FastShopping.Droid.Resource.Color.abc_tint_spinner;
+			global::CoordinatorWorkaround.Droid.Resource.Color.abc_tint_switch_track = global::FastShopping.Droid.Resource.Color.abc_tint_switch_track;
+			global::CoordinatorWorkaround.Droid.Resource.Color.accent_material_dark = global::FastShopping.Droid.Resource.Color.accent_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.accent_material_light = global::FastShopping.Droid.Resource.Color.accent_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.background_floating_material_dark = global::FastShopping.Droid.Resource.Color.background_floating_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.background_floating_material_light = global::FastShopping.Droid.Resource.Color.background_floating_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.background_material_dark = global::FastShopping.Droid.Resource.Color.background_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.background_material_light = global::FastShopping.Droid.Resource.Color.background_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::FastShopping.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.bright_foreground_disabled_material_light = global::FastShopping.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::FastShopping.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.bright_foreground_inverse_material_light = global::FastShopping.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.bright_foreground_material_dark = global::FastShopping.Droid.Resource.Color.bright_foreground_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.bright_foreground_material_light = global::FastShopping.Droid.Resource.Color.bright_foreground_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.button_material_dark = global::FastShopping.Droid.Resource.Color.button_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.button_material_light = global::FastShopping.Droid.Resource.Color.button_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.cardview_dark_background = global::FastShopping.Droid.Resource.Color.cardview_dark_background;
+			global::CoordinatorWorkaround.Droid.Resource.Color.cardview_light_background = global::FastShopping.Droid.Resource.Color.cardview_light_background;
+			global::CoordinatorWorkaround.Droid.Resource.Color.cardview_shadow_end_color = global::FastShopping.Droid.Resource.Color.cardview_shadow_end_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.cardview_shadow_start_color = global::FastShopping.Droid.Resource.Color.cardview_shadow_start_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::FastShopping.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.design_error = global::FastShopping.Droid.Resource.Color.design_error;
+			global::CoordinatorWorkaround.Droid.Resource.Color.design_fab_shadow_end_color = global::FastShopping.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.design_fab_shadow_mid_color = global::FastShopping.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.design_fab_shadow_start_color = global::FastShopping.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::FastShopping.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::FastShopping.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::FastShopping.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::FastShopping.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.design_snackbar_background_color = global::FastShopping.Droid.Resource.Color.design_snackbar_background_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.design_tint_password_toggle = global::FastShopping.Droid.Resource.Color.design_tint_password_toggle;
+			global::CoordinatorWorkaround.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::FastShopping.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.dim_foreground_disabled_material_light = global::FastShopping.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.dim_foreground_material_dark = global::FastShopping.Droid.Resource.Color.dim_foreground_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.dim_foreground_material_light = global::FastShopping.Droid.Resource.Color.dim_foreground_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.foreground_material_dark = global::FastShopping.Droid.Resource.Color.foreground_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.foreground_material_light = global::FastShopping.Droid.Resource.Color.foreground_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.highlighted_text_material_dark = global::FastShopping.Droid.Resource.Color.highlighted_text_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.highlighted_text_material_light = global::FastShopping.Droid.Resource.Color.highlighted_text_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.material_blue_grey_800 = global::FastShopping.Droid.Resource.Color.material_blue_grey_800;
+			global::CoordinatorWorkaround.Droid.Resource.Color.material_blue_grey_900 = global::FastShopping.Droid.Resource.Color.material_blue_grey_900;
+			global::CoordinatorWorkaround.Droid.Resource.Color.material_blue_grey_950 = global::FastShopping.Droid.Resource.Color.material_blue_grey_950;
+			global::CoordinatorWorkaround.Droid.Resource.Color.material_deep_teal_200 = global::FastShopping.Droid.Resource.Color.material_deep_teal_200;
+			global::CoordinatorWorkaround.Droid.Resource.Color.material_deep_teal_500 = global::FastShopping.Droid.Resource.Color.material_deep_teal_500;
+			global::CoordinatorWorkaround.Droid.Resource.Color.material_grey_100 = global::FastShopping.Droid.Resource.Color.material_grey_100;
+			global::CoordinatorWorkaround.Droid.Resource.Color.material_grey_300 = global::FastShopping.Droid.Resource.Color.material_grey_300;
+			global::CoordinatorWorkaround.Droid.Resource.Color.material_grey_50 = global::FastShopping.Droid.Resource.Color.material_grey_50;
+			global::CoordinatorWorkaround.Droid.Resource.Color.material_grey_600 = global::FastShopping.Droid.Resource.Color.material_grey_600;
+			global::CoordinatorWorkaround.Droid.Resource.Color.material_grey_800 = global::FastShopping.Droid.Resource.Color.material_grey_800;
+			global::CoordinatorWorkaround.Droid.Resource.Color.material_grey_850 = global::FastShopping.Droid.Resource.Color.material_grey_850;
+			global::CoordinatorWorkaround.Droid.Resource.Color.material_grey_900 = global::FastShopping.Droid.Resource.Color.material_grey_900;
+			global::CoordinatorWorkaround.Droid.Resource.Color.notification_action_color_filter = global::FastShopping.Droid.Resource.Color.notification_action_color_filter;
+			global::CoordinatorWorkaround.Droid.Resource.Color.notification_icon_bg_color = global::FastShopping.Droid.Resource.Color.notification_icon_bg_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.notification_material_background_media_default_color = global::FastShopping.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::CoordinatorWorkaround.Droid.Resource.Color.primary_dark_material_dark = global::FastShopping.Droid.Resource.Color.primary_dark_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.primary_dark_material_light = global::FastShopping.Droid.Resource.Color.primary_dark_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.primary_material_dark = global::FastShopping.Droid.Resource.Color.primary_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.primary_material_light = global::FastShopping.Droid.Resource.Color.primary_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.primary_text_default_material_dark = global::FastShopping.Droid.Resource.Color.primary_text_default_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.primary_text_default_material_light = global::FastShopping.Droid.Resource.Color.primary_text_default_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.primary_text_disabled_material_dark = global::FastShopping.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.primary_text_disabled_material_light = global::FastShopping.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.ripple_material_dark = global::FastShopping.Droid.Resource.Color.ripple_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.ripple_material_light = global::FastShopping.Droid.Resource.Color.ripple_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.secondary_text_default_material_dark = global::FastShopping.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.secondary_text_default_material_light = global::FastShopping.Droid.Resource.Color.secondary_text_default_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.secondary_text_disabled_material_dark = global::FastShopping.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.secondary_text_disabled_material_light = global::FastShopping.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::FastShopping.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.switch_thumb_disabled_material_light = global::FastShopping.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.switch_thumb_material_dark = global::FastShopping.Droid.Resource.Color.switch_thumb_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.switch_thumb_material_light = global::FastShopping.Droid.Resource.Color.switch_thumb_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Color.switch_thumb_normal_material_dark = global::FastShopping.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Color.switch_thumb_normal_material_light = global::FastShopping.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::FastShopping.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_button_min_height_material = global::FastShopping.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_button_min_width_material = global::FastShopping.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::FastShopping.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::FastShopping.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::FastShopping.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::FastShopping.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::FastShopping.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::FastShopping.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::FastShopping.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::FastShopping.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_control_corner_material = global::FastShopping.Droid.Resource.Dimension.abc_control_corner_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_control_inset_material = global::FastShopping.Droid.Resource.Dimension.abc_control_inset_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_control_padding_material = global::FastShopping.Droid.Resource.Dimension.abc_control_padding_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::FastShopping.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::FastShopping.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::FastShopping.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::FastShopping.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::FastShopping.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::FastShopping.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dialog_min_width_major = global::FastShopping.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::FastShopping.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dialog_padding_material = global::FastShopping.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::FastShopping.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::FastShopping.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::FastShopping.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::FastShopping.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::FastShopping.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::FastShopping.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::FastShopping.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::FastShopping.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::FastShopping.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::FastShopping.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_floating_window_z = global::FastShopping.Droid.Resource.Dimension.abc_floating_window_z;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::FastShopping.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_panel_menu_list_width = global::FastShopping.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_progress_bar_height_material = global::FastShopping.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_search_view_preferred_height = global::FastShopping.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_search_view_preferred_width = global::FastShopping.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::FastShopping.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::FastShopping.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::FastShopping.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_switch_padding = global::FastShopping.Droid.Resource.Dimension.abc_switch_padding;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_body_1_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_body_2_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_button_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_caption_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_display_1_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_display_2_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_display_3_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_display_4_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_headline_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_large_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_medium_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_menu_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_small_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_subhead_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::FastShopping.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_title_material = global::FastShopping.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::FastShopping.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::FastShopping.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.cardview_default_elevation = global::FastShopping.Droid.Resource.Dimension.cardview_default_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.cardview_default_radius = global::FastShopping.Droid.Resource.Dimension.cardview_default_radius;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_appbar_elevation = global::FastShopping.Droid.Resource.Dimension.design_appbar_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::FastShopping.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::FastShopping.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::FastShopping.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_bottom_navigation_height = global::FastShopping.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::FastShopping.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::FastShopping.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_bottom_navigation_margin = global::FastShopping.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::FastShopping.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::FastShopping.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::FastShopping.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::FastShopping.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_fab_border_width = global::FastShopping.Droid.Resource.Dimension.design_fab_border_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_fab_elevation = global::FastShopping.Droid.Resource.Dimension.design_fab_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_fab_image_size = global::FastShopping.Droid.Resource.Dimension.design_fab_image_size;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_fab_size_mini = global::FastShopping.Droid.Resource.Dimension.design_fab_size_mini;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_fab_size_normal = global::FastShopping.Droid.Resource.Dimension.design_fab_size_normal;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::FastShopping.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_navigation_elevation = global::FastShopping.Droid.Resource.Dimension.design_navigation_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_navigation_icon_padding = global::FastShopping.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_navigation_icon_size = global::FastShopping.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_navigation_max_width = global::FastShopping.Droid.Resource.Dimension.design_navigation_max_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_navigation_padding_bottom = global::FastShopping.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::FastShopping.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::FastShopping.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::FastShopping.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_snackbar_elevation = global::FastShopping.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::FastShopping.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_snackbar_max_width = global::FastShopping.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_snackbar_min_width = global::FastShopping.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::FastShopping.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::FastShopping.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::FastShopping.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_snackbar_text_size = global::FastShopping.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_tab_max_width = global::FastShopping.Droid.Resource.Dimension.design_tab_max_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::FastShopping.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_tab_text_size = global::FastShopping.Droid.Resource.Dimension.design_tab_text_size;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.design_tab_text_size_2line = global::FastShopping.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.disabled_alpha_material_dark = global::FastShopping.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.disabled_alpha_material_light = global::FastShopping.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.highlight_alpha_material_colored = global::FastShopping.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.highlight_alpha_material_dark = global::FastShopping.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.highlight_alpha_material_light = global::FastShopping.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.hint_alpha_material_dark = global::FastShopping.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.hint_alpha_material_light = global::FastShopping.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::FastShopping.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::FastShopping.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FastShopping.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FastShopping.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FastShopping.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::FastShopping.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::FastShopping.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::FastShopping.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::FastShopping.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::FastShopping.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::FastShopping.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_action_icon_size = global::FastShopping.Droid.Resource.Dimension.notification_action_icon_size;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_action_text_size = global::FastShopping.Droid.Resource.Dimension.notification_action_text_size;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_big_circle_margin = global::FastShopping.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_content_margin_start = global::FastShopping.Droid.Resource.Dimension.notification_content_margin_start;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_large_icon_height = global::FastShopping.Droid.Resource.Dimension.notification_large_icon_height;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_large_icon_width = global::FastShopping.Droid.Resource.Dimension.notification_large_icon_width;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_main_column_padding_top = global::FastShopping.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_media_narrow_margin = global::FastShopping.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_right_icon_size = global::FastShopping.Droid.Resource.Dimension.notification_right_icon_size;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_right_side_padding_top = global::FastShopping.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_small_icon_background_padding = global::FastShopping.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::FastShopping.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_subtext_size = global::FastShopping.Droid.Resource.Dimension.notification_subtext_size;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_top_pad = global::FastShopping.Droid.Resource.Dimension.notification_top_pad;
+			global::CoordinatorWorkaround.Droid.Resource.Dimension.notification_top_pad_large_text = global::FastShopping.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::FastShopping.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_btn_borderless_material = global::FastShopping.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_btn_check_material = global::FastShopping.Droid.Resource.Drawable.abc_btn_check_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::FastShopping.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::FastShopping.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_btn_colored_material = global::FastShopping.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::FastShopping.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_btn_radio_material = global::FastShopping.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::FastShopping.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::FastShopping.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::FastShopping.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::FastShopping.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::FastShopping.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_cab_background_top_material = global::FastShopping.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_control_background_material = global::FastShopping.Droid.Resource.Drawable.abc_control_background_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_dialog_material_background = global::FastShopping.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_edit_text_material = global::FastShopping.Droid.Resource.Drawable.abc_edit_text_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_ab_back_material = global::FastShopping.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::FastShopping.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_clear_material = global::FastShopping.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::FastShopping.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::FastShopping.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::FastShopping.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::FastShopping.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_search_api_material = global::FastShopping.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::FastShopping.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::FastShopping.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::FastShopping.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::FastShopping.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::FastShopping.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::FastShopping.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::FastShopping.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_item_background_holo_dark = global::FastShopping.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_item_background_holo_light = global::FastShopping.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_list_focused_holo = global::FastShopping.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_list_longpressed_holo = global::FastShopping.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::FastShopping.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::FastShopping.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::FastShopping.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::FastShopping.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::FastShopping.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::FastShopping.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::FastShopping.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_list_selector_holo_light = global::FastShopping.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::FastShopping.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::FastShopping.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::FastShopping.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ratingbar_material = global::FastShopping.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_ratingbar_small_material = global::FastShopping.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::FastShopping.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::FastShopping.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::FastShopping.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::FastShopping.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_seekbar_track_material = global::FastShopping.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::FastShopping.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::FastShopping.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_switch_thumb_material = global::FastShopping.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_tab_indicator_material = global::FastShopping.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_text_cursor_material = global::FastShopping.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::FastShopping.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::FastShopping.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::FastShopping.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::FastShopping.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::FastShopping.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::FastShopping.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::FastShopping.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_textfield_search_material = global::FastShopping.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.abc_vector_test = global::FastShopping.Droid.Resource.Drawable.abc_vector_test;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.avd_hide_password = global::FastShopping.Droid.Resource.Drawable.avd_hide_password;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.avd_hide_password_1 = global::FastShopping.Droid.Resource.Drawable.avd_hide_password_1;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.avd_hide_password_2 = global::FastShopping.Droid.Resource.Drawable.avd_hide_password_2;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.avd_hide_password_3 = global::FastShopping.Droid.Resource.Drawable.avd_hide_password_3;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.avd_show_password = global::FastShopping.Droid.Resource.Drawable.avd_show_password;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.avd_show_password_1 = global::FastShopping.Droid.Resource.Drawable.avd_show_password_1;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.avd_show_password_2 = global::FastShopping.Droid.Resource.Drawable.avd_show_password_2;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.avd_show_password_3 = global::FastShopping.Droid.Resource.Drawable.avd_show_password_3;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::FastShopping.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.design_fab_background = global::FastShopping.Droid.Resource.Drawable.design_fab_background;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.design_ic_visibility = global::FastShopping.Droid.Resource.Drawable.design_ic_visibility;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.design_ic_visibility_off = global::FastShopping.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.design_password_eye = global::FastShopping.Droid.Resource.Drawable.design_password_eye;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.design_snackbar_background = global::FastShopping.Droid.Resource.Drawable.design_snackbar_background;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_audiotrack_dark = global::FastShopping.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_audiotrack_light = global::FastShopping.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_dialog_close_dark = global::FastShopping.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_dialog_close_light = global::FastShopping.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_00 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_01 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_02 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_03 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_04 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_05 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_06 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_07 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_08 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_09 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_10 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_11 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_12 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_13 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_14 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_collapse_15 = global::FastShopping.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_00 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_00;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_01 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_01;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_02 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_02;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_03 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_03;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_04 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_04;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_05 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_05;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_06 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_06;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_07 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_07;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_08 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_08;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_09 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_09;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_10 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_10;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_11 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_11;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_12 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_12;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_13 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_13;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_14 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_14;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_group_expand_15 = global::FastShopping.Droid.Resource.Drawable.ic_group_expand_15;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_media_pause_dark = global::FastShopping.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_media_pause_light = global::FastShopping.Droid.Resource.Drawable.ic_media_pause_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_media_play_dark = global::FastShopping.Droid.Resource.Drawable.ic_media_play_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_media_play_light = global::FastShopping.Droid.Resource.Drawable.ic_media_play_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_media_stop_dark = global::FastShopping.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_media_stop_light = global::FastShopping.Droid.Resource.Drawable.ic_media_stop_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_mr_button_grey = global::FastShopping.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::FastShopping.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::FastShopping.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::FastShopping.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::FastShopping.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::FastShopping.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.ic_vol_type_tv_light = global::FastShopping.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_button_connected_dark = global::FastShopping.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_button_connected_light = global::FastShopping.Droid.Resource.Drawable.mr_button_connected_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_button_connecting_dark = global::FastShopping.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_button_connecting_light = global::FastShopping.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_button_dark = global::FastShopping.Droid.Resource.Drawable.mr_button_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_button_light = global::FastShopping.Droid.Resource.Drawable.mr_button_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_dialog_close_dark = global::FastShopping.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_dialog_close_light = global::FastShopping.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::FastShopping.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_dialog_material_background_light = global::FastShopping.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_group_collapse = global::FastShopping.Droid.Resource.Drawable.mr_group_collapse;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_group_expand = global::FastShopping.Droid.Resource.Drawable.mr_group_expand;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_media_pause_dark = global::FastShopping.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_media_pause_light = global::FastShopping.Droid.Resource.Drawable.mr_media_pause_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_media_play_dark = global::FastShopping.Droid.Resource.Drawable.mr_media_play_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_media_play_light = global::FastShopping.Droid.Resource.Drawable.mr_media_play_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_media_stop_dark = global::FastShopping.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_media_stop_light = global::FastShopping.Droid.Resource.Drawable.mr_media_stop_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::FastShopping.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::FastShopping.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.navigation_empty_icon = global::FastShopping.Droid.Resource.Drawable.navigation_empty_icon;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.notification_action_background = global::FastShopping.Droid.Resource.Drawable.notification_action_background;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.notification_bg = global::FastShopping.Droid.Resource.Drawable.notification_bg;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.notification_bg_low = global::FastShopping.Droid.Resource.Drawable.notification_bg_low;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.notification_bg_low_normal = global::FastShopping.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.notification_bg_low_pressed = global::FastShopping.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.notification_bg_normal = global::FastShopping.Droid.Resource.Drawable.notification_bg_normal;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.notification_bg_normal_pressed = global::FastShopping.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.notification_icon_background = global::FastShopping.Droid.Resource.Drawable.notification_icon_background;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.notification_template_icon_bg = global::FastShopping.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.notification_template_icon_low_bg = global::FastShopping.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.notification_tile_bg = global::FastShopping.Droid.Resource.Drawable.notification_tile_bg;
+			global::CoordinatorWorkaround.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::FastShopping.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action0 = global::FastShopping.Droid.Resource.Id.action0;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_bar = global::FastShopping.Droid.Resource.Id.action_bar;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_bar_activity_content = global::FastShopping.Droid.Resource.Id.action_bar_activity_content;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_bar_container = global::FastShopping.Droid.Resource.Id.action_bar_container;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_bar_root = global::FastShopping.Droid.Resource.Id.action_bar_root;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_bar_spinner = global::FastShopping.Droid.Resource.Id.action_bar_spinner;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_bar_subtitle = global::FastShopping.Droid.Resource.Id.action_bar_subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_bar_title = global::FastShopping.Droid.Resource.Id.action_bar_title;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_container = global::FastShopping.Droid.Resource.Id.action_container;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_context_bar = global::FastShopping.Droid.Resource.Id.action_context_bar;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_divider = global::FastShopping.Droid.Resource.Id.action_divider;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_image = global::FastShopping.Droid.Resource.Id.action_image;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_menu_divider = global::FastShopping.Droid.Resource.Id.action_menu_divider;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_menu_presenter = global::FastShopping.Droid.Resource.Id.action_menu_presenter;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_mode_bar = global::FastShopping.Droid.Resource.Id.action_mode_bar;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_mode_bar_stub = global::FastShopping.Droid.Resource.Id.action_mode_bar_stub;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_mode_close_button = global::FastShopping.Droid.Resource.Id.action_mode_close_button;
+			global::CoordinatorWorkaround.Droid.Resource.Id.action_text = global::FastShopping.Droid.Resource.Id.action_text;
+			global::CoordinatorWorkaround.Droid.Resource.Id.actions = global::FastShopping.Droid.Resource.Id.actions;
+			global::CoordinatorWorkaround.Droid.Resource.Id.activity_chooser_view_content = global::FastShopping.Droid.Resource.Id.activity_chooser_view_content;
+			global::CoordinatorWorkaround.Droid.Resource.Id.add = global::FastShopping.Droid.Resource.Id.add;
+			global::CoordinatorWorkaround.Droid.Resource.Id.alertTitle = global::FastShopping.Droid.Resource.Id.alertTitle;
+			global::CoordinatorWorkaround.Droid.Resource.Id.all = global::FastShopping.Droid.Resource.Id.all;
+			global::CoordinatorWorkaround.Droid.Resource.Id.always = global::FastShopping.Droid.Resource.Id.always;
+			global::CoordinatorWorkaround.Droid.Resource.Id.appbar = global::FastShopping.Droid.Resource.Id.appbar;
+			global::CoordinatorWorkaround.Droid.Resource.Id.auto = global::FastShopping.Droid.Resource.Id.auto;
+			global::CoordinatorWorkaround.Droid.Resource.Id.beginning = global::FastShopping.Droid.Resource.Id.beginning;
+			global::CoordinatorWorkaround.Droid.Resource.Id.bottom = global::FastShopping.Droid.Resource.Id.bottom;
+			global::CoordinatorWorkaround.Droid.Resource.Id.buttonPanel = global::FastShopping.Droid.Resource.Id.buttonPanel;
+			global::CoordinatorWorkaround.Droid.Resource.Id.cancel_action = global::FastShopping.Droid.Resource.Id.cancel_action;
+			global::CoordinatorWorkaround.Droid.Resource.Id.center = global::FastShopping.Droid.Resource.Id.center;
+			global::CoordinatorWorkaround.Droid.Resource.Id.center_horizontal = global::FastShopping.Droid.Resource.Id.center_horizontal;
+			global::CoordinatorWorkaround.Droid.Resource.Id.center_vertical = global::FastShopping.Droid.Resource.Id.center_vertical;
+			global::CoordinatorWorkaround.Droid.Resource.Id.checkbox = global::FastShopping.Droid.Resource.Id.checkbox;
+			global::CoordinatorWorkaround.Droid.Resource.Id.chronometer = global::FastShopping.Droid.Resource.Id.chronometer;
+			global::CoordinatorWorkaround.Droid.Resource.Id.clip_horizontal = global::FastShopping.Droid.Resource.Id.clip_horizontal;
+			global::CoordinatorWorkaround.Droid.Resource.Id.clip_vertical = global::FastShopping.Droid.Resource.Id.clip_vertical;
+			global::CoordinatorWorkaround.Droid.Resource.Id.collapseActionView = global::FastShopping.Droid.Resource.Id.collapseActionView;
+			global::CoordinatorWorkaround.Droid.Resource.Id.collapsingToolBar = global::FastShopping.Droid.Resource.Id.collapsingToolBar;
+			global::CoordinatorWorkaround.Droid.Resource.Id.container = global::FastShopping.Droid.Resource.Id.container;
+			global::CoordinatorWorkaround.Droid.Resource.Id.contentPanel = global::FastShopping.Droid.Resource.Id.contentPanel;
+			global::CoordinatorWorkaround.Droid.Resource.Id.coordinator = global::FastShopping.Droid.Resource.Id.coordinator;
+			global::CoordinatorWorkaround.Droid.Resource.Id.coordinatorImageView = global::FastShopping.Droid.Resource.Id.coordinatorImageView;
+			global::CoordinatorWorkaround.Droid.Resource.Id.coordinatorLayout = global::FastShopping.Droid.Resource.Id.coordinatorLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Id.custom = global::FastShopping.Droid.Resource.Id.custom;
+			global::CoordinatorWorkaround.Droid.Resource.Id.customPanel = global::FastShopping.Droid.Resource.Id.customPanel;
+			global::CoordinatorWorkaround.Droid.Resource.Id.decor_content_parent = global::FastShopping.Droid.Resource.Id.decor_content_parent;
+			global::CoordinatorWorkaround.Droid.Resource.Id.default_activity_button = global::FastShopping.Droid.Resource.Id.default_activity_button;
+			global::CoordinatorWorkaround.Droid.Resource.Id.design_bottom_sheet = global::FastShopping.Droid.Resource.Id.design_bottom_sheet;
+			global::CoordinatorWorkaround.Droid.Resource.Id.design_menu_item_action_area = global::FastShopping.Droid.Resource.Id.design_menu_item_action_area;
+			global::CoordinatorWorkaround.Droid.Resource.Id.design_menu_item_action_area_stub = global::FastShopping.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::CoordinatorWorkaround.Droid.Resource.Id.design_menu_item_text = global::FastShopping.Droid.Resource.Id.design_menu_item_text;
+			global::CoordinatorWorkaround.Droid.Resource.Id.design_navigation_view = global::FastShopping.Droid.Resource.Id.design_navigation_view;
+			global::CoordinatorWorkaround.Droid.Resource.Id.disableHome = global::FastShopping.Droid.Resource.Id.disableHome;
+			global::CoordinatorWorkaround.Droid.Resource.Id.edit_query = global::FastShopping.Droid.Resource.Id.edit_query;
+			global::CoordinatorWorkaround.Droid.Resource.Id.end = global::FastShopping.Droid.Resource.Id.end;
+			global::CoordinatorWorkaround.Droid.Resource.Id.end_padder = global::FastShopping.Droid.Resource.Id.end_padder;
+			global::CoordinatorWorkaround.Droid.Resource.Id.enterAlways = global::FastShopping.Droid.Resource.Id.enterAlways;
+			global::CoordinatorWorkaround.Droid.Resource.Id.enterAlwaysCollapsed = global::FastShopping.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::CoordinatorWorkaround.Droid.Resource.Id.exitUntilCollapsed = global::FastShopping.Droid.Resource.Id.exitUntilCollapsed;
+			global::CoordinatorWorkaround.Droid.Resource.Id.expand_activities_button = global::FastShopping.Droid.Resource.Id.expand_activities_button;
+			global::CoordinatorWorkaround.Droid.Resource.Id.expanded_menu = global::FastShopping.Droid.Resource.Id.expanded_menu;
+			global::CoordinatorWorkaround.Droid.Resource.Id.fill = global::FastShopping.Droid.Resource.Id.fill;
+			global::CoordinatorWorkaround.Droid.Resource.Id.fill_horizontal = global::FastShopping.Droid.Resource.Id.fill_horizontal;
+			global::CoordinatorWorkaround.Droid.Resource.Id.fill_vertical = global::FastShopping.Droid.Resource.Id.fill_vertical;
+			global::CoordinatorWorkaround.Droid.Resource.Id.@fixed = global::FastShopping.Droid.Resource.Id.@fixed;
+			global::CoordinatorWorkaround.Droid.Resource.Id.floatingActionButton = global::FastShopping.Droid.Resource.Id.floatingActionButton;
+			global::CoordinatorWorkaround.Droid.Resource.Id.fragmentContainer = global::FastShopping.Droid.Resource.Id.fragmentContainer;
+			global::CoordinatorWorkaround.Droid.Resource.Id.home = global::FastShopping.Droid.Resource.Id.home;
+			global::CoordinatorWorkaround.Droid.Resource.Id.homeAsUp = global::FastShopping.Droid.Resource.Id.homeAsUp;
+			global::CoordinatorWorkaround.Droid.Resource.Id.icon = global::FastShopping.Droid.Resource.Id.icon;
+			global::CoordinatorWorkaround.Droid.Resource.Id.icon_group = global::FastShopping.Droid.Resource.Id.icon_group;
+			global::CoordinatorWorkaround.Droid.Resource.Id.ifRoom = global::FastShopping.Droid.Resource.Id.ifRoom;
+			global::CoordinatorWorkaround.Droid.Resource.Id.image = global::FastShopping.Droid.Resource.Id.image;
+			global::CoordinatorWorkaround.Droid.Resource.Id.info = global::FastShopping.Droid.Resource.Id.info;
+			global::CoordinatorWorkaround.Droid.Resource.Id.item_touch_helper_previous_elevation = global::FastShopping.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Id.largeLabel = global::FastShopping.Droid.Resource.Id.largeLabel;
+			global::CoordinatorWorkaround.Droid.Resource.Id.left = global::FastShopping.Droid.Resource.Id.left;
+			global::CoordinatorWorkaround.Droid.Resource.Id.line1 = global::FastShopping.Droid.Resource.Id.line1;
+			global::CoordinatorWorkaround.Droid.Resource.Id.line3 = global::FastShopping.Droid.Resource.Id.line3;
+			global::CoordinatorWorkaround.Droid.Resource.Id.listMode = global::FastShopping.Droid.Resource.Id.listMode;
+			global::CoordinatorWorkaround.Droid.Resource.Id.list_item = global::FastShopping.Droid.Resource.Id.list_item;
+			global::CoordinatorWorkaround.Droid.Resource.Id.masked = global::FastShopping.Droid.Resource.Id.masked;
+			global::CoordinatorWorkaround.Droid.Resource.Id.media_actions = global::FastShopping.Droid.Resource.Id.media_actions;
+			global::CoordinatorWorkaround.Droid.Resource.Id.middle = global::FastShopping.Droid.Resource.Id.middle;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mini = global::FastShopping.Droid.Resource.Id.mini;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_art = global::FastShopping.Droid.Resource.Id.mr_art;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_chooser_list = global::FastShopping.Droid.Resource.Id.mr_chooser_list;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_chooser_route_desc = global::FastShopping.Droid.Resource.Id.mr_chooser_route_desc;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_chooser_route_icon = global::FastShopping.Droid.Resource.Id.mr_chooser_route_icon;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_chooser_route_name = global::FastShopping.Droid.Resource.Id.mr_chooser_route_name;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_chooser_title = global::FastShopping.Droid.Resource.Id.mr_chooser_title;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_close = global::FastShopping.Droid.Resource.Id.mr_close;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_control_divider = global::FastShopping.Droid.Resource.Id.mr_control_divider;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_control_playback_ctrl = global::FastShopping.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_control_subtitle = global::FastShopping.Droid.Resource.Id.mr_control_subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_control_title = global::FastShopping.Droid.Resource.Id.mr_control_title;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_control_title_container = global::FastShopping.Droid.Resource.Id.mr_control_title_container;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_custom_control = global::FastShopping.Droid.Resource.Id.mr_custom_control;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_default_control = global::FastShopping.Droid.Resource.Id.mr_default_control;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_dialog_area = global::FastShopping.Droid.Resource.Id.mr_dialog_area;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_expandable_area = global::FastShopping.Droid.Resource.Id.mr_expandable_area;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_group_expand_collapse = global::FastShopping.Droid.Resource.Id.mr_group_expand_collapse;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_media_main_control = global::FastShopping.Droid.Resource.Id.mr_media_main_control;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_name = global::FastShopping.Droid.Resource.Id.mr_name;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_playback_control = global::FastShopping.Droid.Resource.Id.mr_playback_control;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_title_bar = global::FastShopping.Droid.Resource.Id.mr_title_bar;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_volume_control = global::FastShopping.Droid.Resource.Id.mr_volume_control;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_volume_group_list = global::FastShopping.Droid.Resource.Id.mr_volume_group_list;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_volume_item_icon = global::FastShopping.Droid.Resource.Id.mr_volume_item_icon;
+			global::CoordinatorWorkaround.Droid.Resource.Id.mr_volume_slider = global::FastShopping.Droid.Resource.Id.mr_volume_slider;
+			global::CoordinatorWorkaround.Droid.Resource.Id.multiply = global::FastShopping.Droid.Resource.Id.multiply;
+			global::CoordinatorWorkaround.Droid.Resource.Id.myToolBar = global::FastShopping.Droid.Resource.Id.myToolBar;
+			global::CoordinatorWorkaround.Droid.Resource.Id.navigation_header_container = global::FastShopping.Droid.Resource.Id.navigation_header_container;
+			global::CoordinatorWorkaround.Droid.Resource.Id.never = global::FastShopping.Droid.Resource.Id.never;
+			global::CoordinatorWorkaround.Droid.Resource.Id.none = global::FastShopping.Droid.Resource.Id.none;
+			global::CoordinatorWorkaround.Droid.Resource.Id.normal = global::FastShopping.Droid.Resource.Id.normal;
+			global::CoordinatorWorkaround.Droid.Resource.Id.notification_background = global::FastShopping.Droid.Resource.Id.notification_background;
+			global::CoordinatorWorkaround.Droid.Resource.Id.notification_main_column = global::FastShopping.Droid.Resource.Id.notification_main_column;
+			global::CoordinatorWorkaround.Droid.Resource.Id.notification_main_column_container = global::FastShopping.Droid.Resource.Id.notification_main_column_container;
+			global::CoordinatorWorkaround.Droid.Resource.Id.parallax = global::FastShopping.Droid.Resource.Id.parallax;
+			global::CoordinatorWorkaround.Droid.Resource.Id.parentPanel = global::FastShopping.Droid.Resource.Id.parentPanel;
+			global::CoordinatorWorkaround.Droid.Resource.Id.pin = global::FastShopping.Droid.Resource.Id.pin;
+			global::CoordinatorWorkaround.Droid.Resource.Id.progress_circular = global::FastShopping.Droid.Resource.Id.progress_circular;
+			global::CoordinatorWorkaround.Droid.Resource.Id.progress_horizontal = global::FastShopping.Droid.Resource.Id.progress_horizontal;
+			global::CoordinatorWorkaround.Droid.Resource.Id.radio = global::FastShopping.Droid.Resource.Id.radio;
+			global::CoordinatorWorkaround.Droid.Resource.Id.right = global::FastShopping.Droid.Resource.Id.right;
+			global::CoordinatorWorkaround.Droid.Resource.Id.right_icon = global::FastShopping.Droid.Resource.Id.right_icon;
+			global::CoordinatorWorkaround.Droid.Resource.Id.right_side = global::FastShopping.Droid.Resource.Id.right_side;
+			global::CoordinatorWorkaround.Droid.Resource.Id.screen = global::FastShopping.Droid.Resource.Id.screen;
+			global::CoordinatorWorkaround.Droid.Resource.Id.scroll = global::FastShopping.Droid.Resource.Id.scroll;
+			global::CoordinatorWorkaround.Droid.Resource.Id.scrollIndicatorDown = global::FastShopping.Droid.Resource.Id.scrollIndicatorDown;
+			global::CoordinatorWorkaround.Droid.Resource.Id.scrollIndicatorUp = global::FastShopping.Droid.Resource.Id.scrollIndicatorUp;
+			global::CoordinatorWorkaround.Droid.Resource.Id.scrollView = global::FastShopping.Droid.Resource.Id.scrollView;
+			global::CoordinatorWorkaround.Droid.Resource.Id.scrollable = global::FastShopping.Droid.Resource.Id.scrollable;
+			global::CoordinatorWorkaround.Droid.Resource.Id.search_badge = global::FastShopping.Droid.Resource.Id.search_badge;
+			global::CoordinatorWorkaround.Droid.Resource.Id.search_bar = global::FastShopping.Droid.Resource.Id.search_bar;
+			global::CoordinatorWorkaround.Droid.Resource.Id.search_button = global::FastShopping.Droid.Resource.Id.search_button;
+			global::CoordinatorWorkaround.Droid.Resource.Id.search_close_btn = global::FastShopping.Droid.Resource.Id.search_close_btn;
+			global::CoordinatorWorkaround.Droid.Resource.Id.search_edit_frame = global::FastShopping.Droid.Resource.Id.search_edit_frame;
+			global::CoordinatorWorkaround.Droid.Resource.Id.search_go_btn = global::FastShopping.Droid.Resource.Id.search_go_btn;
+			global::CoordinatorWorkaround.Droid.Resource.Id.search_mag_icon = global::FastShopping.Droid.Resource.Id.search_mag_icon;
+			global::CoordinatorWorkaround.Droid.Resource.Id.search_plate = global::FastShopping.Droid.Resource.Id.search_plate;
+			global::CoordinatorWorkaround.Droid.Resource.Id.search_src_text = global::FastShopping.Droid.Resource.Id.search_src_text;
+			global::CoordinatorWorkaround.Droid.Resource.Id.search_voice_btn = global::FastShopping.Droid.Resource.Id.search_voice_btn;
+			global::CoordinatorWorkaround.Droid.Resource.Id.select_dialog_listview = global::FastShopping.Droid.Resource.Id.select_dialog_listview;
+			global::CoordinatorWorkaround.Droid.Resource.Id.shortcut = global::FastShopping.Droid.Resource.Id.shortcut;
+			global::CoordinatorWorkaround.Droid.Resource.Id.showCustom = global::FastShopping.Droid.Resource.Id.showCustom;
+			global::CoordinatorWorkaround.Droid.Resource.Id.showHome = global::FastShopping.Droid.Resource.Id.showHome;
+			global::CoordinatorWorkaround.Droid.Resource.Id.showTitle = global::FastShopping.Droid.Resource.Id.showTitle;
+			global::CoordinatorWorkaround.Droid.Resource.Id.smallLabel = global::FastShopping.Droid.Resource.Id.smallLabel;
+			global::CoordinatorWorkaround.Droid.Resource.Id.snackbar_action = global::FastShopping.Droid.Resource.Id.snackbar_action;
+			global::CoordinatorWorkaround.Droid.Resource.Id.snackbar_text = global::FastShopping.Droid.Resource.Id.snackbar_text;
+			global::CoordinatorWorkaround.Droid.Resource.Id.snap = global::FastShopping.Droid.Resource.Id.snap;
+			global::CoordinatorWorkaround.Droid.Resource.Id.spacer = global::FastShopping.Droid.Resource.Id.spacer;
+			global::CoordinatorWorkaround.Droid.Resource.Id.split_action_bar = global::FastShopping.Droid.Resource.Id.split_action_bar;
+			global::CoordinatorWorkaround.Droid.Resource.Id.src_atop = global::FastShopping.Droid.Resource.Id.src_atop;
+			global::CoordinatorWorkaround.Droid.Resource.Id.src_in = global::FastShopping.Droid.Resource.Id.src_in;
+			global::CoordinatorWorkaround.Droid.Resource.Id.src_over = global::FastShopping.Droid.Resource.Id.src_over;
+			global::CoordinatorWorkaround.Droid.Resource.Id.start = global::FastShopping.Droid.Resource.Id.start;
+			global::CoordinatorWorkaround.Droid.Resource.Id.status_bar_latest_event_content = global::FastShopping.Droid.Resource.Id.status_bar_latest_event_content;
+			global::CoordinatorWorkaround.Droid.Resource.Id.submenuarrow = global::FastShopping.Droid.Resource.Id.submenuarrow;
+			global::CoordinatorWorkaround.Droid.Resource.Id.submit_area = global::FastShopping.Droid.Resource.Id.submit_area;
+			global::CoordinatorWorkaround.Droid.Resource.Id.tabMode = global::FastShopping.Droid.Resource.Id.tabMode;
+			global::CoordinatorWorkaround.Droid.Resource.Id.text = global::FastShopping.Droid.Resource.Id.text;
+			global::CoordinatorWorkaround.Droid.Resource.Id.text2 = global::FastShopping.Droid.Resource.Id.text2;
+			global::CoordinatorWorkaround.Droid.Resource.Id.textSpacerNoButtons = global::FastShopping.Droid.Resource.Id.textSpacerNoButtons;
+			global::CoordinatorWorkaround.Droid.Resource.Id.textSpacerNoTitle = global::FastShopping.Droid.Resource.Id.textSpacerNoTitle;
+			global::CoordinatorWorkaround.Droid.Resource.Id.text_input_password_toggle = global::FastShopping.Droid.Resource.Id.text_input_password_toggle;
+			global::CoordinatorWorkaround.Droid.Resource.Id.textinput_counter = global::FastShopping.Droid.Resource.Id.textinput_counter;
+			global::CoordinatorWorkaround.Droid.Resource.Id.textinput_error = global::FastShopping.Droid.Resource.Id.textinput_error;
+			global::CoordinatorWorkaround.Droid.Resource.Id.time = global::FastShopping.Droid.Resource.Id.time;
+			global::CoordinatorWorkaround.Droid.Resource.Id.title = global::FastShopping.Droid.Resource.Id.title;
+			global::CoordinatorWorkaround.Droid.Resource.Id.titleDividerNoCustom = global::FastShopping.Droid.Resource.Id.titleDividerNoCustom;
+			global::CoordinatorWorkaround.Droid.Resource.Id.title_template = global::FastShopping.Droid.Resource.Id.title_template;
+			global::CoordinatorWorkaround.Droid.Resource.Id.top = global::FastShopping.Droid.Resource.Id.top;
+			global::CoordinatorWorkaround.Droid.Resource.Id.topPanel = global::FastShopping.Droid.Resource.Id.topPanel;
+			global::CoordinatorWorkaround.Droid.Resource.Id.touch_outside = global::FastShopping.Droid.Resource.Id.touch_outside;
+			global::CoordinatorWorkaround.Droid.Resource.Id.transition_current_scene = global::FastShopping.Droid.Resource.Id.transition_current_scene;
+			global::CoordinatorWorkaround.Droid.Resource.Id.transition_scene_layoutid_cache = global::FastShopping.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::CoordinatorWorkaround.Droid.Resource.Id.up = global::FastShopping.Droid.Resource.Id.up;
+			global::CoordinatorWorkaround.Droid.Resource.Id.useLogo = global::FastShopping.Droid.Resource.Id.useLogo;
+			global::CoordinatorWorkaround.Droid.Resource.Id.view_offset_helper = global::FastShopping.Droid.Resource.Id.view_offset_helper;
+			global::CoordinatorWorkaround.Droid.Resource.Id.visible = global::FastShopping.Droid.Resource.Id.visible;
+			global::CoordinatorWorkaround.Droid.Resource.Id.volume_item_container = global::FastShopping.Droid.Resource.Id.volume_item_container;
+			global::CoordinatorWorkaround.Droid.Resource.Id.withText = global::FastShopping.Droid.Resource.Id.withText;
+			global::CoordinatorWorkaround.Droid.Resource.Id.wrap_content = global::FastShopping.Droid.Resource.Id.wrap_content;
+			global::CoordinatorWorkaround.Droid.Resource.Integer.abc_config_activityDefaultDur = global::FastShopping.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::CoordinatorWorkaround.Droid.Resource.Integer.abc_config_activityShortDur = global::FastShopping.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::CoordinatorWorkaround.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::FastShopping.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::CoordinatorWorkaround.Droid.Resource.Integer.bottom_sheet_slide_duration = global::FastShopping.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::CoordinatorWorkaround.Droid.Resource.Integer.cancel_button_image_alpha = global::FastShopping.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Integer.design_snackbar_text_max_lines = global::FastShopping.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::CoordinatorWorkaround.Droid.Resource.Integer.hide_password_duration = global::FastShopping.Droid.Resource.Integer.hide_password_duration;
+			global::CoordinatorWorkaround.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::FastShopping.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::CoordinatorWorkaround.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::FastShopping.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::CoordinatorWorkaround.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::FastShopping.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::CoordinatorWorkaround.Droid.Resource.Integer.show_password_duration = global::FastShopping.Droid.Resource.Integer.show_password_duration;
+			global::CoordinatorWorkaround.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::FastShopping.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::CoordinatorWorkaround.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::FastShopping.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::CoordinatorWorkaround.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::FastShopping.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_action_bar_title_item = global::FastShopping.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_action_bar_up_container = global::FastShopping.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_action_menu_item_layout = global::FastShopping.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_action_menu_layout = global::FastShopping.Droid.Resource.Layout.abc_action_menu_layout;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_action_mode_bar = global::FastShopping.Droid.Resource.Layout.abc_action_mode_bar;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_action_mode_close_item_material = global::FastShopping.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_activity_chooser_view = global::FastShopping.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::FastShopping.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::FastShopping.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_alert_dialog_material = global::FastShopping.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_alert_dialog_title_material = global::FastShopping.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_dialog_title_material = global::FastShopping.Droid.Resource.Layout.abc_dialog_title_material;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_expanded_menu_layout = global::FastShopping.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::FastShopping.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_list_menu_item_icon = global::FastShopping.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_list_menu_item_layout = global::FastShopping.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_list_menu_item_radio = global::FastShopping.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::FastShopping.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_popup_menu_item_layout = global::FastShopping.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_screen_content_include = global::FastShopping.Droid.Resource.Layout.abc_screen_content_include;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_screen_simple = global::FastShopping.Droid.Resource.Layout.abc_screen_simple;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::FastShopping.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_screen_toolbar = global::FastShopping.Droid.Resource.Layout.abc_screen_toolbar;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::FastShopping.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_search_view = global::FastShopping.Droid.Resource.Layout.abc_search_view;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.abc_select_dialog_material = global::FastShopping.Droid.Resource.Layout.abc_select_dialog_material;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.Coordinator = global::FastShopping.Droid.Resource.Layout.Coordinator;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_bottom_navigation_item = global::FastShopping.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_bottom_sheet_dialog = global::FastShopping.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_layout_snackbar = global::FastShopping.Droid.Resource.Layout.design_layout_snackbar;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_layout_snackbar_include = global::FastShopping.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_layout_tab_icon = global::FastShopping.Droid.Resource.Layout.design_layout_tab_icon;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_layout_tab_text = global::FastShopping.Droid.Resource.Layout.design_layout_tab_text;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_menu_item_action_area = global::FastShopping.Droid.Resource.Layout.design_menu_item_action_area;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_navigation_item = global::FastShopping.Droid.Resource.Layout.design_navigation_item;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_navigation_item_header = global::FastShopping.Droid.Resource.Layout.design_navigation_item_header;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_navigation_item_separator = global::FastShopping.Droid.Resource.Layout.design_navigation_item_separator;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_navigation_item_subheader = global::FastShopping.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_navigation_menu = global::FastShopping.Droid.Resource.Layout.design_navigation_menu;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_navigation_menu_item = global::FastShopping.Droid.Resource.Layout.design_navigation_menu_item;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.design_text_input_password_icon = global::FastShopping.Droid.Resource.Layout.design_text_input_password_icon;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.mr_chooser_dialog = global::FastShopping.Droid.Resource.Layout.mr_chooser_dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.mr_chooser_list_item = global::FastShopping.Droid.Resource.Layout.mr_chooser_list_item;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.mr_controller_material_dialog_b = global::FastShopping.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.mr_controller_volume_item = global::FastShopping.Droid.Resource.Layout.mr_controller_volume_item;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.mr_playback_control = global::FastShopping.Droid.Resource.Layout.mr_playback_control;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.mr_volume_control = global::FastShopping.Droid.Resource.Layout.mr_volume_control;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_action = global::FastShopping.Droid.Resource.Layout.notification_action;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_action_tombstone = global::FastShopping.Droid.Resource.Layout.notification_action_tombstone;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_media_action = global::FastShopping.Droid.Resource.Layout.notification_media_action;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_media_cancel_action = global::FastShopping.Droid.Resource.Layout.notification_media_cancel_action;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_template_big_media = global::FastShopping.Droid.Resource.Layout.notification_template_big_media;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_template_big_media_custom = global::FastShopping.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_template_big_media_narrow = global::FastShopping.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::FastShopping.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_template_custom_big = global::FastShopping.Droid.Resource.Layout.notification_template_custom_big;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_template_icon_group = global::FastShopping.Droid.Resource.Layout.notification_template_icon_group;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_template_lines_media = global::FastShopping.Droid.Resource.Layout.notification_template_lines_media;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_template_media = global::FastShopping.Droid.Resource.Layout.notification_template_media;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_template_media_custom = global::FastShopping.Droid.Resource.Layout.notification_template_media_custom;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_template_part_chronometer = global::FastShopping.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.notification_template_part_time = global::FastShopping.Droid.Resource.Layout.notification_template_part_time;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.select_dialog_item_material = global::FastShopping.Droid.Resource.Layout.select_dialog_item_material;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.select_dialog_multichoice_material = global::FastShopping.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.select_dialog_singlechoice_material = global::FastShopping.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::CoordinatorWorkaround.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::FastShopping.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_action_bar_home_description = global::FastShopping.Droid.Resource.String.abc_action_bar_home_description;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_action_bar_up_description = global::FastShopping.Droid.Resource.String.abc_action_bar_up_description;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_action_menu_overflow_description = global::FastShopping.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_action_mode_done = global::FastShopping.Droid.Resource.String.abc_action_mode_done;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_activity_chooser_view_see_all = global::FastShopping.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_activitychooserview_choose_application = global::FastShopping.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_capital_off = global::FastShopping.Droid.Resource.String.abc_capital_off;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_capital_on = global::FastShopping.Droid.Resource.String.abc_capital_on;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_font_family_body_1_material = global::FastShopping.Droid.Resource.String.abc_font_family_body_1_material;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_font_family_body_2_material = global::FastShopping.Droid.Resource.String.abc_font_family_body_2_material;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_font_family_button_material = global::FastShopping.Droid.Resource.String.abc_font_family_button_material;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_font_family_caption_material = global::FastShopping.Droid.Resource.String.abc_font_family_caption_material;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_font_family_display_1_material = global::FastShopping.Droid.Resource.String.abc_font_family_display_1_material;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_font_family_display_2_material = global::FastShopping.Droid.Resource.String.abc_font_family_display_2_material;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_font_family_display_3_material = global::FastShopping.Droid.Resource.String.abc_font_family_display_3_material;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_font_family_display_4_material = global::FastShopping.Droid.Resource.String.abc_font_family_display_4_material;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_font_family_headline_material = global::FastShopping.Droid.Resource.String.abc_font_family_headline_material;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_font_family_menu_material = global::FastShopping.Droid.Resource.String.abc_font_family_menu_material;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_font_family_subhead_material = global::FastShopping.Droid.Resource.String.abc_font_family_subhead_material;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_font_family_title_material = global::FastShopping.Droid.Resource.String.abc_font_family_title_material;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_search_hint = global::FastShopping.Droid.Resource.String.abc_search_hint;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_searchview_description_clear = global::FastShopping.Droid.Resource.String.abc_searchview_description_clear;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_searchview_description_query = global::FastShopping.Droid.Resource.String.abc_searchview_description_query;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_searchview_description_search = global::FastShopping.Droid.Resource.String.abc_searchview_description_search;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_searchview_description_submit = global::FastShopping.Droid.Resource.String.abc_searchview_description_submit;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_searchview_description_voice = global::FastShopping.Droid.Resource.String.abc_searchview_description_voice;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_shareactionprovider_share_with = global::FastShopping.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::FastShopping.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::CoordinatorWorkaround.Droid.Resource.String.abc_toolbar_collapse_description = global::FastShopping.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::CoordinatorWorkaround.Droid.Resource.String.appbar_scrolling_view_behavior = global::FastShopping.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::CoordinatorWorkaround.Droid.Resource.String.bottom_sheet_behavior = global::FastShopping.Droid.Resource.String.bottom_sheet_behavior;
+			global::CoordinatorWorkaround.Droid.Resource.String.character_counter_pattern = global::FastShopping.Droid.Resource.String.character_counter_pattern;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_button_content_description = global::FastShopping.Droid.Resource.String.mr_button_content_description;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_cast_button_connected = global::FastShopping.Droid.Resource.String.mr_cast_button_connected;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_cast_button_connecting = global::FastShopping.Droid.Resource.String.mr_cast_button_connecting;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_cast_button_disconnected = global::FastShopping.Droid.Resource.String.mr_cast_button_disconnected;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_chooser_searching = global::FastShopping.Droid.Resource.String.mr_chooser_searching;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_chooser_title = global::FastShopping.Droid.Resource.String.mr_chooser_title;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_album_art = global::FastShopping.Droid.Resource.String.mr_controller_album_art;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_casting_screen = global::FastShopping.Droid.Resource.String.mr_controller_casting_screen;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_close_description = global::FastShopping.Droid.Resource.String.mr_controller_close_description;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_collapse_group = global::FastShopping.Droid.Resource.String.mr_controller_collapse_group;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_disconnect = global::FastShopping.Droid.Resource.String.mr_controller_disconnect;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_expand_group = global::FastShopping.Droid.Resource.String.mr_controller_expand_group;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_no_info_available = global::FastShopping.Droid.Resource.String.mr_controller_no_info_available;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_no_media_selected = global::FastShopping.Droid.Resource.String.mr_controller_no_media_selected;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_pause = global::FastShopping.Droid.Resource.String.mr_controller_pause;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_play = global::FastShopping.Droid.Resource.String.mr_controller_play;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_stop = global::FastShopping.Droid.Resource.String.mr_controller_stop;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_stop_casting = global::FastShopping.Droid.Resource.String.mr_controller_stop_casting;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_controller_volume_slider = global::FastShopping.Droid.Resource.String.mr_controller_volume_slider;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_system_route_name = global::FastShopping.Droid.Resource.String.mr_system_route_name;
+			global::CoordinatorWorkaround.Droid.Resource.String.mr_user_route_category_name = global::FastShopping.Droid.Resource.String.mr_user_route_category_name;
+			global::CoordinatorWorkaround.Droid.Resource.String.password_toggle_content_description = global::FastShopping.Droid.Resource.String.password_toggle_content_description;
+			global::CoordinatorWorkaround.Droid.Resource.String.path_password_eye = global::FastShopping.Droid.Resource.String.path_password_eye;
+			global::CoordinatorWorkaround.Droid.Resource.String.path_password_eye_mask_strike_through = global::FastShopping.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::CoordinatorWorkaround.Droid.Resource.String.path_password_eye_mask_visible = global::FastShopping.Droid.Resource.String.path_password_eye_mask_visible;
+			global::CoordinatorWorkaround.Droid.Resource.String.path_password_strike_through = global::FastShopping.Droid.Resource.String.path_password_strike_through;
+			global::CoordinatorWorkaround.Droid.Resource.String.search_menu_title = global::FastShopping.Droid.Resource.String.search_menu_title;
+			global::CoordinatorWorkaround.Droid.Resource.String.status_bar_notification_info_overflow = global::FastShopping.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.AlertDialog_AppCompat = global::FastShopping.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::FastShopping.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Animation_AppCompat_Dialog = global::FastShopping.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::FastShopping.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::FastShopping.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::FastShopping.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::FastShopping.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::FastShopping.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_CardView = global::FastShopping.Droid.Resource.Style.Base_CardView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::FastShopping.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::FastShopping.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::FastShopping.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::FastShopping.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::FastShopping.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::FastShopping.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::FastShopping.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::FastShopping.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::FastShopping.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::FastShopping.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::FastShopping.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::FastShopping.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::FastShopping.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::FastShopping.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::FastShopping.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::FastShopping.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::FastShopping.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::FastShopping.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::FastShopping.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::FastShopping.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::FastShopping.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::FastShopping.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::FastShopping.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::FastShopping.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::FastShopping.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::FastShopping.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::FastShopping.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::FastShopping.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_Design_AppBarLayout = global::FastShopping.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::FastShopping.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Style.CardView = global::FastShopping.Droid.Resource.Style.CardView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.CardView_Dark = global::FastShopping.Droid.Resource.Style.CardView_Dark;
+			global::CoordinatorWorkaround.Droid.Resource.Style.CardView_Light = global::FastShopping.Droid.Resource.Style.CardView_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_AppCompat = global::FastShopping.Droid.Resource.Style.Platform_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::FastShopping.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::FastShopping.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_V11_AppCompat = global::FastShopping.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_V14_AppCompat = global::FastShopping.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_V21_AppCompat = global::FastShopping.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_V25_AppCompat = global::FastShopping.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::FastShopping.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::FastShopping.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::FastShopping.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::FastShopping.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::FastShopping.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::FastShopping.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::FastShopping.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::FastShopping.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::FastShopping.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::FastShopping.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::FastShopping.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::FastShopping.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::FastShopping.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::FastShopping.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::CoordinatorWorkaround.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::FastShopping.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FastShopping.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::FastShopping.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_Design_Counter = global::FastShopping.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::FastShopping.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_Design_Error = global::FastShopping.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_Design_Hint = global::FastShopping.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::FastShopping.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_Design_Tab = global::FastShopping.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::FastShopping.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::FastShopping.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::FastShopping.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FastShopping.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FastShopping.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::FastShopping.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat = global::FastShopping.Droid.Resource.Style.Theme_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_DayNight = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_Dialog = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_Light = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::FastShopping.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_Design = global::FastShopping.Droid.Resource.Style.Theme_Design;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::FastShopping.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_Design_Light = global::FastShopping.Droid.Resource.Style.Theme_Design_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::FastShopping.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::FastShopping.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_Design_NoActionBar = global::FastShopping.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_MediaRouter = global::FastShopping.Droid.Resource.Style.Theme_MediaRouter;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_MediaRouter_Light = global::FastShopping.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::FastShopping.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::FastShopping.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::CoordinatorWorkaround.Droid.Resource.Style.ThemeOverlay_AppCompat = global::FastShopping.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::FastShopping.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::FastShopping.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::CoordinatorWorkaround.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::FastShopping.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::FastShopping.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::FastShopping.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::CoordinatorWorkaround.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::FastShopping.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::FastShopping.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::CoordinatorWorkaround.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::FastShopping.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Button = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_EditText = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ListView = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_SearchView = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Spinner = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::FastShopping.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_Design_AppBarLayout = global::FastShopping.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::FastShopping.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::FastShopping.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::FastShopping.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::FastShopping.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::FastShopping.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_Design_NavigationView = global::FastShopping.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::FastShopping.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_Design_Snackbar = global::FastShopping.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_Design_TabLayout = global::FastShopping.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_Design_TextInputLayout = global::FastShopping.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::FastShopping.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::CoordinatorWorkaround.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::FastShopping.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar = global::FastShopping.Droid.Resource.Styleable.ActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_background = global::FastShopping.Droid.Resource.Styleable.ActionBar_background;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::FastShopping.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::FastShopping.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::FastShopping.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::FastShopping.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::FastShopping.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::FastShopping.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::FastShopping.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::FastShopping.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::FastShopping.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_displayOptions = global::FastShopping.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_divider = global::FastShopping.Droid.Resource.Styleable.ActionBar_divider;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_elevation = global::FastShopping.Droid.Resource.Styleable.ActionBar_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_height = global::FastShopping.Droid.Resource.Styleable.ActionBar_height;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::FastShopping.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::FastShopping.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_homeLayout = global::FastShopping.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_icon = global::FastShopping.Droid.Resource.Styleable.ActionBar_icon;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::FastShopping.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_itemPadding = global::FastShopping.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_logo = global::FastShopping.Droid.Resource.Styleable.ActionBar_logo;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_navigationMode = global::FastShopping.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_popupTheme = global::FastShopping.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::FastShopping.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::FastShopping.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_subtitle = global::FastShopping.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::FastShopping.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_title = global::FastShopping.Droid.Resource.Styleable.ActionBar_title;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::FastShopping.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBarLayout = global::FastShopping.Droid.Resource.Styleable.ActionBarLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::FastShopping.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionMenuItemView = global::FastShopping.Droid.Resource.Styleable.ActionMenuItemView;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::FastShopping.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionMenuView = global::FastShopping.Droid.Resource.Styleable.ActionMenuView;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionMode = global::FastShopping.Droid.Resource.Styleable.ActionMode;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionMode_background = global::FastShopping.Droid.Resource.Styleable.ActionMode_background;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::FastShopping.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::FastShopping.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionMode_height = global::FastShopping.Droid.Resource.Styleable.ActionMode_height;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::FastShopping.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::FastShopping.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActivityChooserView = global::FastShopping.Droid.Resource.Styleable.ActivityChooserView;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::FastShopping.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::FastShopping.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AlertDialog = global::FastShopping.Droid.Resource.Styleable.AlertDialog;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AlertDialog_android_layout = global::FastShopping.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::FastShopping.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::FastShopping.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AlertDialog_listLayout = global::FastShopping.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::FastShopping.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AlertDialog_showTitle = global::FastShopping.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::FastShopping.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppBarLayout = global::FastShopping.Droid.Resource.Styleable.AppBarLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppBarLayout_android_background = global::FastShopping.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppBarLayout_elevation = global::FastShopping.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppBarLayout_expanded = global::FastShopping.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppBarLayoutStates = global::FastShopping.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::FastShopping.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::FastShopping.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppBarLayout_Layout = global::FastShopping.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::FastShopping.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::FastShopping.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatImageView = global::FastShopping.Droid.Resource.Styleable.AppCompatImageView;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatImageView_android_src = global::FastShopping.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::FastShopping.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatImageView_tint = global::FastShopping.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::FastShopping.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatSeekBar = global::FastShopping.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::FastShopping.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::FastShopping.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::FastShopping.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::FastShopping.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTextHelper = global::FastShopping.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::FastShopping.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::FastShopping.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::FastShopping.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::FastShopping.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::FastShopping.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::FastShopping.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::FastShopping.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTextView = global::FastShopping.Droid.Resource.Styleable.AppCompatTextView;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::FastShopping.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::FastShopping.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::FastShopping.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.BottomNavigationView = global::FastShopping.Droid.Resource.Styleable.BottomNavigationView;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.BottomNavigationView_elevation = global::FastShopping.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::FastShopping.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::FastShopping.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::FastShopping.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.BottomNavigationView_menu = global::FastShopping.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::FastShopping.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::FastShopping.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::FastShopping.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::FastShopping.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ButtonBarLayout = global::FastShopping.Droid.Resource.Styleable.ButtonBarLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::FastShopping.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView = global::FastShopping.Droid.Resource.Styleable.CardView;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_android_minHeight = global::FastShopping.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_android_minWidth = global::FastShopping.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::FastShopping.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_cardCornerRadius = global::FastShopping.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_cardElevation = global::FastShopping.Droid.Resource.Styleable.CardView_cardElevation;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_cardMaxElevation = global::FastShopping.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::FastShopping.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::FastShopping.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_contentPadding = global::FastShopping.Droid.Resource.Styleable.CardView_contentPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::FastShopping.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::FastShopping.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_contentPaddingRight = global::FastShopping.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CardView_contentPaddingTop = global::FastShopping.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::FastShopping.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ColorStateListItem = global::FastShopping.Droid.Resource.Styleable.ColorStateListItem;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ColorStateListItem_alpha = global::FastShopping.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::FastShopping.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ColorStateListItem_android_color = global::FastShopping.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CompoundButton = global::FastShopping.Droid.Resource.Styleable.CompoundButton;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CompoundButton_android_button = global::FastShopping.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CompoundButton_buttonTint = global::FastShopping.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::FastShopping.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CoordinatorLayout = global::FastShopping.Droid.Resource.Styleable.CoordinatorLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::FastShopping.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::FastShopping.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::FastShopping.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::FastShopping.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::FastShopping.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::FastShopping.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::FastShopping.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::FastShopping.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::FastShopping.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::FastShopping.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DesignTheme = global::FastShopping.Droid.Resource.Styleable.DesignTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::FastShopping.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::FastShopping.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DesignTheme_textColorError = global::FastShopping.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DrawerArrowToggle = global::FastShopping.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::FastShopping.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::FastShopping.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::FastShopping.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DrawerArrowToggle_color = global::FastShopping.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::FastShopping.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::FastShopping.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::FastShopping.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::FastShopping.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.FloatingActionButton = global::FastShopping.Droid.Resource.Styleable.FloatingActionButton;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::FastShopping.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::FastShopping.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::FastShopping.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.FloatingActionButton_elevation = global::FastShopping.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::FastShopping.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::FastShopping.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::FastShopping.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::FastShopping.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::FastShopping.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::FastShopping.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ForegroundLinearLayout = global::FastShopping.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::FastShopping.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::FastShopping.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::FastShopping.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::FastShopping.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ListPopupWindow = global::FastShopping.Droid.Resource.Styleable.ListPopupWindow;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::FastShopping.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::FastShopping.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MediaRouteButton = global::FastShopping.Droid.Resource.Styleable.MediaRouteButton;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::FastShopping.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::FastShopping.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::FastShopping.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuGroup = global::FastShopping.Droid.Resource.Styleable.MenuGroup;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::FastShopping.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuGroup_android_enabled = global::FastShopping.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuGroup_android_id = global::FastShopping.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::FastShopping.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::FastShopping.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuGroup_android_visible = global::FastShopping.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem = global::FastShopping.Droid.Resource.Styleable.MenuItem;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_actionLayout = global::FastShopping.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::FastShopping.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_actionViewClass = global::FastShopping.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_checkable = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_checked = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_enabled = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_icon = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_id = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_id;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_onClick = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_title = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_title;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_android_visible = global::FastShopping.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuItem_showAsAction = global::FastShopping.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuView = global::FastShopping.Droid.Resource.Styleable.MenuView;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuView_android_headerBackground = global::FastShopping.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::FastShopping.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuView_android_itemBackground = global::FastShopping.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::FastShopping.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::FastShopping.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::FastShopping.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::FastShopping.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::FastShopping.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.MenuView_subMenuArrow = global::FastShopping.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.NavigationView = global::FastShopping.Droid.Resource.Styleable.NavigationView;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.NavigationView_android_background = global::FastShopping.Droid.Resource.Styleable.NavigationView_android_background;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::FastShopping.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::FastShopping.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.NavigationView_elevation = global::FastShopping.Droid.Resource.Styleable.NavigationView_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.NavigationView_headerLayout = global::FastShopping.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.NavigationView_itemBackground = global::FastShopping.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.NavigationView_itemIconTint = global::FastShopping.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::FastShopping.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.NavigationView_itemTextColor = global::FastShopping.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.NavigationView_menu = global::FastShopping.Droid.Resource.Styleable.NavigationView_menu;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.PopupWindow = global::FastShopping.Droid.Resource.Styleable.PopupWindow;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::FastShopping.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::FastShopping.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::FastShopping.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.PopupWindowBackgroundState = global::FastShopping.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::FastShopping.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.RecycleListView = global::FastShopping.Droid.Resource.Styleable.RecycleListView;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::FastShopping.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::FastShopping.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.RecyclerView = global::FastShopping.Droid.Resource.Styleable.RecyclerView;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::FastShopping.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.RecyclerView_android_orientation = global::FastShopping.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.RecyclerView_layoutManager = global::FastShopping.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::FastShopping.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.RecyclerView_spanCount = global::FastShopping.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::FastShopping.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::FastShopping.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::FastShopping.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::FastShopping.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::FastShopping.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView = global::FastShopping.Droid.Resource.Styleable.SearchView;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_android_focusable = global::FastShopping.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_android_imeOptions = global::FastShopping.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_android_inputType = global::FastShopping.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_android_maxWidth = global::FastShopping.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_closeIcon = global::FastShopping.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_commitIcon = global::FastShopping.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::FastShopping.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_goIcon = global::FastShopping.Droid.Resource.Styleable.SearchView_goIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::FastShopping.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_layout = global::FastShopping.Droid.Resource.Styleable.SearchView_layout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_queryBackground = global::FastShopping.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_queryHint = global::FastShopping.Droid.Resource.Styleable.SearchView_queryHint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_searchHintIcon = global::FastShopping.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_searchIcon = global::FastShopping.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_submitBackground = global::FastShopping.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::FastShopping.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SearchView_voiceIcon = global::FastShopping.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SnackbarLayout = global::FastShopping.Droid.Resource.Styleable.SnackbarLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::FastShopping.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SnackbarLayout_elevation = global::FastShopping.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::FastShopping.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Spinner = global::FastShopping.Droid.Resource.Styleable.Spinner;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::FastShopping.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Spinner_android_entries = global::FastShopping.Droid.Resource.Styleable.Spinner_android_entries;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Spinner_android_popupBackground = global::FastShopping.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Spinner_android_prompt = global::FastShopping.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Spinner_popupTheme = global::FastShopping.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat = global::FastShopping.Droid.Resource.Styleable.SwitchCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_showText = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_track = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_track;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_trackTint = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::FastShopping.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabItem = global::FastShopping.Droid.Resource.Styleable.TabItem;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabItem_android_icon = global::FastShopping.Droid.Resource.Styleable.TabItem_android_icon;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabItem_android_layout = global::FastShopping.Droid.Resource.Styleable.TabItem_android_layout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabItem_android_text = global::FastShopping.Droid.Resource.Styleable.TabItem_android_text;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout = global::FastShopping.Droid.Resource.Styleable.TabLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabBackground = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabContentStart = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabGravity = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabMode = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabPadding = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TabLayout_tabTextColor = global::FastShopping.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextAppearance = global::FastShopping.Droid.Resource.Styleable.TextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::FastShopping.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::FastShopping.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::FastShopping.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::FastShopping.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextAppearance_android_textColor = global::FastShopping.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::FastShopping.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextAppearance_android_textSize = global::FastShopping.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::FastShopping.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextAppearance_android_typeface = global::FastShopping.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::FastShopping.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout = global::FastShopping.Droid.Resource.Styleable.TextInputLayout;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_android_hint = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::FastShopping.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar = global::FastShopping.Droid.Resource.Styleable.Toolbar;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_android_gravity = global::FastShopping.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_android_minHeight = global::FastShopping.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_buttonGravity = global::FastShopping.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::FastShopping.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_collapseIcon = global::FastShopping.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::FastShopping.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::FastShopping.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::FastShopping.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::FastShopping.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::FastShopping.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::FastShopping.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_logo = global::FastShopping.Droid.Resource.Styleable.Toolbar_logo;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_logoDescription = global::FastShopping.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::FastShopping.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::FastShopping.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_navigationIcon = global::FastShopping.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_popupTheme = global::FastShopping.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_subtitle = global::FastShopping.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::FastShopping.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::FastShopping.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_title = global::FastShopping.Droid.Resource.Styleable.Toolbar_title;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_titleMargin = global::FastShopping.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::FastShopping.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::FastShopping.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::FastShopping.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::FastShopping.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_titleMargins = global::FastShopping.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::FastShopping.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.Toolbar_titleTextColor = global::FastShopping.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.View = global::FastShopping.Droid.Resource.Styleable.View;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.View_android_focusable = global::FastShopping.Droid.Resource.Styleable.View_android_focusable;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.View_android_theme = global::FastShopping.Droid.Resource.Styleable.View_android_theme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.View_paddingEnd = global::FastShopping.Droid.Resource.Styleable.View_paddingEnd;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.View_paddingStart = global::FastShopping.Droid.Resource.Styleable.View_paddingStart;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.View_theme = global::FastShopping.Droid.Resource.Styleable.View_theme;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ViewBackgroundHelper = global::FastShopping.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::FastShopping.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::FastShopping.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::FastShopping.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ViewStubCompat = global::FastShopping.Droid.Resource.Styleable.ViewStubCompat;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ViewStubCompat_android_id = global::FastShopping.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FastShopping.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::CoordinatorWorkaround.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::FastShopping.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::FastShopping.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -211,6 +2312,9 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f010082
 			public const int activityChooserViewStyle = 2130772098;
 			
+			// aapt resource value: 0x7f010196
+			public const int addProductStyle = 2130772374;
+			
 			// aapt resource value: 0x7f0100a7
 			public const int alertDialogButtonGroupStyle = 2130772135;
 			
@@ -229,11 +2333,17 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f0100bd
 			public const int alpha = 2130772157;
 			
+			// aapt resource value: 0x7f010192
+			public const int appBarLayoutTheme = 2130772370;
+			
 			// aapt resource value: 0x7f0100c4
 			public const int arrowHeadLength = 2130772164;
 			
 			// aapt resource value: 0x7f0100c5
 			public const int arrowShaftLength = 2130772165;
+			
+			// aapt resource value: 0x7f010195
+			public const int authenticatorInputTextLayoutStyle = 2130772373;
 			
 			// aapt resource value: 0x7f0100ae
 			public const int autoCompleteTextViewStyle = 2130772142;
@@ -255,6 +2365,12 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f0100c6
 			public const int barLength = 2130772166;
+			
+			// aapt resource value: 0x7f010155
+			public const int barrierAllowsGoneWidgets = 2130772309;
+			
+			// aapt resource value: 0x7f010156
+			public const int barrierDirection = 2130772310;
 			
 			// aapt resource value: 0x7f01012c
 			public const int behavior_autoHide = 2130772268;
@@ -334,6 +2450,12 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f010015
 			public const int cardUseCompatPadding = 2130771989;
 			
+			// aapt resource value: 0x7f01019f
+			public const int categoriesMultiChoiceDialogStyle = 2130772383;
+			
+			// aapt resource value: 0x7f010157
+			public const int chainUseRtl = 2130772311;
+			
 			// aapt resource value: 0x7f0100b1
 			public const int checkboxStyle = 2130772145;
 			
@@ -385,11 +2507,23 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f01009d
 			public const int colorPrimaryDark = 2130772125;
 			
+			// aapt resource value: 0x7f01018f
+			public const int colorPrimaryTransparent = 2130772367;
+			
 			// aapt resource value: 0x7f0100a3
 			public const int colorSwitchThumbNormal = 2130772131;
 			
 			// aapt resource value: 0x7f0100de
 			public const int commitIcon = 2130772190;
+			
+			// aapt resource value: 0x7f010158
+			public const int constraintSet = 2130772312;
+			
+			// aapt resource value: 0x7f010159
+			public const int constraint_referenced_ids = 2130772313;
+			
+			// aapt resource value: 0x7f01015a
+			public const int content = 2130772314;
 			
 			// aapt resource value: 0x7f010033
 			public const int contentInsetEnd = 2130772019;
@@ -445,8 +2579,20 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f01002b
 			public const int customNavigationLayout = 2130772011;
 			
+			// aapt resource value: 0x7f01019c
+			public const int customersGroupsMultiChoiceDialogStyle = 2130772380;
+			
+			// aapt resource value: 0x7f0101a4
+			public const int defaultImage = 2130772388;
+			
+			// aapt resource value: 0x7f01018e
+			public const int defaultLoginAvatar = 2130772366;
+			
 			// aapt resource value: 0x7f0100d8
 			public const int defaultQueryHint = 2130772184;
+			
+			// aapt resource value: 0x7f010198
+			public const int deleteProductStyle = 2130772376;
 			
 			// aapt resource value: 0x7f010074
 			public const int dialogPreferredPadding = 2130772084;
@@ -481,6 +2627,9 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f010077
 			public const int dropdownListPreferredItemHeight = 2130772087;
 			
+			// aapt resource value: 0x7f010199
+			public const int editProductStyle = 2130772377;
+			
 			// aapt resource value: 0x7f010088
 			public const int editTextBackground = 2130772104;
 			
@@ -492,6 +2641,9 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f010038
 			public const int elevation = 2130772024;
+			
+			// aapt resource value: 0x7f01015b
+			public const int emptyVisibility = 2130772315;
 			
 			// aapt resource value: 0x7f010149
 			public const int errorEnabled = 2130772297;
@@ -529,8 +2681,14 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f010010
 			public const int externalRouteEnabledDrawable = 2130771984;
 			
+			// aapt resource value: 0x7f010193
+			public const int fabMenuButtonStyle = 2130772371;
+			
 			// aapt resource value: 0x7f010128
 			public const int fabSize = 2130772264;
+			
+			// aapt resource value: 0x7f0101a2
+			public const int flashEffectImageView = 2130772386;
 			
 			// aapt resource value: 0x7f01012d
 			public const int foregroundInsidePadding = 2130772269;
@@ -573,6 +2731,9 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f010089
 			public const int imageButtonStyle = 2130772105;
+			
+			// aapt resource value: 0x7f0101a1
+			public const int imageView = 2130772385;
 			
 			// aapt resource value: 0x7f01002e
 			public const int indeterminateProgressStyle = 2130772014;
@@ -625,14 +2786,164 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f01011b
 			public const int layout_collapseParallaxMultiplier = 2130772251;
 			
+			// aapt resource value: 0x7f01015c
+			public const int layout_constrainedHeight = 2130772316;
+			
+			// aapt resource value: 0x7f01015d
+			public const int layout_constrainedWidth = 2130772317;
+			
+			// aapt resource value: 0x7f01015e
+			public const int layout_constraintBaseline_creator = 2130772318;
+			
+			// aapt resource value: 0x7f01015f
+			public const int layout_constraintBaseline_toBaselineOf = 2130772319;
+			
+			// aapt resource value: 0x7f010160
+			public const int layout_constraintBottom_creator = 2130772320;
+			
+			// aapt resource value: 0x7f010161
+			public const int layout_constraintBottom_toBottomOf = 2130772321;
+			
+			// aapt resource value: 0x7f010162
+			public const int layout_constraintBottom_toTopOf = 2130772322;
+			
+			// aapt resource value: 0x7f010163
+			public const int layout_constraintCircle = 2130772323;
+			
+			// aapt resource value: 0x7f010164
+			public const int layout_constraintCircleAngle = 2130772324;
+			
+			// aapt resource value: 0x7f010165
+			public const int layout_constraintCircleRadius = 2130772325;
+			
+			// aapt resource value: 0x7f010166
+			public const int layout_constraintDimensionRatio = 2130772326;
+			
+			// aapt resource value: 0x7f010167
+			public const int layout_constraintEnd_toEndOf = 2130772327;
+			
+			// aapt resource value: 0x7f010168
+			public const int layout_constraintEnd_toStartOf = 2130772328;
+			
+			// aapt resource value: 0x7f010169
+			public const int layout_constraintGuide_begin = 2130772329;
+			
+			// aapt resource value: 0x7f01016a
+			public const int layout_constraintGuide_end = 2130772330;
+			
+			// aapt resource value: 0x7f01016b
+			public const int layout_constraintGuide_percent = 2130772331;
+			
+			// aapt resource value: 0x7f01016c
+			public const int layout_constraintHeight_default = 2130772332;
+			
+			// aapt resource value: 0x7f01016d
+			public const int layout_constraintHeight_max = 2130772333;
+			
+			// aapt resource value: 0x7f01016e
+			public const int layout_constraintHeight_min = 2130772334;
+			
+			// aapt resource value: 0x7f01016f
+			public const int layout_constraintHeight_percent = 2130772335;
+			
+			// aapt resource value: 0x7f010170
+			public const int layout_constraintHorizontal_bias = 2130772336;
+			
+			// aapt resource value: 0x7f010171
+			public const int layout_constraintHorizontal_chainStyle = 2130772337;
+			
+			// aapt resource value: 0x7f010172
+			public const int layout_constraintHorizontal_weight = 2130772338;
+			
+			// aapt resource value: 0x7f010173
+			public const int layout_constraintLeft_creator = 2130772339;
+			
+			// aapt resource value: 0x7f010174
+			public const int layout_constraintLeft_toLeftOf = 2130772340;
+			
+			// aapt resource value: 0x7f010175
+			public const int layout_constraintLeft_toRightOf = 2130772341;
+			
+			// aapt resource value: 0x7f010176
+			public const int layout_constraintRight_creator = 2130772342;
+			
+			// aapt resource value: 0x7f010177
+			public const int layout_constraintRight_toLeftOf = 2130772343;
+			
+			// aapt resource value: 0x7f010178
+			public const int layout_constraintRight_toRightOf = 2130772344;
+			
+			// aapt resource value: 0x7f010179
+			public const int layout_constraintStart_toEndOf = 2130772345;
+			
+			// aapt resource value: 0x7f01017a
+			public const int layout_constraintStart_toStartOf = 2130772346;
+			
+			// aapt resource value: 0x7f01017b
+			public const int layout_constraintTop_creator = 2130772347;
+			
+			// aapt resource value: 0x7f01017c
+			public const int layout_constraintTop_toBottomOf = 2130772348;
+			
+			// aapt resource value: 0x7f01017d
+			public const int layout_constraintTop_toTopOf = 2130772349;
+			
+			// aapt resource value: 0x7f01017e
+			public const int layout_constraintVertical_bias = 2130772350;
+			
+			// aapt resource value: 0x7f01017f
+			public const int layout_constraintVertical_chainStyle = 2130772351;
+			
+			// aapt resource value: 0x7f010180
+			public const int layout_constraintVertical_weight = 2130772352;
+			
+			// aapt resource value: 0x7f010181
+			public const int layout_constraintWidth_default = 2130772353;
+			
+			// aapt resource value: 0x7f010182
+			public const int layout_constraintWidth_max = 2130772354;
+			
+			// aapt resource value: 0x7f010183
+			public const int layout_constraintWidth_min = 2130772355;
+			
+			// aapt resource value: 0x7f010184
+			public const int layout_constraintWidth_percent = 2130772356;
+			
 			// aapt resource value: 0x7f010123
 			public const int layout_dodgeInsetEdges = 2130772259;
+			
+			// aapt resource value: 0x7f010185
+			public const int layout_editor_absoluteX = 2130772357;
+			
+			// aapt resource value: 0x7f010186
+			public const int layout_editor_absoluteY = 2130772358;
+			
+			// aapt resource value: 0x7f010187
+			public const int layout_goneMarginBottom = 2130772359;
+			
+			// aapt resource value: 0x7f010188
+			public const int layout_goneMarginEnd = 2130772360;
+			
+			// aapt resource value: 0x7f010189
+			public const int layout_goneMarginLeft = 2130772361;
+			
+			// aapt resource value: 0x7f01018a
+			public const int layout_goneMarginRight = 2130772362;
+			
+			// aapt resource value: 0x7f01018b
+			public const int layout_goneMarginStart = 2130772363;
+			
+			// aapt resource value: 0x7f01018c
+			public const int layout_goneMarginTop = 2130772364;
 			
 			// aapt resource value: 0x7f010122
 			public const int layout_insetEdge = 2130772258;
 			
 			// aapt resource value: 0x7f010120
 			public const int layout_keyline = 2130772256;
+			
+			// aapt resource value: 0x7f01018d
+			public const int layout_optimizationLevel = 2130772365;
 			
 			// aapt resource value: 0x7f010106
 			public const int layout_scrollFlags = 2130772230;
@@ -642,6 +2953,9 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f01009b
 			public const int listChoiceBackgroundIndicator = 2130772123;
+			
+			// aapt resource value: 0x7f0101aa
+			public const int listDialogTitle = 2130772394;
 			
 			// aapt resource value: 0x7f010075
 			public const int listDividerAlertDialog = 2130772085;
@@ -673,6 +2987,9 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f010092
 			public const int listPreferredItemPaddingRight = 2130772114;
 			
+			// aapt resource value: 0x7f0101a3
+			public const int loaderProgress = 2130772387;
+			
 			// aapt resource value: 0x7f010026
 			public const int logo = 2130772006;
 			
@@ -681,6 +2998,9 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f010136
 			public const int maxActionInlineWidth = 2130772278;
+			
+			// aapt resource value: 0x7f0101a5
+			public const int maxBitmapSize = 2130772389;
 			
 			// aapt resource value: 0x7f0100f5
 			public const int maxButtonHeight = 2130772213;
@@ -726,6 +3046,18 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f01012e
 			public const int menu = 2130772270;
+			
+			// aapt resource value: 0x7f0101a7
+			public const int multiChoiceDialogChoiceOptionAll = 2130772391;
+			
+			// aapt resource value: 0x7f0101a9
+			public const int multiChoiceDialogNegativeButton = 2130772393;
+			
+			// aapt resource value: 0x7f0101a8
+			public const int multiChoiceDialogPositiveButton = 2130772392;
+			
+			// aapt resource value: 0x7f0101a6
+			public const int multiChoiceDialogTitle = 2130772390;
 			
 			// aapt resource value: 0x7f01003f
 			public const int multiChoiceItemLayout = 2130772031;
@@ -793,6 +3125,27 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f010129
 			public const int pressedTranslationZ = 2130772265;
 			
+			// aapt resource value: 0x7f0101ab
+			public const int productEditionDialogMargin = 2130772395;
+			
+			// aapt resource value: 0x7f0101ac
+			public const int productEditionDialogMarginTop = 2130772396;
+			
+			// aapt resource value: 0x7f0101ae
+			public const int productEditionDialogPaddings = 2130772398;
+			
+			// aapt resource value: 0x7f0101ad
+			public const int productEditionDialogTotalMarginTop = 2130772397;
+			
+			// aapt resource value: 0x7f01019b
+			public const int productQuantityTextViewStyle = 2130772379;
+			
+			// aapt resource value: 0x7f01019a
+			public const int productValueTextViewStyle = 2130772378;
+			
+			// aapt resource value: 0x7f01019d
+			public const int productsFilterListDialogStyle = 2130772381;
+			
 			// aapt resource value: 0x7f01002f
 			public const int progressBarPadding = 2130772015;
 			
@@ -816,6 +3169,9 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f0100b7
 			public const int ratingBarStyleSmall = 2130772151;
+			
+			// aapt resource value: 0x7f010197
+			public const int removeProductStyle = 2130772375;
 			
 			// aapt resource value: 0x7f010002
 			public const int reverseLayout = 2130771970;
@@ -858,6 +3214,9 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f010042
 			public const int showTitle = 2130772034;
+			
+			// aapt resource value: 0x7f010190
+			public const int singleChoiceItemBackground = 2130772368;
 			
 			// aapt resource value: 0x7f010040
 			public const int singleChoiceItemLayout = 2130772032;
@@ -918,6 +3277,9 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f0100df
 			public const int suggestionRowLayout = 2130772191;
+			
+			// aapt resource value: 0x7f01019e
+			public const int suppliersMultiChoiceDialogStyle = 2130772382;
 			
 			// aapt resource value: 0x7f0100e9
 			public const int switchMinWidth = 2130772201;
@@ -1009,6 +3371,9 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f0100aa
 			public const int textColorAlertDialogListItem = 2130772138;
 			
+			// aapt resource value: 0x7f010194
+			public const int textColorDisabled = 2130772372;
+			
 			// aapt resource value: 0x7f010126
 			public const int textColorError = 2130772262;
 			
@@ -1078,6 +3443,9 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f010023
 			public const int titleTextStyle = 2130772003;
 			
+			// aapt resource value: 0x7f010191
+			public const int toolbarBackground = 2130772369;
+			
 			// aapt resource value: 0x7f010114
 			public const int toolbarId = 2130772244;
 			
@@ -1098,6 +3466,9 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f01012b
 			public const int useCompatPadding = 2130772267;
+			
+			// aapt resource value: 0x7f0101a0
+			public const int valueChangedTextColor = 2130772384;
 			
 			// aapt resource value: 0x7f0100dd
 			public const int voiceIcon = 2130772189;
@@ -1173,44 +3544,44 @@ namespace FastShopping.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0d004e
-			public const int abc_background_cache_hint_selector_material_dark = 2131558478;
+			// aapt resource value: 0x7f0d0059
+			public const int abc_background_cache_hint_selector_material_dark = 2131558489;
 			
-			// aapt resource value: 0x7f0d004f
-			public const int abc_background_cache_hint_selector_material_light = 2131558479;
+			// aapt resource value: 0x7f0d005a
+			public const int abc_background_cache_hint_selector_material_light = 2131558490;
 			
-			// aapt resource value: 0x7f0d0050
-			public const int abc_btn_colored_borderless_text_material = 2131558480;
+			// aapt resource value: 0x7f0d005b
+			public const int abc_btn_colored_borderless_text_material = 2131558491;
 			
-			// aapt resource value: 0x7f0d0051
-			public const int abc_btn_colored_text_material = 2131558481;
+			// aapt resource value: 0x7f0d005c
+			public const int abc_btn_colored_text_material = 2131558492;
 			
-			// aapt resource value: 0x7f0d0052
-			public const int abc_color_highlight_material = 2131558482;
+			// aapt resource value: 0x7f0d005d
+			public const int abc_color_highlight_material = 2131558493;
 			
-			// aapt resource value: 0x7f0d0053
-			public const int abc_hint_foreground_material_dark = 2131558483;
+			// aapt resource value: 0x7f0d005e
+			public const int abc_hint_foreground_material_dark = 2131558494;
 			
-			// aapt resource value: 0x7f0d0054
-			public const int abc_hint_foreground_material_light = 2131558484;
+			// aapt resource value: 0x7f0d005f
+			public const int abc_hint_foreground_material_light = 2131558495;
 			
 			// aapt resource value: 0x7f0d0005
 			public const int abc_input_method_navigation_guard = 2131558405;
 			
-			// aapt resource value: 0x7f0d0055
-			public const int abc_primary_text_disable_only_material_dark = 2131558485;
+			// aapt resource value: 0x7f0d0060
+			public const int abc_primary_text_disable_only_material_dark = 2131558496;
 			
-			// aapt resource value: 0x7f0d0056
-			public const int abc_primary_text_disable_only_material_light = 2131558486;
+			// aapt resource value: 0x7f0d0061
+			public const int abc_primary_text_disable_only_material_light = 2131558497;
 			
-			// aapt resource value: 0x7f0d0057
-			public const int abc_primary_text_material_dark = 2131558487;
+			// aapt resource value: 0x7f0d0062
+			public const int abc_primary_text_material_dark = 2131558498;
 			
-			// aapt resource value: 0x7f0d0058
-			public const int abc_primary_text_material_light = 2131558488;
+			// aapt resource value: 0x7f0d0063
+			public const int abc_primary_text_material_light = 2131558499;
 			
-			// aapt resource value: 0x7f0d0059
-			public const int abc_search_url_text = 2131558489;
+			// aapt resource value: 0x7f0d0064
+			public const int abc_search_url_text = 2131558500;
 			
 			// aapt resource value: 0x7f0d0006
 			public const int abc_search_url_text_normal = 2131558406;
@@ -1221,32 +3592,32 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f0d0008
 			public const int abc_search_url_text_selected = 2131558408;
 			
-			// aapt resource value: 0x7f0d005a
-			public const int abc_secondary_text_material_dark = 2131558490;
+			// aapt resource value: 0x7f0d0065
+			public const int abc_secondary_text_material_dark = 2131558501;
 			
-			// aapt resource value: 0x7f0d005b
-			public const int abc_secondary_text_material_light = 2131558491;
+			// aapt resource value: 0x7f0d0066
+			public const int abc_secondary_text_material_light = 2131558502;
 			
-			// aapt resource value: 0x7f0d005c
-			public const int abc_tint_btn_checkable = 2131558492;
+			// aapt resource value: 0x7f0d0067
+			public const int abc_tint_btn_checkable = 2131558503;
 			
-			// aapt resource value: 0x7f0d005d
-			public const int abc_tint_default = 2131558493;
+			// aapt resource value: 0x7f0d0068
+			public const int abc_tint_default = 2131558504;
 			
-			// aapt resource value: 0x7f0d005e
-			public const int abc_tint_edittext = 2131558494;
+			// aapt resource value: 0x7f0d0069
+			public const int abc_tint_edittext = 2131558505;
 			
-			// aapt resource value: 0x7f0d005f
-			public const int abc_tint_seek_thumb = 2131558495;
+			// aapt resource value: 0x7f0d006a
+			public const int abc_tint_seek_thumb = 2131558506;
 			
-			// aapt resource value: 0x7f0d0060
-			public const int abc_tint_spinner = 2131558496;
+			// aapt resource value: 0x7f0d006b
+			public const int abc_tint_spinner = 2131558507;
 			
-			// aapt resource value: 0x7f0d0061
-			public const int abc_tint_switch_thumb = 2131558497;
+			// aapt resource value: 0x7f0d006c
+			public const int abc_tint_switch_thumb = 2131558508;
 			
-			// aapt resource value: 0x7f0d0062
-			public const int abc_tint_switch_track = 2131558498;
+			// aapt resource value: 0x7f0d006d
+			public const int abc_tint_switch_track = 2131558509;
 			
 			// aapt resource value: 0x7f0d0009
 			public const int accent_material_dark = 2131558409;
@@ -1314,8 +3685,8 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f0d003f
 			public const int design_bottom_navigation_shadow_color = 2131558463;
 			
-			// aapt resource value: 0x7f0d0063
-			public const int design_error = 2131558499;
+			// aapt resource value: 0x7f0d006e
+			public const int design_error = 2131558510;
 			
 			// aapt resource value: 0x7f0d0040
 			public const int design_fab_shadow_end_color = 2131558464;
@@ -1347,8 +3718,8 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f0d0049
 			public const int design_textinput_error_color_light = 2131558473;
 			
-			// aapt resource value: 0x7f0d0064
-			public const int design_tint_password_toggle = 2131558500;
+			// aapt resource value: 0x7f0d006f
+			public const int design_tint_password_toggle = 2131558511;
 			
 			// aapt resource value: 0x7f0d0017
 			public const int dim_foreground_disabled_material_dark = 2131558423;
@@ -1446,6 +3817,39 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f0d0034
 			public const int primary_text_disabled_material_light = 2131558452;
 			
+			// aapt resource value: 0x7f0d0054
+			public const int productEditionButtonBackgroundColorDisabled = 2131558484;
+			
+			// aapt resource value: 0x7f0d0053
+			public const int productEditionButtonBackgroundColorNormal = 2131558483;
+			
+			// aapt resource value: 0x7f0d0055
+			public const int productEditionButtonBackgroundColorPressed = 2131558485;
+			
+			// aapt resource value: 0x7f0d0057
+			public const int productEditionButtonBackgroundStrongerColorDisabled = 2131558487;
+			
+			// aapt resource value: 0x7f0d0056
+			public const int productEditionButtonBackgroundStrongerColorNormal = 2131558486;
+			
+			// aapt resource value: 0x7f0d0058
+			public const int productEditionButtonBackgroundStrongerColorPressed = 2131558488;
+			
+			// aapt resource value: 0x7f0d004f
+			public const int productEditionButtonBorderColorDisabled = 2131558479;
+			
+			// aapt resource value: 0x7f0d004e
+			public const int productEditionButtonBorderColorNormal = 2131558478;
+			
+			// aapt resource value: 0x7f0d0051
+			public const int productEditionDeleteButtonBackgroundColorDisabled = 2131558481;
+			
+			// aapt resource value: 0x7f0d0050
+			public const int productEditionDeleteButtonBackgroundColorNormal = 2131558480;
+			
+			// aapt resource value: 0x7f0d0052
+			public const int productEditionDeleteButtonBackgroundColorPressed = 2131558482;
+			
 			// aapt resource value: 0x7f0d0035
 			public const int ripple_material_dark = 2131558453;
 			
@@ -1470,11 +3874,11 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f0d003c
 			public const int switch_thumb_disabled_material_light = 2131558460;
 			
-			// aapt resource value: 0x7f0d0065
-			public const int switch_thumb_material_dark = 2131558501;
+			// aapt resource value: 0x7f0d0070
+			public const int switch_thumb_material_dark = 2131558512;
 			
-			// aapt resource value: 0x7f0d0066
-			public const int switch_thumb_material_light = 2131558502;
+			// aapt resource value: 0x7f0d0071
+			public const int switch_thumb_material_light = 2131558513;
 			
 			// aapt resource value: 0x7f0d003d
 			public const int switch_thumb_normal_material_dark = 2131558461;
@@ -1717,6 +4121,15 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f080010
 			public const int abc_text_size_title_material_toolbar = 2131230736;
 			
+			// aapt resource value: 0x7f080097
+			public const int activity_horizontal_margin = 2131230871;
+			
+			// aapt resource value: 0x7f080098
+			public const int activity_vertical_margin = 2131230872;
+			
+			// aapt resource value: 0x7f0800bb
+			public const int authenticator_fragment_controls_company_name_top_margin = 2131230907;
+			
 			// aapt resource value: 0x7f080009
 			public const int cardview_compat_inset_shadow = 2131230729;
 			
@@ -1725,6 +4138,21 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f08000b
 			public const int cardview_default_radius = 2131230731;
+			
+			// aapt resource value: 0x7f0800b2
+			public const int collapsing_toolbar_height = 2131230898;
+			
+			// aapt resource value: 0x7f0800b4
+			public const int collapsing_toolbar_title_margin_end = 2131230900;
+			
+			// aapt resource value: 0x7f0800b3
+			public const int collapsing_toolbar_title_margin_start = 2131230899;
+			
+			// aapt resource value: 0x7f0800b6
+			public const int customers_list_item_margin_right = 2131230902;
+			
+			// aapt resource value: 0x7f0800b5
+			public const int customers_list_width = 2131230901;
 			
 			// aapt resource value: 0x7f080076
 			public const int design_appbar_elevation = 2131230838;
@@ -1846,6 +4274,33 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f08005b
 			public const int disabled_alpha_material_light = 2131230811;
 			
+			// aapt resource value: 0x7f0800a0
+			public const int elevation_app_bar = 2131230880;
+			
+			// aapt resource value: 0x7f0800a1
+			public const int elevation_nav_drawer = 2131230881;
+			
+			// aapt resource value: 0x7f080099
+			public const int fab_margin = 2131230873;
+			
+			// aapt resource value: 0x7f0800ba
+			public const int fab_margin_bottom = 2131230906;
+			
+			// aapt resource value: 0x7f0800b8
+			public const int fab_margin_end = 2131230904;
+			
+			// aapt resource value: 0x7f0800b7
+			public const int fab_margin_start = 2131230903;
+			
+			// aapt resource value: 0x7f0800b9
+			public const int fab_margin_top = 2131230905;
+			
+			// aapt resource value: 0x7f0800b0
+			public const int filter_button_left_padding = 2131230896;
+			
+			// aapt resource value: 0x7f0800b1
+			public const int filter_button_right_padding = 2131230897;
+			
 			// aapt resource value: 0x7f08005c
 			public const int highlight_alpha_material_colored = 2131230812;
 			
@@ -1876,6 +4331,21 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f080002
 			public const int item_touch_helper_swipe_escape_velocity = 2131230722;
 			
+			// aapt resource value: 0x7f0800aa
+			public const int list_item_icon_padding_left = 2131230890;
+			
+			// aapt resource value: 0x7f0800ab
+			public const int list_item_padding_left = 2131230891;
+			
+			// aapt resource value: 0x7f0800ac
+			public const int list_item_padding_right = 2131230892;
+			
+			// aapt resource value: 0x7f0800ad
+			public const int list_item_padding_top1 = 2131230893;
+			
+			// aapt resource value: 0x7f0800bc
+			public const int login_fragment_avatar_margin = 2131230908;
+			
 			// aapt resource value: 0x7f080003
 			public const int mr_controller_volume_group_list_item_height = 2131230723;
 			
@@ -1893,6 +4363,24 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f080007
 			public const int mr_dialog_fixed_width_minor = 2131230727;
+			
+			// aapt resource value: 0x7f08009a
+			public const int nav_drawer_profile_image_size = 2131230874;
+			
+			// aapt resource value: 0x7f080096
+			public const int nav_header_height = 2131230870;
+			
+			// aapt resource value: 0x7f080095
+			public const int nav_header_vertical_spacing = 2131230869;
+			
+			// aapt resource value: 0x7f0800d4
+			public const int navigation_bar_height = 2131230932;
+			
+			// aapt resource value: 0x7f0800d5
+			public const int navigation_bar_width = 2131230933;
+			
+			// aapt resource value: 0x7f08009b
+			public const int navigation_drawer_max_width = 2131230875;
 			
 			// aapt resource value: 0x7f080063
 			public const int notification_action_icon_size = 2131230819;
@@ -1938,6 +4426,120 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f08006d
 			public const int notification_top_pad_large_text = 2131230829;
+			
+			// aapt resource value: 0x7f0800cf
+			public const int product_details_edition_button_background_radius = 2131230927;
+			
+			// aapt resource value: 0x7f0800cd
+			public const int product_details_edition_button_divider_width = 2131230925;
+			
+			// aapt resource value: 0x7f0800d1
+			public const int product_details_edition_button_height = 2131230929;
+			
+			// aapt resource value: 0x7f0800ce
+			public const int product_details_edition_button_stroke_corner_radius = 2131230926;
+			
+			// aapt resource value: 0x7f0800cc
+			public const int product_details_edition_button_stroke_width = 2131230924;
+			
+			// aapt resource value: 0x7f0800d0
+			public const int product_details_edition_button_width = 2131230928;
+			
+			// aapt resource value: 0x7f0800c9
+			public const int product_details_edition_controls_margin = 2131230921;
+			
+			// aapt resource value: 0x7f0800ca
+			public const int product_details_edition_controls_margin_top = 2131230922;
+			
+			// aapt resource value: 0x7f0800cb
+			public const int product_details_edition_controls_total_margin_top = 2131230923;
+			
+			// aapt resource value: 0x7f0800bd
+			public const int product_edition_button_stroke_width = 2131230909;
+			
+			// aapt resource value: 0x7f0800c6
+			public const int product_edition_dialog_margin = 2131230918;
+			
+			// aapt resource value: 0x7f0800c7
+			public const int product_edition_dialog_margin_top = 2131230919;
+			
+			// aapt resource value: 0x7f0800c8
+			public const int product_edition_dialog_total_margin_top = 2131230920;
+			
+			// aapt resource value: 0x7f0800c5
+			public const int product_edition_dialog_width = 2131230917;
+			
+			// aapt resource value: 0x7f0800bf
+			public const int product_edition_icon_horizontal_margin = 2131230911;
+			
+			// aapt resource value: 0x7f0800be
+			public const int product_edition_icon_margin = 2131230910;
+			
+			// aapt resource value: 0x7f0800d3
+			public const int product_list_item_image_aspect_ratio = 2131230931;
+			
+			// aapt resource value: 0x7f0800c0
+			public const int product_list_item_margin = 2131230912;
+			
+			// aapt resource value: 0x7f0800c1
+			public const int product_list_item_product_description_text_size = 2131230913;
+			
+			// aapt resource value: 0x7f0800c3
+			public const int product_list_item_product_quantity_text_size = 2131230915;
+			
+			// aapt resource value: 0x7f0800c2
+			public const int product_list_item_product_value_text_size = 2131230914;
+			
+			// aapt resource value: 0x7f0800c4
+			public const int product_list_margin = 2131230916;
+			
+			// aapt resource value: 0x7f08009e
+			public const int profile_image_top_margin = 2131230878;
+			
+			// aapt resource value: 0x7f0800d2
+			public const int sale_item_img_size = 2131230930;
+			
+			// aapt resource value: 0x7f08009d
+			public const int spacing_56 = 2131230877;
+			
+			// aapt resource value: 0x7f08009c
+			public const int spacing_8 = 2131230876;
+			
+			// aapt resource value: 0x7f0800af
+			public const int text_view_bottom_margin1 = 2131230895;
+			
+			// aapt resource value: 0x7f0800ae
+			public const int text_view_top_margin1 = 2131230894;
+			
+			// aapt resource value: 0x7f0800a2
+			public const int three_lines_plain_text_list_item_primary_font = 2131230882;
+			
+			// aapt resource value: 0x7f0800a3
+			public const int three_lines_plain_text_list_item_secondary_font = 2131230883;
+			
+			// aapt resource value: 0x7f0800a8
+			public const int three_lines_plain_text_list_item_text_bottom_padding = 2131230888;
+			
+			// aapt resource value: 0x7f0800a5
+			public const int three_lines_plain_text_list_item_text_left_padding = 2131230885;
+			
+			// aapt resource value: 0x7f0800a6
+			public const int three_lines_plain_text_list_item_text_right_padding = 2131230886;
+			
+			// aapt resource value: 0x7f0800a7
+			public const int three_lines_plain_text_list_item_text_top_padding = 2131230887;
+			
+			// aapt resource value: 0x7f0800a4
+			public const int three_lines_plain_text_list_item_tile_height = 2131230884;
+			
+			// aapt resource value: 0x7f0800a9
+			public const int three_lines_plain_text_list_padding_top = 2131230889;
+			
+			// aapt resource value: 0x7f080094
+			public const int toolbar_elevation = 2131230868;
+			
+			// aapt resource value: 0x7f08009f
+			public const int vertical_keyline_first = 2131230879;
 			
 			static Dimension()
 			{
@@ -2204,26 +4806,26 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02010d
-			public const int avd_hide_password_1 = 2130837773;
+			// aapt resource value: 0x7f020125
+			public const int avd_hide_password_1 = 2130837797;
 			
-			// aapt resource value: 0x7f02010e
-			public const int avd_hide_password_2 = 2130837774;
+			// aapt resource value: 0x7f020126
+			public const int avd_hide_password_2 = 2130837798;
 			
-			// aapt resource value: 0x7f02010f
-			public const int avd_hide_password_3 = 2130837775;
+			// aapt resource value: 0x7f020127
+			public const int avd_hide_password_3 = 2130837799;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020110
-			public const int avd_show_password_1 = 2130837776;
+			// aapt resource value: 0x7f020128
+			public const int avd_show_password_1 = 2130837800;
 			
-			// aapt resource value: 0x7f020111
-			public const int avd_show_password_2 = 2130837777;
+			// aapt resource value: 0x7f020129
+			public const int avd_show_password_2 = 2130837801;
 			
-			// aapt resource value: 0x7f020112
-			public const int avd_show_password_3 = 2130837778;
+			// aapt resource value: 0x7f02012a
+			public const int avd_show_password_3 = 2130837802;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2244,538 +4846,610 @@ namespace FastShopping.Droid
 			public const int design_snackbar_background = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int ic_audiotrack_dark = 2130837595;
+			public const int discount_background = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_audiotrack_light = 2130837596;
+			public const int ic_arrow_down = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_dialog_close_dark = 2130837597;
+			public const int ic_audiotrack_dark = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_dialog_close_light = 2130837598;
+			public const int ic_audiotrack_light = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_group_collapse_00 = 2130837599;
+			public const int ic_dialog_close_dark = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_group_collapse_01 = 2130837600;
+			public const int ic_dialog_close_light = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_group_collapse_02 = 2130837601;
+			public const int ic_filter_dark = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_group_collapse_03 = 2130837602;
+			public const int ic_filter_yellow200 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_04 = 2130837603;
+			public const int ic_group_collapse_00 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_05 = 2130837604;
+			public const int ic_group_collapse_01 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_06 = 2130837605;
+			public const int ic_group_collapse_02 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_07 = 2130837606;
+			public const int ic_group_collapse_03 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_08 = 2130837607;
+			public const int ic_group_collapse_04 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_09 = 2130837608;
+			public const int ic_group_collapse_05 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_10 = 2130837609;
+			public const int ic_group_collapse_06 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_11 = 2130837610;
+			public const int ic_group_collapse_07 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_12 = 2130837611;
+			public const int ic_group_collapse_08 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_13 = 2130837612;
+			public const int ic_group_collapse_09 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_14 = 2130837613;
+			public const int ic_group_collapse_10 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_15 = 2130837614;
+			public const int ic_group_collapse_11 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_expand_00 = 2130837615;
+			public const int ic_group_collapse_12 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_expand_01 = 2130837616;
+			public const int ic_group_collapse_13 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_expand_02 = 2130837617;
+			public const int ic_group_collapse_14 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_expand_03 = 2130837618;
+			public const int ic_group_collapse_15 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_04 = 2130837619;
+			public const int ic_group_expand_00 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_05 = 2130837620;
+			public const int ic_group_expand_01 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_06 = 2130837621;
+			public const int ic_group_expand_02 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_07 = 2130837622;
+			public const int ic_group_expand_03 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_08 = 2130837623;
+			public const int ic_group_expand_04 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_09 = 2130837624;
+			public const int ic_group_expand_05 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_10 = 2130837625;
+			public const int ic_group_expand_06 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_11 = 2130837626;
+			public const int ic_group_expand_07 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_12 = 2130837627;
+			public const int ic_group_expand_08 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_13 = 2130837628;
+			public const int ic_group_expand_09 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_14 = 2130837629;
+			public const int ic_group_expand_10 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_15 = 2130837630;
+			public const int ic_group_expand_11 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_media_pause_dark = 2130837631;
+			public const int ic_group_expand_12 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_media_pause_light = 2130837632;
+			public const int ic_group_expand_13 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_media_play_dark = 2130837633;
+			public const int ic_group_expand_14 = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_play_light = 2130837634;
+			public const int ic_group_expand_15 = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_stop_dark = 2130837635;
+			public const int ic_media_pause_dark = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_stop_light = 2130837636;
+			public const int ic_media_pause_light = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_mr_button_connected_00_dark = 2130837637;
+			public const int ic_media_play_dark = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_mr_button_connected_00_light = 2130837638;
+			public const int ic_media_play_light = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_mr_button_connected_01_dark = 2130837639;
+			public const int ic_media_stop_dark = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_01_light = 2130837640;
+			public const int ic_media_stop_light = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_02_dark = 2130837641;
+			public const int ic_minus_blue500_24dp = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_02_light = 2130837642;
+			public const int ic_minus_grey600_24dp = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_03_dark = 2130837643;
+			public const int ic_minus_white_24dp = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_03_light = 2130837644;
+			public const int ic_minus_yellow200_24dp = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_04_dark = 2130837645;
+			public const int ic_mr_button_connected_00_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_04_light = 2130837646;
+			public const int ic_mr_button_connected_00_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_05_dark = 2130837647;
+			public const int ic_mr_button_connected_01_dark = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_05_light = 2130837648;
+			public const int ic_mr_button_connected_01_light = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_06_dark = 2130837649;
+			public const int ic_mr_button_connected_02_dark = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_06_light = 2130837650;
+			public const int ic_mr_button_connected_02_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_07_dark = 2130837651;
+			public const int ic_mr_button_connected_03_dark = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_07_light = 2130837652;
+			public const int ic_mr_button_connected_03_light = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_08_dark = 2130837653;
+			public const int ic_mr_button_connected_04_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_08_light = 2130837654;
+			public const int ic_mr_button_connected_04_light = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_09_dark = 2130837655;
+			public const int ic_mr_button_connected_05_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_09_light = 2130837656;
+			public const int ic_mr_button_connected_05_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_10_dark = 2130837657;
+			public const int ic_mr_button_connected_06_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_10_light = 2130837658;
+			public const int ic_mr_button_connected_06_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_11_dark = 2130837659;
+			public const int ic_mr_button_connected_07_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_11_light = 2130837660;
+			public const int ic_mr_button_connected_07_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_12_dark = 2130837661;
+			public const int ic_mr_button_connected_08_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_12_light = 2130837662;
+			public const int ic_mr_button_connected_08_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_13_dark = 2130837663;
+			public const int ic_mr_button_connected_09_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_13_light = 2130837664;
+			public const int ic_mr_button_connected_09_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_14_dark = 2130837665;
+			public const int ic_mr_button_connected_10_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_14_light = 2130837666;
+			public const int ic_mr_button_connected_10_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_15_dark = 2130837667;
+			public const int ic_mr_button_connected_11_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_15_light = 2130837668;
+			public const int ic_mr_button_connected_11_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_16_dark = 2130837669;
+			public const int ic_mr_button_connected_12_dark = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_16_light = 2130837670;
+			public const int ic_mr_button_connected_12_light = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_17_dark = 2130837671;
+			public const int ic_mr_button_connected_13_dark = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_17_light = 2130837672;
+			public const int ic_mr_button_connected_13_light = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_18_dark = 2130837673;
+			public const int ic_mr_button_connected_14_dark = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_18_light = 2130837674;
+			public const int ic_mr_button_connected_14_light = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_19_dark = 2130837675;
+			public const int ic_mr_button_connected_15_dark = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_19_light = 2130837676;
+			public const int ic_mr_button_connected_15_light = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_20_dark = 2130837677;
+			public const int ic_mr_button_connected_16_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_20_light = 2130837678;
+			public const int ic_mr_button_connected_16_light = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_21_dark = 2130837679;
+			public const int ic_mr_button_connected_17_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_21_light = 2130837680;
+			public const int ic_mr_button_connected_17_light = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_22_dark = 2130837681;
+			public const int ic_mr_button_connected_18_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_22_light = 2130837682;
+			public const int ic_mr_button_connected_18_light = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connecting_00_dark = 2130837683;
+			public const int ic_mr_button_connected_19_dark = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connecting_00_light = 2130837684;
+			public const int ic_mr_button_connected_19_light = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connecting_01_dark = 2130837685;
+			public const int ic_mr_button_connected_20_dark = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connecting_01_light = 2130837686;
+			public const int ic_mr_button_connected_20_light = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connecting_02_dark = 2130837687;
+			public const int ic_mr_button_connected_21_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connecting_02_light = 2130837688;
+			public const int ic_mr_button_connected_21_light = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connecting_03_dark = 2130837689;
+			public const int ic_mr_button_connected_22_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connecting_03_light = 2130837690;
+			public const int ic_mr_button_connected_22_light = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connecting_04_dark = 2130837691;
+			public const int ic_mr_button_connecting_00_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connecting_04_light = 2130837692;
+			public const int ic_mr_button_connecting_00_light = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connecting_05_dark = 2130837693;
+			public const int ic_mr_button_connecting_01_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connecting_05_light = 2130837694;
+			public const int ic_mr_button_connecting_01_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connecting_06_dark = 2130837695;
+			public const int ic_mr_button_connecting_02_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connecting_06_light = 2130837696;
+			public const int ic_mr_button_connecting_02_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connecting_07_dark = 2130837697;
+			public const int ic_mr_button_connecting_03_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connecting_07_light = 2130837698;
+			public const int ic_mr_button_connecting_03_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connecting_08_dark = 2130837699;
+			public const int ic_mr_button_connecting_04_dark = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connecting_08_light = 2130837700;
+			public const int ic_mr_button_connecting_04_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connecting_09_dark = 2130837701;
+			public const int ic_mr_button_connecting_05_dark = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_09_light = 2130837702;
+			public const int ic_mr_button_connecting_05_light = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_10_dark = 2130837703;
+			public const int ic_mr_button_connecting_06_dark = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_10_light = 2130837704;
+			public const int ic_mr_button_connecting_06_light = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_11_dark = 2130837705;
+			public const int ic_mr_button_connecting_07_dark = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_11_light = 2130837706;
+			public const int ic_mr_button_connecting_07_light = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_12_dark = 2130837707;
+			public const int ic_mr_button_connecting_08_dark = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_12_light = 2130837708;
+			public const int ic_mr_button_connecting_08_light = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_13_dark = 2130837709;
+			public const int ic_mr_button_connecting_09_dark = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_13_light = 2130837710;
+			public const int ic_mr_button_connecting_09_light = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_14_dark = 2130837711;
+			public const int ic_mr_button_connecting_10_dark = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_14_light = 2130837712;
+			public const int ic_mr_button_connecting_10_light = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_15_dark = 2130837713;
+			public const int ic_mr_button_connecting_11_dark = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_15_light = 2130837714;
+			public const int ic_mr_button_connecting_11_light = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_16_dark = 2130837715;
+			public const int ic_mr_button_connecting_12_dark = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_16_light = 2130837716;
+			public const int ic_mr_button_connecting_12_light = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_17_dark = 2130837717;
+			public const int ic_mr_button_connecting_13_dark = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_17_light = 2130837718;
+			public const int ic_mr_button_connecting_13_light = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_18_dark = 2130837719;
+			public const int ic_mr_button_connecting_14_dark = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_18_light = 2130837720;
+			public const int ic_mr_button_connecting_14_light = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_19_dark = 2130837721;
+			public const int ic_mr_button_connecting_15_dark = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_19_light = 2130837722;
+			public const int ic_mr_button_connecting_15_light = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_20_dark = 2130837723;
+			public const int ic_mr_button_connecting_16_dark = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_20_light = 2130837724;
+			public const int ic_mr_button_connecting_16_light = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_21_dark = 2130837725;
+			public const int ic_mr_button_connecting_17_dark = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_21_light = 2130837726;
+			public const int ic_mr_button_connecting_17_light = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_22_dark = 2130837727;
+			public const int ic_mr_button_connecting_18_dark = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_22_light = 2130837728;
+			public const int ic_mr_button_connecting_18_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_disabled_dark = 2130837729;
+			public const int ic_mr_button_connecting_19_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_disabled_light = 2130837730;
+			public const int ic_mr_button_connecting_19_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_disconnected_dark = 2130837731;
+			public const int ic_mr_button_connecting_20_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_disconnected_light = 2130837732;
+			public const int ic_mr_button_connecting_20_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_grey = 2130837733;
+			public const int ic_mr_button_connecting_21_dark = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_vol_type_speaker_dark = 2130837734;
+			public const int ic_mr_button_connecting_21_light = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_vol_type_speaker_group_dark = 2130837735;
+			public const int ic_mr_button_connecting_22_dark = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_vol_type_speaker_group_light = 2130837736;
+			public const int ic_mr_button_connecting_22_light = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_vol_type_speaker_light = 2130837737;
+			public const int ic_mr_button_disabled_dark = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_vol_type_tv_dark = 2130837738;
+			public const int ic_mr_button_disabled_light = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_vol_type_tv_light = 2130837739;
+			public const int ic_mr_button_disconnected_dark = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int mr_button_connected_dark = 2130837740;
+			public const int ic_mr_button_disconnected_light = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int mr_button_connected_light = 2130837741;
+			public const int ic_mr_button_grey = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int mr_button_connecting_dark = 2130837742;
+			public const int ic_plus_blue500_24dp = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int mr_button_connecting_light = 2130837743;
+			public const int ic_plus_grey600_24dp = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int mr_button_dark = 2130837744;
+			public const int ic_plus_yellow200_24dp = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int mr_button_light = 2130837745;
+			public const int ic_send_white_48dp = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int mr_dialog_close_dark = 2130837746;
+			public const int ic_shopping_car_light = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int mr_dialog_close_light = 2130837747;
+			public const int ic_shopping_cart_yellow200 = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int mr_dialog_material_background_dark = 2130837748;
+			public const int ic_vol_type_speaker_dark = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int mr_dialog_material_background_light = 2130837749;
+			public const int ic_vol_type_speaker_group_dark = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int mr_group_collapse = 2130837750;
+			public const int ic_vol_type_speaker_group_light = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int mr_group_expand = 2130837751;
+			public const int ic_vol_type_speaker_light = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int mr_media_pause_dark = 2130837752;
+			public const int ic_vol_type_tv_dark = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int mr_media_pause_light = 2130837753;
+			public const int ic_vol_type_tv_light = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int mr_media_play_dark = 2130837754;
+			public const int image_broken_variant_white = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int mr_media_play_light = 2130837755;
+			public const int mr_button_connected_dark = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int mr_media_stop_dark = 2130837756;
+			public const int mr_button_connected_light = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int mr_media_stop_light = 2130837757;
+			public const int mr_button_connecting_dark = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int mr_vol_type_audiotrack_dark = 2130837758;
+			public const int mr_button_connecting_light = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int mr_vol_type_audiotrack_light = 2130837759;
+			public const int mr_button_dark = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int navigation_empty_icon = 2130837760;
+			public const int mr_button_light = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int notification_action_background = 2130837761;
+			public const int mr_dialog_close_dark = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int notification_bg = 2130837762;
+			public const int mr_dialog_close_light = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int notification_bg_low = 2130837763;
+			public const int mr_dialog_material_background_dark = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int notification_bg_low_normal = 2130837764;
+			public const int mr_dialog_material_background_light = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int notification_bg_low_pressed = 2130837765;
+			public const int mr_group_collapse = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int notification_bg_normal = 2130837766;
+			public const int mr_group_expand = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int notification_bg_normal_pressed = 2130837767;
+			public const int mr_media_pause_dark = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int notification_icon_background = 2130837768;
-			
-			// aapt resource value: 0x7f02010b
-			public const int notification_template_icon_bg = 2130837771;
-			
-			// aapt resource value: 0x7f02010c
-			public const int notification_template_icon_low_bg = 2130837772;
+			public const int mr_media_pause_light = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int notification_tile_bg = 2130837769;
+			public const int mr_media_play_dark = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int notify_panel_notification_icon_bg = 2130837770;
+			public const int mr_media_play_light = 2130837770;
+			
+			// aapt resource value: 0x7f02010b
+			public const int mr_media_stop_dark = 2130837771;
+			
+			// aapt resource value: 0x7f02010c
+			public const int mr_media_stop_light = 2130837772;
+			
+			// aapt resource value: 0x7f02010d
+			public const int mr_vol_type_audiotrack_dark = 2130837773;
+			
+			// aapt resource value: 0x7f02010e
+			public const int mr_vol_type_audiotrack_light = 2130837774;
+			
+			// aapt resource value: 0x7f02010f
+			public const int navigation_empty_icon = 2130837775;
+			
+			// aapt resource value: 0x7f020110
+			public const int notification_action_background = 2130837776;
+			
+			// aapt resource value: 0x7f020111
+			public const int notification_bg = 2130837777;
+			
+			// aapt resource value: 0x7f020112
+			public const int notification_bg_low = 2130837778;
+			
+			// aapt resource value: 0x7f020113
+			public const int notification_bg_low_normal = 2130837779;
+			
+			// aapt resource value: 0x7f020114
+			public const int notification_bg_low_pressed = 2130837780;
+			
+			// aapt resource value: 0x7f020115
+			public const int notification_bg_normal = 2130837781;
+			
+			// aapt resource value: 0x7f020116
+			public const int notification_bg_normal_pressed = 2130837782;
+			
+			// aapt resource value: 0x7f020117
+			public const int notification_icon_background = 2130837783;
+			
+			// aapt resource value: 0x7f020123
+			public const int notification_template_icon_bg = 2130837795;
+			
+			// aapt resource value: 0x7f020124
+			public const int notification_template_icon_low_bg = 2130837796;
+			
+			// aapt resource value: 0x7f020118
+			public const int notification_tile_bg = 2130837784;
+			
+			// aapt resource value: 0x7f020119
+			public const int notify_panel_notification_icon_bg = 2130837785;
+			
+			// aapt resource value: 0x7f02011a
+			public const int photo_white = 2130837786;
+			
+			// aapt resource value: 0x7f02011b
+			public const int product_add_button = 2130837787;
+			
+			// aapt resource value: 0x7f02011c
+			public const int product_add_button_background_disabled = 2130837788;
+			
+			// aapt resource value: 0x7f02011d
+			public const int product_add_button_background_normal = 2130837789;
+			
+			// aapt resource value: 0x7f02011e
+			public const int product_add_button_background_pressed = 2130837790;
+			
+			// aapt resource value: 0x7f02011f
+			public const int product_remove_button = 2130837791;
+			
+			// aapt resource value: 0x7f020120
+			public const int product_remove_button_background_disabled = 2130837792;
+			
+			// aapt resource value: 0x7f020121
+			public const int product_remove_button_background_normal = 2130837793;
+			
+			// aapt resource value: 0x7f020122
+			public const int product_remove_button_background_pressed = 2130837794;
 			
 			static Drawable()
 			{
@@ -2790,41 +5464,41 @@ namespace FastShopping.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f09009e
-			public const int action0 = 2131296414;
+			// aapt resource value: 0x7f0900b3
+			public const int action0 = 2131296435;
 			
-			// aapt resource value: 0x7f090064
-			public const int action_bar = 2131296356;
+			// aapt resource value: 0x7f090072
+			public const int action_bar = 2131296370;
 			
 			// aapt resource value: 0x7f090001
 			public const int action_bar_activity_content = 2131296257;
 			
-			// aapt resource value: 0x7f090063
-			public const int action_bar_container = 2131296355;
+			// aapt resource value: 0x7f090071
+			public const int action_bar_container = 2131296369;
 			
-			// aapt resource value: 0x7f09005f
-			public const int action_bar_root = 2131296351;
+			// aapt resource value: 0x7f09006d
+			public const int action_bar_root = 2131296365;
 			
 			// aapt resource value: 0x7f090002
 			public const int action_bar_spinner = 2131296258;
 			
-			// aapt resource value: 0x7f090042
-			public const int action_bar_subtitle = 2131296322;
+			// aapt resource value: 0x7f090050
+			public const int action_bar_subtitle = 2131296336;
 			
-			// aapt resource value: 0x7f090041
-			public const int action_bar_title = 2131296321;
+			// aapt resource value: 0x7f09004f
+			public const int action_bar_title = 2131296335;
 			
-			// aapt resource value: 0x7f09009b
-			public const int action_container = 2131296411;
+			// aapt resource value: 0x7f0900b0
+			public const int action_container = 2131296432;
 			
-			// aapt resource value: 0x7f090065
-			public const int action_context_bar = 2131296357;
+			// aapt resource value: 0x7f090073
+			public const int action_context_bar = 2131296371;
 			
-			// aapt resource value: 0x7f0900a2
-			public const int action_divider = 2131296418;
+			// aapt resource value: 0x7f0900b7
+			public const int action_divider = 2131296439;
 			
-			// aapt resource value: 0x7f09009c
-			public const int action_image = 2131296412;
+			// aapt resource value: 0x7f0900b1
+			public const int action_image = 2131296433;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -2832,29 +5506,29 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090004
 			public const int action_menu_presenter = 2131296260;
 			
-			// aapt resource value: 0x7f090061
-			public const int action_mode_bar = 2131296353;
+			// aapt resource value: 0x7f09006f
+			public const int action_mode_bar = 2131296367;
 			
-			// aapt resource value: 0x7f090060
-			public const int action_mode_bar_stub = 2131296352;
+			// aapt resource value: 0x7f09006e
+			public const int action_mode_bar_stub = 2131296366;
 			
-			// aapt resource value: 0x7f090043
-			public const int action_mode_close_button = 2131296323;
+			// aapt resource value: 0x7f090051
+			public const int action_mode_close_button = 2131296337;
 			
-			// aapt resource value: 0x7f09009d
-			public const int action_text = 2131296413;
+			// aapt resource value: 0x7f0900b2
+			public const int action_text = 2131296434;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int actions = 2131296427;
+			// aapt resource value: 0x7f0900c0
+			public const int actions = 2131296448;
 			
-			// aapt resource value: 0x7f090044
-			public const int activity_chooser_view_content = 2131296324;
+			// aapt resource value: 0x7f090052
+			public const int activity_chooser_view_content = 2131296338;
 			
 			// aapt resource value: 0x7f09001e
 			public const int add = 2131296286;
 			
-			// aapt resource value: 0x7f090058
-			public const int alertTitle = 2131296344;
+			// aapt resource value: 0x7f090066
+			public const int alertTitle = 2131296358;
 			
 			// aapt resource value: 0x7f09003d
 			public const int all = 2131296317;
@@ -2862,8 +5536,14 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090023
 			public const int always = 2131296291;
 			
+			// aapt resource value: 0x7f090082
+			public const int appbar = 2131296386;
+			
 			// aapt resource value: 0x7f09002f
 			public const int auto = 2131296303;
+			
+			// aapt resource value: 0x7f090049
+			public const int barrier = 2131296329;
 			
 			// aapt resource value: 0x7f090020
 			public const int beginning = 2131296288;
@@ -2871,11 +5551,14 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090028
 			public const int bottom = 2131296296;
 			
-			// aapt resource value: 0x7f09004b
-			public const int buttonPanel = 2131296331;
+			// aapt resource value: 0x7f090059
+			public const int buttonPanel = 2131296345;
 			
-			// aapt resource value: 0x7f09009f
-			public const int cancel_action = 2131296415;
+			// aapt resource value: 0x7f0900b4
+			public const int cancel_action = 2131296436;
+			
+			// aapt resource value: 0x7f0900d2
+			public const int cardView = 2131296466;
 			
 			// aapt resource value: 0x7f090030
 			public const int center = 2131296304;
@@ -2886,11 +5569,20 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090032
 			public const int center_vertical = 2131296306;
 			
-			// aapt resource value: 0x7f09005b
-			public const int checkbox = 2131296347;
+			// aapt resource value: 0x7f09004a
+			public const int chains = 2131296330;
 			
-			// aapt resource value: 0x7f0900a7
-			public const int chronometer = 2131296423;
+			// aapt resource value: 0x7f090069
+			public const int checkbox = 2131296361;
+			
+			// aapt resource value: 0x7f0900bc
+			public const int chronometer = 2131296444;
+			
+			// aapt resource value: 0x7f0900ca
+			public const int cl1 = 2131296458;
+			
+			// aapt resource value: 0x7f0900d4
+			public const int clQtt = 2131296468;
 			
 			// aapt resource value: 0x7f090039
 			public const int clip_horizontal = 2131296313;
@@ -2901,53 +5593,83 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090024
 			public const int collapseActionView = 2131296292;
 			
-			// aapt resource value: 0x7f090075
-			public const int container = 2131296373;
+			// aapt resource value: 0x7f090083
+			public const int collapsingToolBar = 2131296387;
 			
-			// aapt resource value: 0x7f09004e
-			public const int contentPanel = 2131296334;
+			// aapt resource value: 0x7f09008a
+			public const int container = 2131296394;
 			
-			// aapt resource value: 0x7f090076
-			public const int coordinator = 2131296374;
+			// aapt resource value: 0x7f09005c
+			public const int contentPanel = 2131296348;
 			
-			// aapt resource value: 0x7f090055
-			public const int custom = 2131296341;
+			// aapt resource value: 0x7f09008b
+			public const int coordinator = 2131296395;
 			
-			// aapt resource value: 0x7f090054
-			public const int customPanel = 2131296340;
+			// aapt resource value: 0x7f090084
+			public const int coordinatorImageView = 2131296388;
+			
+			// aapt resource value: 0x7f090081
+			public const int coordinatorLayout = 2131296385;
+			
+			// aapt resource value: 0x7f0900c7
+			public const int coordinator_layout = 2131296455;
+			
+			// aapt resource value: 0x7f090063
+			public const int custom = 2131296355;
 			
 			// aapt resource value: 0x7f090062
-			public const int decor_content_parent = 2131296354;
+			public const int customPanel = 2131296354;
 			
-			// aapt resource value: 0x7f090047
-			public const int default_activity_button = 2131296327;
+			// aapt resource value: 0x7f0900c8
+			public const int customers_list_appbar = 2131296456;
 			
-			// aapt resource value: 0x7f090078
-			public const int design_bottom_sheet = 2131296376;
+			// aapt resource value: 0x7f090070
+			public const int decor_content_parent = 2131296368;
 			
-			// aapt resource value: 0x7f09007f
-			public const int design_menu_item_action_area = 2131296383;
+			// aapt resource value: 0x7f090055
+			public const int default_activity_button = 2131296341;
 			
-			// aapt resource value: 0x7f09007e
-			public const int design_menu_item_action_area_stub = 2131296382;
+			// aapt resource value: 0x7f09008d
+			public const int design_bottom_sheet = 2131296397;
 			
-			// aapt resource value: 0x7f09007d
-			public const int design_menu_item_text = 2131296381;
+			// aapt resource value: 0x7f090094
+			public const int design_menu_item_action_area = 2131296404;
 			
-			// aapt resource value: 0x7f09007c
-			public const int design_navigation_view = 2131296380;
+			// aapt resource value: 0x7f090093
+			public const int design_menu_item_action_area_stub = 2131296403;
+			
+			// aapt resource value: 0x7f090092
+			public const int design_menu_item_text = 2131296402;
+			
+			// aapt resource value: 0x7f090091
+			public const int design_navigation_view = 2131296401;
+			
+			// aapt resource value: 0x7f09004b
+			public const int dimensions = 2131296331;
+			
+			// aapt resource value: 0x7f09004c
+			public const int direct = 2131296332;
 			
 			// aapt resource value: 0x7f090012
 			public const int disableHome = 2131296274;
 			
-			// aapt resource value: 0x7f090066
-			public const int edit_query = 2131296358;
+			// aapt resource value: 0x7f0900db
+			public const int discount = 2131296475;
+			
+			// aapt resource value: 0x7f0900cd
+			public const int drawer_layout = 2131296461;
+			
+			// aapt resource value: 0x7f0900d0
+			public const int drawer_list = 2131296464;
+			
+			// aapt resource value: 0x7f090074
+			public const int edit_query = 2131296372;
 			
 			// aapt resource value: 0x7f090021
 			public const int end = 2131296289;
 			
-			// aapt resource value: 0x7f0900b1
-			public const int end_padder = 2131296433;
+			// aapt resource value: 0x7f0900c6
+			public const int end_padder = 2131296454;
 			
 			// aapt resource value: 0x7f09002a
 			public const int enterAlways = 2131296298;
@@ -2958,11 +5680,14 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f09002c
 			public const int exitUntilCollapsed = 2131296300;
 			
-			// aapt resource value: 0x7f090045
-			public const int expand_activities_button = 2131296325;
+			// aapt resource value: 0x7f090053
+			public const int expand_activities_button = 2131296339;
 			
-			// aapt resource value: 0x7f09005a
-			public const int expanded_menu = 2131296346;
+			// aapt resource value: 0x7f090068
+			public const int expanded_menu = 2131296360;
+			
+			// aapt resource value: 0x7f0900d3
+			public const int favorite = 2131296467;
 			
 			// aapt resource value: 0x7f09003b
 			public const int fill = 2131296315;
@@ -2973,8 +5698,29 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090033
 			public const int fill_vertical = 2131296307;
 			
+			// aapt resource value: 0x7f0900df
+			public const int filter = 2131296479;
+			
 			// aapt resource value: 0x7f09003f
 			public const int @fixed = 2131296319;
+			
+			// aapt resource value: 0x7f0900ce
+			public const int fl = 2131296462;
+			
+			// aapt resource value: 0x7f090087
+			public const int floatingActionButton = 2131296391;
+			
+			// aapt resource value: 0x7f090086
+			public const int fragmentContainer = 2131296390;
+			
+			// aapt resource value: 0x7f0900cf
+			public const int fragment_container = 2131296463;
+			
+			// aapt resource value: 0x7f0900d9
+			public const int gdl = 2131296473;
+			
+			// aapt resource value: 0x7f090041
+			public const int gone = 2131296321;
 			
 			// aapt resource value: 0x7f090005
 			public const int home = 2131296261;
@@ -2982,47 +5728,53 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090013
 			public const int homeAsUp = 2131296275;
 			
-			// aapt resource value: 0x7f090049
-			public const int icon = 2131296329;
+			// aapt resource value: 0x7f090057
+			public const int icon = 2131296343;
 			
-			// aapt resource value: 0x7f0900ac
-			public const int icon_group = 2131296428;
+			// aapt resource value: 0x7f0900c1
+			public const int icon_group = 2131296449;
 			
 			// aapt resource value: 0x7f090025
 			public const int ifRoom = 2131296293;
 			
-			// aapt resource value: 0x7f090046
-			public const int image = 2131296326;
+			// aapt resource value: 0x7f090054
+			public const int image = 2131296340;
 			
-			// aapt resource value: 0x7f0900a8
-			public const int info = 2131296424;
+			// aapt resource value: 0x7f0900da
+			public const int img = 2131296474;
+			
+			// aapt resource value: 0x7f0900bd
+			public const int info = 2131296445;
+			
+			// aapt resource value: 0x7f090042
+			public const int invisible = 2131296322;
 			
 			// aapt resource value: 0x7f090000
 			public const int item_touch_helper_previous_elevation = 2131296256;
 			
-			// aapt resource value: 0x7f090074
-			public const int largeLabel = 2131296372;
+			// aapt resource value: 0x7f090089
+			public const int largeLabel = 2131296393;
 			
 			// aapt resource value: 0x7f090034
 			public const int left = 2131296308;
 			
-			// aapt resource value: 0x7f0900ad
-			public const int line1 = 2131296429;
+			// aapt resource value: 0x7f0900c2
+			public const int line1 = 2131296450;
 			
-			// aapt resource value: 0x7f0900af
-			public const int line3 = 2131296431;
+			// aapt resource value: 0x7f0900c4
+			public const int line3 = 2131296452;
 			
 			// aapt resource value: 0x7f09000f
 			public const int listMode = 2131296271;
 			
-			// aapt resource value: 0x7f090048
-			public const int list_item = 2131296328;
+			// aapt resource value: 0x7f090056
+			public const int list_item = 2131296342;
 			
-			// aapt resource value: 0x7f0900b5
-			public const int masked = 2131296437;
+			// aapt resource value: 0x7f0900de
+			public const int masked = 2131296478;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int media_actions = 2131296417;
+			// aapt resource value: 0x7f0900b6
+			public const int media_actions = 2131296438;
 			
 			// aapt resource value: 0x7f090022
 			public const int middle = 2131296290;
@@ -3030,86 +5782,95 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f09003e
 			public const int mini = 2131296318;
 			
-			// aapt resource value: 0x7f09008d
-			public const int mr_art = 2131296397;
-			
-			// aapt resource value: 0x7f090082
-			public const int mr_chooser_list = 2131296386;
-			
-			// aapt resource value: 0x7f090085
-			public const int mr_chooser_route_desc = 2131296389;
-			
-			// aapt resource value: 0x7f090083
-			public const int mr_chooser_route_icon = 2131296387;
-			
-			// aapt resource value: 0x7f090084
-			public const int mr_chooser_route_name = 2131296388;
-			
-			// aapt resource value: 0x7f090081
-			public const int mr_chooser_title = 2131296385;
-			
-			// aapt resource value: 0x7f09008a
-			public const int mr_close = 2131296394;
-			
-			// aapt resource value: 0x7f090090
-			public const int mr_control_divider = 2131296400;
-			
-			// aapt resource value: 0x7f090096
-			public const int mr_control_playback_ctrl = 2131296406;
-			
-			// aapt resource value: 0x7f090099
-			public const int mr_control_subtitle = 2131296409;
-			
-			// aapt resource value: 0x7f090098
-			public const int mr_control_title = 2131296408;
+			// aapt resource value: 0x7f0900a2
+			public const int mr_art = 2131296418;
 			
 			// aapt resource value: 0x7f090097
-			public const int mr_control_title_container = 2131296407;
-			
-			// aapt resource value: 0x7f09008b
-			public const int mr_custom_control = 2131296395;
-			
-			// aapt resource value: 0x7f09008c
-			public const int mr_default_control = 2131296396;
-			
-			// aapt resource value: 0x7f090087
-			public const int mr_dialog_area = 2131296391;
-			
-			// aapt resource value: 0x7f090086
-			public const int mr_expandable_area = 2131296390;
+			public const int mr_chooser_list = 2131296407;
 			
 			// aapt resource value: 0x7f09009a
-			public const int mr_group_expand_collapse = 2131296410;
+			public const int mr_chooser_route_desc = 2131296410;
 			
-			// aapt resource value: 0x7f09008e
-			public const int mr_media_main_control = 2131296398;
+			// aapt resource value: 0x7f090098
+			public const int mr_chooser_route_icon = 2131296408;
 			
-			// aapt resource value: 0x7f090089
-			public const int mr_name = 2131296393;
+			// aapt resource value: 0x7f090099
+			public const int mr_chooser_route_name = 2131296409;
 			
-			// aapt resource value: 0x7f09008f
-			public const int mr_playback_control = 2131296399;
+			// aapt resource value: 0x7f090096
+			public const int mr_chooser_title = 2131296406;
 			
-			// aapt resource value: 0x7f090088
-			public const int mr_title_bar = 2131296392;
+			// aapt resource value: 0x7f09009f
+			public const int mr_close = 2131296415;
 			
-			// aapt resource value: 0x7f090091
-			public const int mr_volume_control = 2131296401;
+			// aapt resource value: 0x7f0900a5
+			public const int mr_control_divider = 2131296421;
 			
-			// aapt resource value: 0x7f090092
-			public const int mr_volume_group_list = 2131296402;
+			// aapt resource value: 0x7f0900ab
+			public const int mr_control_playback_ctrl = 2131296427;
 			
-			// aapt resource value: 0x7f090094
-			public const int mr_volume_item_icon = 2131296404;
+			// aapt resource value: 0x7f0900ae
+			public const int mr_control_subtitle = 2131296430;
 			
-			// aapt resource value: 0x7f090095
-			public const int mr_volume_slider = 2131296405;
+			// aapt resource value: 0x7f0900ad
+			public const int mr_control_title = 2131296429;
+			
+			// aapt resource value: 0x7f0900ac
+			public const int mr_control_title_container = 2131296428;
+			
+			// aapt resource value: 0x7f0900a0
+			public const int mr_custom_control = 2131296416;
+			
+			// aapt resource value: 0x7f0900a1
+			public const int mr_default_control = 2131296417;
+			
+			// aapt resource value: 0x7f09009c
+			public const int mr_dialog_area = 2131296412;
+			
+			// aapt resource value: 0x7f09009b
+			public const int mr_expandable_area = 2131296411;
+			
+			// aapt resource value: 0x7f0900af
+			public const int mr_group_expand_collapse = 2131296431;
+			
+			// aapt resource value: 0x7f0900a3
+			public const int mr_media_main_control = 2131296419;
+			
+			// aapt resource value: 0x7f09009e
+			public const int mr_name = 2131296414;
+			
+			// aapt resource value: 0x7f0900a4
+			public const int mr_playback_control = 2131296420;
+			
+			// aapt resource value: 0x7f09009d
+			public const int mr_title_bar = 2131296413;
+			
+			// aapt resource value: 0x7f0900a6
+			public const int mr_volume_control = 2131296422;
+			
+			// aapt resource value: 0x7f0900a7
+			public const int mr_volume_group_list = 2131296423;
+			
+			// aapt resource value: 0x7f0900a9
+			public const int mr_volume_item_icon = 2131296425;
+			
+			// aapt resource value: 0x7f0900aa
+			public const int mr_volume_slider = 2131296426;
 			
 			// aapt resource value: 0x7f090019
 			public const int multiply = 2131296281;
 			
-			// aapt resource value: 0x7f09007b
-			public const int navigation_header_container = 2131296379;
+			// aapt resource value: 0x7f090085
+			public const int myToolBar = 2131296389;
+			
+			// aapt resource value: 0x7f0900d8
+			public const int name = 2131296472;
+			
+			// aapt resource value: 0x7f0900e0
+			public const int nav_customers = 2131296480;
+			
+			// aapt resource value: 0x7f090090
+			public const int navigation_header_container = 2131296400;
 			
 			// aapt resource value: 0x7f090026
 			public const int never = 2131296294;
@@ -3120,23 +5881,35 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090010
 			public const int normal = 2131296272;
 			
-			// aapt resource value: 0x7f0900aa
-			public const int notification_background = 2131296426;
+			// aapt resource value: 0x7f0900bf
+			public const int notification_background = 2131296447;
 			
-			// aapt resource value: 0x7f0900a4
-			public const int notification_main_column = 2131296420;
+			// aapt resource value: 0x7f0900b9
+			public const int notification_main_column = 2131296441;
 			
-			// aapt resource value: 0x7f0900a3
-			public const int notification_main_column_container = 2131296419;
+			// aapt resource value: 0x7f0900b8
+			public const int notification_main_column_container = 2131296440;
+			
+			// aapt resource value: 0x7f090047
+			public const int packed = 2131296327;
 			
 			// aapt resource value: 0x7f090037
 			public const int parallax = 2131296311;
 			
-			// aapt resource value: 0x7f09004d
-			public const int parentPanel = 2131296333;
+			// aapt resource value: 0x7f090043
+			public const int parent = 2131296323;
+			
+			// aapt resource value: 0x7f09005b
+			public const int parentPanel = 2131296347;
+			
+			// aapt resource value: 0x7f090044
+			public const int percent = 2131296324;
 			
 			// aapt resource value: 0x7f090038
 			public const int pin = 2131296312;
+			
+			// aapt resource value: 0x7f0900dc
+			public const int price = 2131296476;
 			
 			// aapt resource value: 0x7f090006
 			public const int progress_circular = 2131296262;
@@ -3144,17 +5917,32 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090007
 			public const int progress_horizontal = 2131296263;
 			
-			// aapt resource value: 0x7f09005d
-			public const int radio = 2131296349;
+			// aapt resource value: 0x7f0900cb
+			public const int progressbar = 2131296459;
+			
+			// aapt resource value: 0x7f0900d1
+			public const int promotion = 2131296465;
+			
+			// aapt resource value: 0x7f0900d6
+			public const int quantity = 2131296470;
+			
+			// aapt resource value: 0x7f09006b
+			public const int radio = 2131296363;
+			
+			// aapt resource value: 0x7f0900cc
+			public const int recyclerView = 2131296460;
+			
+			// aapt resource value: 0x7f0900d5
+			public const int remove = 2131296469;
 			
 			// aapt resource value: 0x7f090035
 			public const int right = 2131296309;
 			
-			// aapt resource value: 0x7f0900a9
-			public const int right_icon = 2131296425;
+			// aapt resource value: 0x7f0900be
+			public const int right_icon = 2131296446;
 			
-			// aapt resource value: 0x7f0900a5
-			public const int right_side = 2131296421;
+			// aapt resource value: 0x7f0900ba
+			public const int right_side = 2131296442;
 			
 			// aapt resource value: 0x7f09001a
 			public const int screen = 2131296282;
@@ -3162,53 +5950,53 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f09002d
 			public const int scroll = 2131296301;
 			
-			// aapt resource value: 0x7f090053
-			public const int scrollIndicatorDown = 2131296339;
+			// aapt resource value: 0x7f090061
+			public const int scrollIndicatorDown = 2131296353;
 			
-			// aapt resource value: 0x7f09004f
-			public const int scrollIndicatorUp = 2131296335;
+			// aapt resource value: 0x7f09005d
+			public const int scrollIndicatorUp = 2131296349;
 			
-			// aapt resource value: 0x7f090050
-			public const int scrollView = 2131296336;
+			// aapt resource value: 0x7f09005e
+			public const int scrollView = 2131296350;
 			
 			// aapt resource value: 0x7f090040
 			public const int scrollable = 2131296320;
 			
-			// aapt resource value: 0x7f090068
-			public const int search_badge = 2131296360;
+			// aapt resource value: 0x7f090076
+			public const int search_badge = 2131296374;
 			
-			// aapt resource value: 0x7f090067
-			public const int search_bar = 2131296359;
+			// aapt resource value: 0x7f090075
+			public const int search_bar = 2131296373;
 			
-			// aapt resource value: 0x7f090069
-			public const int search_button = 2131296361;
+			// aapt resource value: 0x7f090077
+			public const int search_button = 2131296375;
 			
-			// aapt resource value: 0x7f09006e
-			public const int search_close_btn = 2131296366;
+			// aapt resource value: 0x7f09007c
+			public const int search_close_btn = 2131296380;
+			
+			// aapt resource value: 0x7f090078
+			public const int search_edit_frame = 2131296376;
+			
+			// aapt resource value: 0x7f09007e
+			public const int search_go_btn = 2131296382;
+			
+			// aapt resource value: 0x7f090079
+			public const int search_mag_icon = 2131296377;
+			
+			// aapt resource value: 0x7f09007a
+			public const int search_plate = 2131296378;
+			
+			// aapt resource value: 0x7f09007b
+			public const int search_src_text = 2131296379;
+			
+			// aapt resource value: 0x7f09007f
+			public const int search_voice_btn = 2131296383;
+			
+			// aapt resource value: 0x7f090080
+			public const int select_dialog_listview = 2131296384;
 			
 			// aapt resource value: 0x7f09006a
-			public const int search_edit_frame = 2131296362;
-			
-			// aapt resource value: 0x7f090070
-			public const int search_go_btn = 2131296368;
-			
-			// aapt resource value: 0x7f09006b
-			public const int search_mag_icon = 2131296363;
-			
-			// aapt resource value: 0x7f09006c
-			public const int search_plate = 2131296364;
-			
-			// aapt resource value: 0x7f09006d
-			public const int search_src_text = 2131296365;
-			
-			// aapt resource value: 0x7f090071
-			public const int search_voice_btn = 2131296369;
-			
-			// aapt resource value: 0x7f090072
-			public const int select_dialog_listview = 2131296370;
-			
-			// aapt resource value: 0x7f09005c
-			public const int shortcut = 2131296348;
+			public const int shortcut = 2131296362;
 			
 			// aapt resource value: 0x7f090015
 			public const int showCustom = 2131296277;
@@ -3219,26 +6007,32 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090017
 			public const int showTitle = 2131296279;
 			
-			// aapt resource value: 0x7f0900b2
-			public const int sliding_tabs = 2131296434;
+			// aapt resource value: 0x7f0900dd
+			public const int sliding_tabs = 2131296477;
 			
-			// aapt resource value: 0x7f090073
-			public const int smallLabel = 2131296371;
+			// aapt resource value: 0x7f090088
+			public const int smallLabel = 2131296392;
 			
-			// aapt resource value: 0x7f09007a
-			public const int snackbar_action = 2131296378;
+			// aapt resource value: 0x7f09008f
+			public const int snackbar_action = 2131296399;
 			
-			// aapt resource value: 0x7f090079
-			public const int snackbar_text = 2131296377;
+			// aapt resource value: 0x7f09008e
+			public const int snackbar_text = 2131296398;
 			
 			// aapt resource value: 0x7f09002e
 			public const int snap = 2131296302;
 			
-			// aapt resource value: 0x7f09004c
-			public const int spacer = 2131296332;
+			// aapt resource value: 0x7f09005a
+			public const int spacer = 2131296346;
 			
 			// aapt resource value: 0x7f090008
 			public const int split_action_bar = 2131296264;
+			
+			// aapt resource value: 0x7f090045
+			public const int spread = 2131296325;
+			
+			// aapt resource value: 0x7f090048
+			public const int spread_inside = 2131296328;
 			
 			// aapt resource value: 0x7f09001b
 			public const int src_atop = 2131296283;
@@ -3249,35 +6043,38 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f09001d
 			public const int src_over = 2131296285;
 			
+			// aapt resource value: 0x7f09004d
+			public const int standard = 2131296333;
+			
 			// aapt resource value: 0x7f090036
 			public const int start = 2131296310;
 			
-			// aapt resource value: 0x7f0900a0
-			public const int status_bar_latest_event_content = 2131296416;
+			// aapt resource value: 0x7f0900b5
+			public const int status_bar_latest_event_content = 2131296437;
 			
-			// aapt resource value: 0x7f09005e
-			public const int submenuarrow = 2131296350;
+			// aapt resource value: 0x7f09006c
+			public const int submenuarrow = 2131296364;
 			
-			// aapt resource value: 0x7f09006f
-			public const int submit_area = 2131296367;
+			// aapt resource value: 0x7f09007d
+			public const int submit_area = 2131296381;
 			
 			// aapt resource value: 0x7f090011
 			public const int tabMode = 2131296273;
 			
-			// aapt resource value: 0x7f0900b0
-			public const int text = 2131296432;
+			// aapt resource value: 0x7f0900c5
+			public const int text = 2131296453;
 			
-			// aapt resource value: 0x7f0900ae
-			public const int text2 = 2131296430;
+			// aapt resource value: 0x7f0900c3
+			public const int text2 = 2131296451;
 			
-			// aapt resource value: 0x7f090052
-			public const int textSpacerNoButtons = 2131296338;
+			// aapt resource value: 0x7f090060
+			public const int textSpacerNoButtons = 2131296352;
 			
-			// aapt resource value: 0x7f090051
-			public const int textSpacerNoTitle = 2131296337;
+			// aapt resource value: 0x7f09005f
+			public const int textSpacerNoTitle = 2131296351;
 			
-			// aapt resource value: 0x7f090080
-			public const int text_input_password_toggle = 2131296384;
+			// aapt resource value: 0x7f090095
+			public const int text_input_password_toggle = 2131296405;
 			
 			// aapt resource value: 0x7f09000c
 			public const int textinput_counter = 2131296268;
@@ -3285,35 +6082,38 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f09000d
 			public const int textinput_error = 2131296269;
 			
-			// aapt resource value: 0x7f0900a6
-			public const int time = 2131296422;
+			// aapt resource value: 0x7f0900bb
+			public const int time = 2131296443;
 			
-			// aapt resource value: 0x7f09004a
-			public const int title = 2131296330;
+			// aapt resource value: 0x7f090058
+			public const int title = 2131296344;
 			
-			// aapt resource value: 0x7f090059
-			public const int titleDividerNoCustom = 2131296345;
+			// aapt resource value: 0x7f090067
+			public const int titleDividerNoCustom = 2131296359;
 			
-			// aapt resource value: 0x7f090057
-			public const int title_template = 2131296343;
+			// aapt resource value: 0x7f090065
+			public const int title_template = 2131296357;
 			
-			// aapt resource value: 0x7f0900b3
-			public const int toolbar = 2131296435;
+			// aapt resource value: 0x7f0900c9
+			public const int toolbar = 2131296457;
 			
 			// aapt resource value: 0x7f090029
 			public const int top = 2131296297;
 			
-			// aapt resource value: 0x7f090056
-			public const int topPanel = 2131296342;
+			// aapt resource value: 0x7f090064
+			public const int topPanel = 2131296356;
 			
-			// aapt resource value: 0x7f090077
-			public const int touch_outside = 2131296375;
+			// aapt resource value: 0x7f09008c
+			public const int touch_outside = 2131296396;
 			
 			// aapt resource value: 0x7f09000a
 			public const int transition_current_scene = 2131296266;
 			
 			// aapt resource value: 0x7f09000b
 			public const int transition_scene_layoutid_cache = 2131296267;
+			
+			// aapt resource value: 0x7f0900d7
+			public const int unity = 2131296471;
 			
 			// aapt resource value: 0x7f090009
 			public const int up = 2131296265;
@@ -3324,14 +6124,17 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f09000e
 			public const int view_offset_helper = 2131296270;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int visible = 2131296436;
+			// aapt resource value: 0x7f09004e
+			public const int visible = 2131296334;
 			
-			// aapt resource value: 0x7f090093
-			public const int volume_item_container = 2131296403;
+			// aapt resource value: 0x7f0900a8
+			public const int volume_item_container = 2131296424;
 			
 			// aapt resource value: 0x7f090027
 			public const int withText = 2131296295;
+			
+			// aapt resource value: 0x7f090046
+			public const int wrap = 2131296326;
 			
 			// aapt resource value: 0x7f09001f
 			public const int wrap_content = 2131296287;
@@ -3499,127 +6302,145 @@ namespace FastShopping.Droid
 			public const int abc_select_dialog_material = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int design_bottom_navigation_item = 2130968603;
+			public const int category_filter_item = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int design_bottom_sheet_dialog = 2130968604;
+			public const int Coordinator = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int design_layout_snackbar = 2130968605;
+			public const int design_bottom_navigation_item = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int design_layout_snackbar_include = 2130968606;
+			public const int design_bottom_sheet_dialog = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int design_layout_tab_icon = 2130968607;
+			public const int design_layout_snackbar = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int design_layout_tab_text = 2130968608;
+			public const int design_layout_snackbar_include = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_menu_item_action_area = 2130968609;
+			public const int design_layout_tab_icon = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int design_navigation_item = 2130968610;
+			public const int design_layout_tab_text = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int design_navigation_item_header = 2130968611;
+			public const int design_menu_item_action_area = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int design_navigation_item_separator = 2130968612;
+			public const int design_navigation_item = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int design_navigation_item_subheader = 2130968613;
+			public const int design_navigation_item_header = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int design_navigation_menu = 2130968614;
+			public const int design_navigation_item_separator = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_navigation_menu_item = 2130968615;
+			public const int design_navigation_item_subheader = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int design_text_input_password_icon = 2130968616;
+			public const int design_navigation_menu = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int mr_chooser_dialog = 2130968617;
+			public const int design_navigation_menu_item = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int mr_chooser_list_item = 2130968618;
+			public const int design_text_input_password_icon = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int mr_controller_material_dialog_b = 2130968619;
+			public const int loading = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int mr_controller_volume_item = 2130968620;
+			public const int mr_chooser_dialog = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int mr_playback_control = 2130968621;
+			public const int mr_chooser_list_item = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int mr_volume_control = 2130968622;
+			public const int mr_controller_material_dialog_b = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_action = 2130968623;
+			public const int mr_controller_volume_item = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_action_tombstone = 2130968624;
+			public const int mr_playback_control = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_media_action = 2130968625;
+			public const int mr_volume_control = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_media_cancel_action = 2130968626;
+			public const int notification_action = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_big_media = 2130968627;
+			public const int notification_action_tombstone = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_big_media_custom = 2130968628;
+			public const int notification_media_action = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_big_media_narrow = 2130968629;
+			public const int notification_media_cancel_action = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_big_media_narrow_custom = 2130968630;
+			public const int notification_template_big_media = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_custom_big = 2130968631;
+			public const int notification_template_big_media_custom = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_icon_group = 2130968632;
+			public const int notification_template_big_media_narrow = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_lines_media = 2130968633;
+			public const int notification_template_big_media_narrow_custom = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_template_media = 2130968634;
+			public const int notification_template_custom_big = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int notification_template_media_custom = 2130968635;
+			public const int notification_template_icon_group = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int notification_template_part_chronometer = 2130968636;
+			public const int notification_template_lines_media = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int notification_template_part_time = 2130968637;
+			public const int notification_template_media = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int select_dialog_item_material = 2130968638;
+			public const int notification_template_media_custom = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int select_dialog_multichoice_material = 2130968639;
+			public const int notification_template_part_chronometer = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int select_dialog_singlechoice_material = 2130968640;
+			public const int notification_template_part_time = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int support_simple_spinner_dropdown_item = 2130968641;
+			public const int product_catalog = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int Tabbar = 2130968642;
+			public const int product_catalog_container = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int Toolbar = 2130968643;
+			public const int product_catalog_item = 2130968643;
+			
+			// aapt resource value: 0x7f040044
+			public const int select_dialog_item_material = 2130968644;
+			
+			// aapt resource value: 0x7f040045
+			public const int select_dialog_multichoice_material = 2130968645;
+			
+			// aapt resource value: 0x7f040046
+			public const int select_dialog_singlechoice_material = 2130968646;
+			
+			// aapt resource value: 0x7f040047
+			public const int support_simple_spinner_dropdown_item = 2130968647;
+			
+			// aapt resource value: 0x7f040048
+			public const int Tabbar = 2130968648;
+			
+			// aapt resource value: 0x7f040049
+			public const int Toolbar = 2130968649;
 			
 			static Layout()
 			{
@@ -3627,6 +6448,25 @@ namespace FastShopping.Droid
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0f0000
+			public const int catalog = 2131689472;
+			
+			// aapt resource value: 0x7f0f0001
+			public const int catalog_drawer = 2131689473;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
@@ -3749,8 +6589,14 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f0a0027
 			public const int abc_toolbar_collapse_description = 2131361831;
 			
+			// aapt resource value: 0x7f0a0043
+			public const int all_categories_menu_item = 2131361859;
+			
+			// aapt resource value: 0x7f0a003e
+			public const int app_name = 2131361854;
+			
 			// aapt resource value: 0x7f0a003f
-			public const int app_name = 2131361855;
+			public const int app_short_desc = 2131361855;
 			
 			// aapt resource value: 0x7f0a0036
 			public const int appbar_scrolling_view_behavior = 2131361846;
@@ -3761,8 +6607,11 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f0a0038
 			public const int character_counter_pattern = 2131361848;
 			
-			// aapt resource value: 0x7f0a003e
-			public const int hello = 2131361854;
+			// aapt resource value: 0x7f0a0040
+			public const int hello_message = 2131361856;
+			
+			// aapt resource value: 0x7f0a0042
+			public const int menu_filter = 2131361858;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int mr_button_content_description = 2131361792;
@@ -3844,6 +6693,9 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f0a0028
 			public const int search_menu_title = 2131361832;
+			
+			// aapt resource value: 0x7f0a0041
+			public const int shopping_finished_message = 2131361857;
 			
 			// aapt resource value: 0x7f0a0029
 			public const int status_bar_notification_info_overflow = 2131361833;
@@ -4400,6 +7252,15 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0x7f0c0031
 			public const int Platform_Widget_AppCompat_Spinner = 2131492913;
+			
+			// aapt resource value: 0x7f0c018e
+			public const int ProductAddButtonStyle = 2131493262;
+			
+			// aapt resource value: 0x7f0c018c
+			public const int ProductEditionButtonStyle = 2131493260;
+			
+			// aapt resource value: 0x7f0c018d
+			public const int ProductRemoveButtonStyle = 2131493261;
 			
 			// aapt resource value: 0x7f0c0040
 			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131492928;
@@ -6036,6 +8897,548 @@ namespace FastShopping.Droid
 			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
 			
+			public static int[] ConstraintLayout_Layout = new int[] {
+					16842948,
+					16843039,
+					16843040,
+					16843071,
+					16843072,
+					2130772309,
+					2130772310,
+					2130772311,
+					2130772312,
+					2130772313,
+					2130772316,
+					2130772317,
+					2130772318,
+					2130772319,
+					2130772320,
+					2130772321,
+					2130772322,
+					2130772323,
+					2130772324,
+					2130772325,
+					2130772326,
+					2130772327,
+					2130772328,
+					2130772329,
+					2130772330,
+					2130772331,
+					2130772332,
+					2130772333,
+					2130772334,
+					2130772335,
+					2130772336,
+					2130772337,
+					2130772338,
+					2130772339,
+					2130772340,
+					2130772341,
+					2130772342,
+					2130772343,
+					2130772344,
+					2130772345,
+					2130772346,
+					2130772347,
+					2130772348,
+					2130772349,
+					2130772350,
+					2130772351,
+					2130772352,
+					2130772353,
+					2130772354,
+					2130772355,
+					2130772356,
+					2130772357,
+					2130772358,
+					2130772359,
+					2130772360,
+					2130772361,
+					2130772362,
+					2130772363,
+					2130772364,
+					2130772365};
+			
+			// aapt resource value: 2
+			public const int ConstraintLayout_Layout_android_maxHeight = 2;
+			
+			// aapt resource value: 1
+			public const int ConstraintLayout_Layout_android_maxWidth = 1;
+			
+			// aapt resource value: 4
+			public const int ConstraintLayout_Layout_android_minHeight = 4;
+			
+			// aapt resource value: 3
+			public const int ConstraintLayout_Layout_android_minWidth = 3;
+			
+			// aapt resource value: 0
+			public const int ConstraintLayout_Layout_android_orientation = 0;
+			
+			// aapt resource value: 5
+			public const int ConstraintLayout_Layout_barrierAllowsGoneWidgets = 5;
+			
+			// aapt resource value: 6
+			public const int ConstraintLayout_Layout_barrierDirection = 6;
+			
+			// aapt resource value: 7
+			public const int ConstraintLayout_Layout_chainUseRtl = 7;
+			
+			// aapt resource value: 8
+			public const int ConstraintLayout_Layout_constraintSet = 8;
+			
+			// aapt resource value: 9
+			public const int ConstraintLayout_Layout_constraint_referenced_ids = 9;
+			
+			// aapt resource value: 10
+			public const int ConstraintLayout_Layout_layout_constrainedHeight = 10;
+			
+			// aapt resource value: 11
+			public const int ConstraintLayout_Layout_layout_constrainedWidth = 11;
+			
+			// aapt resource value: 12
+			public const int ConstraintLayout_Layout_layout_constraintBaseline_creator = 12;
+			
+			// aapt resource value: 13
+			public const int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = 13;
+			
+			// aapt resource value: 14
+			public const int ConstraintLayout_Layout_layout_constraintBottom_creator = 14;
+			
+			// aapt resource value: 15
+			public const int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = 15;
+			
+			// aapt resource value: 16
+			public const int ConstraintLayout_Layout_layout_constraintBottom_toTopOf = 16;
+			
+			// aapt resource value: 17
+			public const int ConstraintLayout_Layout_layout_constraintCircle = 17;
+			
+			// aapt resource value: 18
+			public const int ConstraintLayout_Layout_layout_constraintCircleAngle = 18;
+			
+			// aapt resource value: 19
+			public const int ConstraintLayout_Layout_layout_constraintCircleRadius = 19;
+			
+			// aapt resource value: 20
+			public const int ConstraintLayout_Layout_layout_constraintDimensionRatio = 20;
+			
+			// aapt resource value: 21
+			public const int ConstraintLayout_Layout_layout_constraintEnd_toEndOf = 21;
+			
+			// aapt resource value: 22
+			public const int ConstraintLayout_Layout_layout_constraintEnd_toStartOf = 22;
+			
+			// aapt resource value: 23
+			public const int ConstraintLayout_Layout_layout_constraintGuide_begin = 23;
+			
+			// aapt resource value: 24
+			public const int ConstraintLayout_Layout_layout_constraintGuide_end = 24;
+			
+			// aapt resource value: 25
+			public const int ConstraintLayout_Layout_layout_constraintGuide_percent = 25;
+			
+			// aapt resource value: 26
+			public const int ConstraintLayout_Layout_layout_constraintHeight_default = 26;
+			
+			// aapt resource value: 27
+			public const int ConstraintLayout_Layout_layout_constraintHeight_max = 27;
+			
+			// aapt resource value: 28
+			public const int ConstraintLayout_Layout_layout_constraintHeight_min = 28;
+			
+			// aapt resource value: 29
+			public const int ConstraintLayout_Layout_layout_constraintHeight_percent = 29;
+			
+			// aapt resource value: 30
+			public const int ConstraintLayout_Layout_layout_constraintHorizontal_bias = 30;
+			
+			// aapt resource value: 31
+			public const int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = 31;
+			
+			// aapt resource value: 32
+			public const int ConstraintLayout_Layout_layout_constraintHorizontal_weight = 32;
+			
+			// aapt resource value: 33
+			public const int ConstraintLayout_Layout_layout_constraintLeft_creator = 33;
+			
+			// aapt resource value: 34
+			public const int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = 34;
+			
+			// aapt resource value: 35
+			public const int ConstraintLayout_Layout_layout_constraintLeft_toRightOf = 35;
+			
+			// aapt resource value: 36
+			public const int ConstraintLayout_Layout_layout_constraintRight_creator = 36;
+			
+			// aapt resource value: 37
+			public const int ConstraintLayout_Layout_layout_constraintRight_toLeftOf = 37;
+			
+			// aapt resource value: 38
+			public const int ConstraintLayout_Layout_layout_constraintRight_toRightOf = 38;
+			
+			// aapt resource value: 39
+			public const int ConstraintLayout_Layout_layout_constraintStart_toEndOf = 39;
+			
+			// aapt resource value: 40
+			public const int ConstraintLayout_Layout_layout_constraintStart_toStartOf = 40;
+			
+			// aapt resource value: 41
+			public const int ConstraintLayout_Layout_layout_constraintTop_creator = 41;
+			
+			// aapt resource value: 42
+			public const int ConstraintLayout_Layout_layout_constraintTop_toBottomOf = 42;
+			
+			// aapt resource value: 43
+			public const int ConstraintLayout_Layout_layout_constraintTop_toTopOf = 43;
+			
+			// aapt resource value: 44
+			public const int ConstraintLayout_Layout_layout_constraintVertical_bias = 44;
+			
+			// aapt resource value: 45
+			public const int ConstraintLayout_Layout_layout_constraintVertical_chainStyle = 45;
+			
+			// aapt resource value: 46
+			public const int ConstraintLayout_Layout_layout_constraintVertical_weight = 46;
+			
+			// aapt resource value: 47
+			public const int ConstraintLayout_Layout_layout_constraintWidth_default = 47;
+			
+			// aapt resource value: 48
+			public const int ConstraintLayout_Layout_layout_constraintWidth_max = 48;
+			
+			// aapt resource value: 49
+			public const int ConstraintLayout_Layout_layout_constraintWidth_min = 49;
+			
+			// aapt resource value: 50
+			public const int ConstraintLayout_Layout_layout_constraintWidth_percent = 50;
+			
+			// aapt resource value: 51
+			public const int ConstraintLayout_Layout_layout_editor_absoluteX = 51;
+			
+			// aapt resource value: 52
+			public const int ConstraintLayout_Layout_layout_editor_absoluteY = 52;
+			
+			// aapt resource value: 53
+			public const int ConstraintLayout_Layout_layout_goneMarginBottom = 53;
+			
+			// aapt resource value: 54
+			public const int ConstraintLayout_Layout_layout_goneMarginEnd = 54;
+			
+			// aapt resource value: 55
+			public const int ConstraintLayout_Layout_layout_goneMarginLeft = 55;
+			
+			// aapt resource value: 56
+			public const int ConstraintLayout_Layout_layout_goneMarginRight = 56;
+			
+			// aapt resource value: 57
+			public const int ConstraintLayout_Layout_layout_goneMarginStart = 57;
+			
+			// aapt resource value: 58
+			public const int ConstraintLayout_Layout_layout_goneMarginTop = 58;
+			
+			// aapt resource value: 59
+			public const int ConstraintLayout_Layout_layout_optimizationLevel = 59;
+			
+			public static int[] ConstraintLayout_placeholder = new int[] {
+					2130772314,
+					2130772315};
+			
+			// aapt resource value: 0
+			public const int ConstraintLayout_placeholder_content = 0;
+			
+			// aapt resource value: 1
+			public const int ConstraintLayout_placeholder_emptyVisibility = 1;
+			
+			public static int[] ConstraintSet = new int[] {
+					16842948,
+					16842960,
+					16842972,
+					16842996,
+					16842997,
+					16842999,
+					16843000,
+					16843001,
+					16843002,
+					16843551,
+					16843552,
+					16843553,
+					16843554,
+					16843555,
+					16843556,
+					16843557,
+					16843558,
+					16843559,
+					16843560,
+					16843701,
+					16843702,
+					16843770,
+					16843840,
+					2130772316,
+					2130772317,
+					2130772318,
+					2130772319,
+					2130772320,
+					2130772321,
+					2130772322,
+					2130772323,
+					2130772324,
+					2130772325,
+					2130772326,
+					2130772327,
+					2130772328,
+					2130772329,
+					2130772330,
+					2130772331,
+					2130772332,
+					2130772333,
+					2130772334,
+					2130772335,
+					2130772336,
+					2130772337,
+					2130772338,
+					2130772339,
+					2130772340,
+					2130772341,
+					2130772342,
+					2130772343,
+					2130772344,
+					2130772345,
+					2130772346,
+					2130772347,
+					2130772348,
+					2130772349,
+					2130772350,
+					2130772351,
+					2130772352,
+					2130772353,
+					2130772354,
+					2130772355,
+					2130772356,
+					2130772357,
+					2130772358,
+					2130772359,
+					2130772360,
+					2130772361,
+					2130772362,
+					2130772363,
+					2130772364};
+			
+			// aapt resource value: 9
+			public const int ConstraintSet_android_alpha = 9;
+			
+			// aapt resource value: 22
+			public const int ConstraintSet_android_elevation = 22;
+			
+			// aapt resource value: 1
+			public const int ConstraintSet_android_id = 1;
+			
+			// aapt resource value: 4
+			public const int ConstraintSet_android_layout_height = 4;
+			
+			// aapt resource value: 8
+			public const int ConstraintSet_android_layout_marginBottom = 8;
+			
+			// aapt resource value: 20
+			public const int ConstraintSet_android_layout_marginEnd = 20;
+			
+			// aapt resource value: 5
+			public const int ConstraintSet_android_layout_marginLeft = 5;
+			
+			// aapt resource value: 7
+			public const int ConstraintSet_android_layout_marginRight = 7;
+			
+			// aapt resource value: 19
+			public const int ConstraintSet_android_layout_marginStart = 19;
+			
+			// aapt resource value: 6
+			public const int ConstraintSet_android_layout_marginTop = 6;
+			
+			// aapt resource value: 3
+			public const int ConstraintSet_android_layout_width = 3;
+			
+			// aapt resource value: 0
+			public const int ConstraintSet_android_orientation = 0;
+			
+			// aapt resource value: 16
+			public const int ConstraintSet_android_rotation = 16;
+			
+			// aapt resource value: 17
+			public const int ConstraintSet_android_rotationX = 17;
+			
+			// aapt resource value: 18
+			public const int ConstraintSet_android_rotationY = 18;
+			
+			// aapt resource value: 14
+			public const int ConstraintSet_android_scaleX = 14;
+			
+			// aapt resource value: 15
+			public const int ConstraintSet_android_scaleY = 15;
+			
+			// aapt resource value: 10
+			public const int ConstraintSet_android_transformPivotX = 10;
+			
+			// aapt resource value: 11
+			public const int ConstraintSet_android_transformPivotY = 11;
+			
+			// aapt resource value: 12
+			public const int ConstraintSet_android_translationX = 12;
+			
+			// aapt resource value: 13
+			public const int ConstraintSet_android_translationY = 13;
+			
+			// aapt resource value: 21
+			public const int ConstraintSet_android_translationZ = 21;
+			
+			// aapt resource value: 2
+			public const int ConstraintSet_android_visibility = 2;
+			
+			// aapt resource value: 23
+			public const int ConstraintSet_layout_constrainedHeight = 23;
+			
+			// aapt resource value: 24
+			public const int ConstraintSet_layout_constrainedWidth = 24;
+			
+			// aapt resource value: 25
+			public const int ConstraintSet_layout_constraintBaseline_creator = 25;
+			
+			// aapt resource value: 26
+			public const int ConstraintSet_layout_constraintBaseline_toBaselineOf = 26;
+			
+			// aapt resource value: 27
+			public const int ConstraintSet_layout_constraintBottom_creator = 27;
+			
+			// aapt resource value: 28
+			public const int ConstraintSet_layout_constraintBottom_toBottomOf = 28;
+			
+			// aapt resource value: 29
+			public const int ConstraintSet_layout_constraintBottom_toTopOf = 29;
+			
+			// aapt resource value: 30
+			public const int ConstraintSet_layout_constraintCircle = 30;
+			
+			// aapt resource value: 31
+			public const int ConstraintSet_layout_constraintCircleAngle = 31;
+			
+			// aapt resource value: 32
+			public const int ConstraintSet_layout_constraintCircleRadius = 32;
+			
+			// aapt resource value: 33
+			public const int ConstraintSet_layout_constraintDimensionRatio = 33;
+			
+			// aapt resource value: 34
+			public const int ConstraintSet_layout_constraintEnd_toEndOf = 34;
+			
+			// aapt resource value: 35
+			public const int ConstraintSet_layout_constraintEnd_toStartOf = 35;
+			
+			// aapt resource value: 36
+			public const int ConstraintSet_layout_constraintGuide_begin = 36;
+			
+			// aapt resource value: 37
+			public const int ConstraintSet_layout_constraintGuide_end = 37;
+			
+			// aapt resource value: 38
+			public const int ConstraintSet_layout_constraintGuide_percent = 38;
+			
+			// aapt resource value: 39
+			public const int ConstraintSet_layout_constraintHeight_default = 39;
+			
+			// aapt resource value: 40
+			public const int ConstraintSet_layout_constraintHeight_max = 40;
+			
+			// aapt resource value: 41
+			public const int ConstraintSet_layout_constraintHeight_min = 41;
+			
+			// aapt resource value: 42
+			public const int ConstraintSet_layout_constraintHeight_percent = 42;
+			
+			// aapt resource value: 43
+			public const int ConstraintSet_layout_constraintHorizontal_bias = 43;
+			
+			// aapt resource value: 44
+			public const int ConstraintSet_layout_constraintHorizontal_chainStyle = 44;
+			
+			// aapt resource value: 45
+			public const int ConstraintSet_layout_constraintHorizontal_weight = 45;
+			
+			// aapt resource value: 46
+			public const int ConstraintSet_layout_constraintLeft_creator = 46;
+			
+			// aapt resource value: 47
+			public const int ConstraintSet_layout_constraintLeft_toLeftOf = 47;
+			
+			// aapt resource value: 48
+			public const int ConstraintSet_layout_constraintLeft_toRightOf = 48;
+			
+			// aapt resource value: 49
+			public const int ConstraintSet_layout_constraintRight_creator = 49;
+			
+			// aapt resource value: 50
+			public const int ConstraintSet_layout_constraintRight_toLeftOf = 50;
+			
+			// aapt resource value: 51
+			public const int ConstraintSet_layout_constraintRight_toRightOf = 51;
+			
+			// aapt resource value: 52
+			public const int ConstraintSet_layout_constraintStart_toEndOf = 52;
+			
+			// aapt resource value: 53
+			public const int ConstraintSet_layout_constraintStart_toStartOf = 53;
+			
+			// aapt resource value: 54
+			public const int ConstraintSet_layout_constraintTop_creator = 54;
+			
+			// aapt resource value: 55
+			public const int ConstraintSet_layout_constraintTop_toBottomOf = 55;
+			
+			// aapt resource value: 56
+			public const int ConstraintSet_layout_constraintTop_toTopOf = 56;
+			
+			// aapt resource value: 57
+			public const int ConstraintSet_layout_constraintVertical_bias = 57;
+			
+			// aapt resource value: 58
+			public const int ConstraintSet_layout_constraintVertical_chainStyle = 58;
+			
+			// aapt resource value: 59
+			public const int ConstraintSet_layout_constraintVertical_weight = 59;
+			
+			// aapt resource value: 60
+			public const int ConstraintSet_layout_constraintWidth_default = 60;
+			
+			// aapt resource value: 61
+			public const int ConstraintSet_layout_constraintWidth_max = 61;
+			
+			// aapt resource value: 62
+			public const int ConstraintSet_layout_constraintWidth_min = 62;
+			
+			// aapt resource value: 63
+			public const int ConstraintSet_layout_constraintWidth_percent = 63;
+			
+			// aapt resource value: 64
+			public const int ConstraintSet_layout_editor_absoluteX = 64;
+			
+			// aapt resource value: 65
+			public const int ConstraintSet_layout_editor_absoluteY = 65;
+			
+			// aapt resource value: 66
+			public const int ConstraintSet_layout_goneMarginBottom = 66;
+			
+			// aapt resource value: 67
+			public const int ConstraintSet_layout_goneMarginEnd = 67;
+			
+			// aapt resource value: 68
+			public const int ConstraintSet_layout_goneMarginLeft = 68;
+			
+			// aapt resource value: 69
+			public const int ConstraintSet_layout_goneMarginRight = 69;
+			
+			// aapt resource value: 70
+			public const int ConstraintSet_layout_goneMarginStart = 70;
+			
+			// aapt resource value: 71
+			public const int ConstraintSet_layout_goneMarginTop = 71;
+			
 			public static int[] CoordinatorLayout = new int[] {
 					2130772252,
 					2130772253};
@@ -6178,6 +9581,34 @@ namespace FastShopping.Droid
 			// aapt resource value: 2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
+			public static int[] ImageViewExchanger = new int[] {
+					2130772385,
+					2130772386,
+					2130772387,
+					2130772388,
+					2130772389};
+			
+			// aapt resource value: 3
+			public const int ImageViewExchanger_defaultImage = 3;
+			
+			// aapt resource value: 1
+			public const int ImageViewExchanger_flashEffectImageView = 1;
+			
+			// aapt resource value: 0
+			public const int ImageViewExchanger_imageView = 0;
+			
+			// aapt resource value: 2
+			public const int ImageViewExchanger_loaderProgress = 2;
+			
+			// aapt resource value: 4
+			public const int ImageViewExchanger_maxBitmapSize = 4;
+			
+			public static int[] LinearConstraintLayout = new int[] {
+					16842948};
+			
+			// aapt resource value: 0
+			public const int LinearConstraintLayout_android_orientation = 0;
+			
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -6233,6 +9664,12 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 1
 			public const int LinearLayoutCompat_Layout_android_layout_width = 1;
+			
+			public static int[] ListDialog = new int[] {
+					2130772394};
+			
+			// aapt resource value: 0
+			public const int ListDialog_listDialogTitle = 0;
 			
 			public static int[] ListPopupWindow = new int[] {
 					16843436,
@@ -6396,6 +9833,24 @@ namespace FastShopping.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
+			public static int[] MultiChoiceDialog = new int[] {
+					2130772390,
+					2130772391,
+					2130772392,
+					2130772393};
+			
+			// aapt resource value: 1
+			public const int MultiChoiceDialog_multiChoiceDialogChoiceOptionAll = 1;
+			
+			// aapt resource value: 3
+			public const int MultiChoiceDialog_multiChoiceDialogNegativeButton = 3;
+			
+			// aapt resource value: 2
+			public const int MultiChoiceDialog_multiChoiceDialogPositiveButton = 2;
+			
+			// aapt resource value: 0
+			public const int MultiChoiceDialog_multiChoiceDialogTitle = 0;
+			
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
@@ -6457,6 +9912,24 @@ namespace FastShopping.Droid
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			
+			public static int[] ProductEditionDialog = new int[] {
+					2130772395,
+					2130772396,
+					2130772397,
+					2130772398};
+			
+			// aapt resource value: 0
+			public const int ProductEditionDialog_productEditionDialogMargin = 0;
+			
+			// aapt resource value: 1
+			public const int ProductEditionDialog_productEditionDialogMarginTop = 1;
+			
+			// aapt resource value: 3
+			public const int ProductEditionDialog_productEditionDialogPaddings = 3;
+			
+			// aapt resource value: 2
+			public const int ProductEditionDialog_productEditionDialogTotalMarginTop = 2;
 			
 			public static int[] RecycleListView = new int[] {
 					2130772179,

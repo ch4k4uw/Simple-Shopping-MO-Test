@@ -40,17 +40,21 @@ namespace Infrastructure.Base.Repository
                     if(products?.Count > 0)
                     {
                         var categories = restApi.ListCategories();
+                        var promotions = restApi.ListPromotions();
 
                         return products.Select(x => 
                         {
                             var shoppingItem = shoppingItems.FirstOrDefault(y => y.Id == x.Id);
                             var category = categories.FirstOrDefault(y => y.Id == x.Category_Id);
                             var favorite = simpleDb.GetFavorite(x.Id);
+                            var promotion = restApi.ListPromotions().FirstOrDefault(y => y.Category_Id == (category?.Id ?? -1));
 
                             var productDetail = valueFactory.NewProductDetail(x.Name, x.Description, x.Photo, x.Price, x.Category_Id);
                             var categoryEntity = category != null ? entityFactory.NewProductCategory(category.Id, category.Name) : entityFactory.EmptyProductCategory();
+                            var promotionDetailValues = promotion?.Policies.Select(y => valueFactory.NewProductPromotionDetail(y.Min, y.Discount)).ToList();
+                            var promotionValue = valueFactory.NewProductPromotion(promotion?.Name ?? "", promotion?.Category_Id ?? 0, promotionDetailValues ?? new List<IProductPromotionDetailValue>());
 
-                            return entityFactory.NewProduct(x.Id, productDetail, valueFactory.EmptyProductPromotion(), categoryEntity, shoppingItem?.Discount ?? 0, shoppingItem?.Quantity ?? 0, favorite.IsFavorite);
+                            return entityFactory.NewProduct(x.Id, productDetail, promotionValue, categoryEntity, shoppingItem?.Discount ?? 0, shoppingItem?.Quantity ?? 0, favorite.IsFavorite);
 
                         }).ToList();
                     }

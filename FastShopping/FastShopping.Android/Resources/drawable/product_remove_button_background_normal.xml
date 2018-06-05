@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid
+                android:color="@color/productEditionButtonBackgroundColorNormal" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_minus_white_24dp"
+        android:left="@dimen/product_edition_icon_horizontal_margin"
+        android:top="@dimen/product_edition_icon_margin"
+        android:right="@dimen/product_edition_icon_horizontal_margin"
+        android:bottom="@dimen/product_edition_icon_margin"/>
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Fucking SW TAB GT-P3110... To avoid black drawable -->
+            <solid android:color="#0fff" />
+            <stroke
+                android:width="@dimen/product_edition_button_stroke_width"
+                android:color="@color/productEditionButtonBorderColorNormal" />
+        </shape>
+    </item>
+</layer-list>

@@ -28,6 +28,7 @@ namespace FastShopping.CrossCutting.IoC.Application
             container.RegisterSingleton<IDecProductQuantityApplicationService<ProductDetail>, DecProductQuantityService>();
             container.RegisterSingleton<IFinalizeShoppingApplicationService, FinalizeShoppingService>();
             container.RegisterSingleton<IShoppingCartApplicationService<ProductListItem>, ShoppingCartService>();
+            container.RegisterSingleton<ISetAsFavoriteApplicationService, SetAsFavoriteService>();
         }
     }
 }

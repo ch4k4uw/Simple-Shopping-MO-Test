@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="defaultLoginAvatar" format="reference" />
+    <attr name="colorPrimaryTransparent" format="color|reference" />
+    <attr name="singleChoiceItemBackground" format="reference" />
+    <attr name="toolbarBackground" format="reference" />
+    <attr name="appBarLayoutTheme" format="reference" />
+    <attr name="fabMenuButtonStyle" format="reference" />
+    <attr name="textColorDisabled" format="reference" />
+    <attr name="authenticatorInputTextLayoutStyle" format="reference" />
+    <attr name="addProductStyle" format="reference" />
+    <attr name="removeProductStyle" format="reference" />
+    <attr name="deleteProductStyle" format="reference" />
+    <attr name="editProductStyle" format="reference" />
+    <attr name="productValueTextViewStyle" format="reference" />
+    <attr name="productQuantityTextViewStyle" format="reference" />
+    <attr name="customersGroupsMultiChoiceDialogStyle" format="reference" />
+    <attr name="productsFilterListDialogStyle" format="reference" />
+    <attr name="suppliersMultiChoiceDialogStyle" format="reference" />
+    <attr name="categoriesMultiChoiceDialogStyle" format="reference" />
+    <attr name="valueChangedTextColor" format="color|reference" />
+
+    <declare-styleable name="ImageViewExchanger">
+        <attr name="imageView" format="reference" />
+        <attr name="flashEffectImageView" format="reference" />
+        <attr name="loaderProgress" format="reference" />
+        <attr name="defaultImage" format="reference" />
+        <attr name="maxBitmapSize" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiChoiceDialog">
+        <attr name="multiChoiceDialogTitle" format="string|reference" />
+        <attr name="multiChoiceDialogChoiceOptionAll" format="string|reference" />
+        <attr name="multiChoiceDialogPositiveButton" format="string|reference" />
+        <attr name="multiChoiceDialogNegativeButton" format="string|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ListDialog">
+        <attr name="listDialogTitle" format="string|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ProductEditionDialog">
+        <attr name="productEditionDialogMargin" format="dimension" />
+        <attr name="productEditionDialogMarginTop" format="dimension" />
+        <attr name="productEditionDialogTotalMarginTop" format="dimension" />
+        <attr name="productEditionDialogPaddings">
+            <!-- Visible on screen; the default value. -->
+            <enum name="visible" value="0" />
+            <!-- Not displayed, but taken into account during layout (space is left for it). -->
+            <enum name="invisible" value="1" />
+            <!-- Completely hidden, as if the view had not been added. -->
+            <enum name="gone" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

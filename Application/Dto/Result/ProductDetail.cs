@@ -42,6 +42,11 @@ namespace Application.Dto.Result
         /// </summary>
         public int Quantity { get; internal set; }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool IsFavorite { get; internal set; }
+
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {
             if (info == null)
