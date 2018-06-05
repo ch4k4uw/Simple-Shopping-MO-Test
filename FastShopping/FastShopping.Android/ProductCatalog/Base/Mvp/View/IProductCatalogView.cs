@@ -44,7 +44,13 @@ namespace FastShopping.Droid.ProductCatalog.Base.Mvp.View
         /// <summary>
         /// 
         /// </summary>
-        void ShowShoppingFinishedNotification();
+        void ShowShoppingFinalizedNotification();
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="total"></param>
+        void UpdateTotal(double total);
 
     }
 }

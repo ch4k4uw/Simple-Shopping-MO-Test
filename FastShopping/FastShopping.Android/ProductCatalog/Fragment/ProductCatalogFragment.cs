@@ -17,6 +17,7 @@ using FastShopping.Droid.ProductCatalog.Adapter;
 using FastShopping.Droid.ProductCatalog.Base;
 using FastShopping.Droid.ProductCatalog.Base.Mvp.Presenter;
 using FastShopping.Droid.ProductCatalog.Base.Mvp.View;
+using FastShopping.Droid.ShoppingCart.Fragment;
 using Unity;
 
 namespace FastShopping.Droid.ProductCatalog.Fragment
@@ -27,6 +28,7 @@ namespace FastShopping.Droid.ProductCatalog.Fragment
         private ProgressBar progress;
         private RecyclerView recycler;
         private Android.Support.V7.Widget.Toolbar toolbar;
+        private Button shoppingCart;
 
         private bool alreadyStarted;
 
@@ -54,6 +56,16 @@ namespace FastShopping.Droid.ProductCatalog.Fragment
             progress = view.FindViewById<ProgressBar>(Resource.Id.progressbar);
             recycler = view.FindViewById<RecyclerView>(Resource.Id.recyclerView);
             toolbar = view.FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+            shoppingCart = view.FindViewById<Button>(Resource.Id.shopping_cart);
+
+            shoppingCart.Click += delegate
+            {
+                FragmentManager
+                    .BeginTransaction()
+                    .Replace(Resource.Id.fragment_container, new ShoppingCartFragment(), "cart")
+                    .AddToBackStack(null)
+                    .Commit();
+            };
 
             recycler.HasFixedSize = true;
             recycler.SetLayoutManager(
@@ -125,7 +137,7 @@ namespace FastShopping.Droid.ProductCatalog.Fragment
             progress.Visibility = ViewStates.Gone;
         }
 
-        public void ShowShoppingFinishedNotification()
+        public void ShowShoppingFinalizedNotification()
         {
             Toast.MakeText(Activity, Resource.String.shopping_finished_message, ToastLength.Long)
                 .Show();
@@ -146,6 +158,15 @@ namespace FastShopping.Droid.ProductCatalog.Fragment
         {
             (Activity as IProductCategoryFilterPresenter)
                 .SetFilterOptions(productCategories);
+        }
+
+        public void UpdateTotal(double total)
+        {
+            var prefix = GetString(Resource.String.shopping_cart_button_prefix);
+            shoppingCart.Text = $"{prefix} {total.ToString("C2")}";
+
+            shoppingCart.Enabled = total > 0;
+
         }
     }
 }

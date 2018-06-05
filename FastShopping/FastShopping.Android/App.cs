@@ -3,6 +3,8 @@ using Android.Content;
 using Android.Runtime;
 using FastShopping.Droid.ProductCatalog.Base.Mvp.Presenter;
 using FastShopping.Droid.ProductCatalog.Presenter;
+using FastShopping.Droid.ShoppingCart.Base.Mvp.Presenter;
+using FastShopping.Droid.ShoppingCart.Presenter;
 using Infrastructure.Android.CrossCutting.Ioc;
 using System;
 using System.Reactive.Concurrency;
@@ -79,6 +81,7 @@ namespace FastShopping.Droid
                 Container.RegisterInstance(context, new ContainerControlledLifetimeManager());
                 Container.RegisterInstance(ReactiveUI.HandlerScheduler.MainThreadScheduler, new ContainerControlledLifetimeManager());
                 Container.RegisterType<IProductCatalogPresenter, ProductCatalogPresenter>();
+                Container.RegisterType<IShoppingCartPresenter, ShoppingCartPresenter>();
 
                 DI.Register(Container);
                 CrossCutting.IoC.DI.Register(Container);

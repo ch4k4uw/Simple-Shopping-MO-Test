@@ -6,4 +6,11 @@
   <string name="shopping_finished_message">Shopping finalize.\nWait while we start other for you ~.^</string>
   <string name="menu_filter">Filter</string>
   <string name="all_categories_menu_item">All Categories</string>
+  <string name="pointer_go">☛</string>
+  <string name="pointer_back">☚</string>
+  <string name="shopping_cart_button_prefix">Buy ☛</string>
+  <string name="terminate_shopping">FINALIZE SHOPPING</string>
+  <string name="total">Total</string>
+  <string name="cart_action_menu">Shopping Cart</string>
+  <string name="shopping_cart_start_label">…</string>
 </resources>

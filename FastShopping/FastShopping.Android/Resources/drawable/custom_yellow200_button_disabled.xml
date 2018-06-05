@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item>
+    <shape android:shape="rectangle" >
+      <solid android:color="#77FFF9C4" />
+      <corners android:radius="4dp" />
+      <padding android:top="10dp" android:bottom="10dp" android:left="10dp" android:right="10dp" />
+    </shape>
+  </item>
+  <item>
+    <shape android:shape="rectangle">FFEB3B
+      <!-- Fucking SW TAB GT-P3110... To avoid black drawable -->
+      <solid android:color="#0fff" />
+    </shape>
+  </item>
+
+</layer-list>

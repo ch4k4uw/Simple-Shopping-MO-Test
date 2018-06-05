@@ -69,6 +69,7 @@ namespace FastShopping.Droid.ProductCatalog.Presenter
                         origList = products;
                         FilterOrigList();
 
+                        UpdateTotal();
                         View?.SetProductCategoryFilterOptions(categories);
                         View?.SetProductCatalog(filteredList);
 
@@ -82,6 +83,7 @@ namespace FastShopping.Droid.ProductCatalog.Presenter
 
         public void ResetListAction()
         {
+            UpdateTotal();
             View?.SetProductCatalog(filteredList);
             View?.SetProductCategoryFilterOptions(categories);
         }
@@ -109,6 +111,7 @@ namespace FastShopping.Droid.ProductCatalog.Presenter
                 filteredList[item].Discount = product.Discount;
                 filteredList[item].IsFavorite = product.IsFavorite;
 
+                UpdateTotal();
                 View?.UpdateProductCatalogItem(item, filteredList[item]);
                 View?.HideProgress();
             }, 
@@ -129,6 +132,7 @@ namespace FastShopping.Droid.ProductCatalog.Presenter
                 filteredList[item].Discount = product.Discount;
                 filteredList[item].IsFavorite = product.IsFavorite;
 
+                UpdateTotal();
                 View?.UpdateProductCatalogItem(item, filteredList[item]);
                 View?.HideProgress();
             },
@@ -144,7 +148,7 @@ namespace FastShopping.Droid.ProductCatalog.Presenter
             View?.ShowProgress();
             finlShoppingSvc.Finalyze(() => 
             {
-                View?.ShowShoppingFinishedNotification();
+                View?.ShowShoppingFinalizedNotification();
                 View?.HideProgress();
 
                 InitShoppingAction();
@@ -189,6 +193,12 @@ namespace FastShopping.Droid.ProductCatalog.Presenter
                     return x;
                 })
                 .ToList();
+        }
+
+        private void UpdateTotal()
+        {
+            var total = origList.Sum(x => x.Price * x.Quantity);
+            View?.UpdateTotal(total);
         }
     }
 }

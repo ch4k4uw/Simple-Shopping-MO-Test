@@ -58,6 +58,24 @@ namespace FastShopping.Droid
 
         }
 
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch(item.ItemId)
+            {
+                case Android.Resource.Id.Home:
+                    var fragment = SupportFragmentManager.FindFragmentByTag("cart");
+                    if(fragment == null)
+                    {
+                        Finish();
+                    } else
+                    {
+                        SupportFragmentManager.PopBackStack();
+                    }
+                    break;
+            }
+            return base.OnOptionsItemSelected(item);
+        }
+
         public void SetFilterOptions(IList<ProductCategory> categories)
         {
             recyclerDataSource = new List<ProductCategory>();

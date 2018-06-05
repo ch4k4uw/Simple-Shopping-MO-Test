@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fl">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/cl1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <android.support.constraint.Guideline
+                android:id="@+id/gdl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintGuide_begin="50dp"
+                android:orientation="vertical" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/gd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintGuide_percent=".7"
+                android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/name"
+                android:lines="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="Game Horizon Dawn - PS4"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="@+id/gd2"
+                app:layout_constraintLeft_toLeftOf="@+id/gdl"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/clQtt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name"
+                app:layout_constraintLeft_toLeftOf="@+id/gdl"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                <TextView
+                    android:id="@+id/unity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UN"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/quantity"
+                    app:layout_constraintLeft_toRightOf="@+id/quantity"
+                    android:layout_marginLeft="3dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            </android.support.constraint.ConstraintLayout>
+
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/gdl" />
+
+            <TextView
+                android:id="@+id/discount"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                tools:text="12.5%"
+                app:layout_constraintRight_toLeftOf="@+id/gd2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:drawableLeft="@drawable/ic_arrow_down"
+                android:background="@drawable/discount_background"
+                android:textColor="#fff"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="R$ 144,38"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

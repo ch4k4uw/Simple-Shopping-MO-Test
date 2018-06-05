@@ -14,13 +14,15 @@
             android:id="@+id/toolbar"
             layout="@layout/toolbar" />
     </android.support.design.widget.AppBarLayout>
-  
+
     <android.support.constraint.ConstraintLayout
         android:id="@+id/cl1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingBottom="15dp"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:paddingBottom="?attr/actionBarSize"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
         <fastshopping.droid.customcontrols.StatefulProgressBar
             android:id="@+id/progressbar"
             style="?android:attr/progressBarStyleHorizontal"
@@ -36,6 +38,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:visibility="gone"
             tools:targetApi="lollipop" />
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:scrollbars="vertical"
@@ -43,11 +46,51 @@
             android:layout_height="0dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:layout_marginBottom="?attr/actionBarSize"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" />
+            app:layout_constraintBottom_toBottomOf="@+id/gdl3" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/gdl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".7"/>
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/gdl3"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="15dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            tools:text="22 UN"/>
+
+        <TextView
+            android:id="@+id/lbtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/total"
+            android:layout_marginLeft="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/total"
+            />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quantity"
+            android:layout_marginRight="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:text="R$ 0,00"
+            />
+
+
     </android.support.constraint.ConstraintLayout>
 
     <android.support.constraint.ConstraintLayout
@@ -57,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="?attr/colorPrimary">
-        
+
         <android.support.constraint.Guideline
             android:id="@+id/gdl1"
             android:layout_width="wrap_content"
@@ -73,16 +116,14 @@
             app:layout_constraintGuide_percent=".9"/>
 
         <Button
-            android:id="@+id/shopping_cart"
+            android:id="@+id/finalize"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="@+id/gdl1"
             app:layout_constraintRight_toRightOf="@+id/gdl2"
             android:layout_marginBottom="10dp"
-            tools:text="COMPRAR ☛ R$ 0,00"
-            android:text="@string/shopping_cart_start_label"
-            android:enabled="false"
+            android:text="@string/terminate_shopping"
             android:background="@drawable/custom_yellow200_button"/>
 
     </android.support.constraint.ConstraintLayout>
