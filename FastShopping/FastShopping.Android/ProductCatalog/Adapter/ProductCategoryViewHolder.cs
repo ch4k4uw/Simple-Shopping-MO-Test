@@ -16,13 +16,13 @@ namespace FastShopping.Droid.ProductCatalog.Adapter
     public class ProductCategoryViewHolder : RecyclerView.ViewHolder, View.IOnClickListener
     {
         public readonly TextView Name;
-        private readonly View.IOnClickListener click;
+        private readonly Action<int> itemClick;
 
-        public ProductCategoryViewHolder(View itemView, View.IOnClickListener click) : base(itemView)
+        public ProductCategoryViewHolder(View itemView, Action<int> itemClick) : base(itemView)
         {
             Name = itemView as TextView;
             Name.SetOnClickListener(this);
-            this.click = click;
+            this.itemClick = itemClick;
         }
 
         protected ProductCategoryViewHolder(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
@@ -31,8 +31,7 @@ namespace FastShopping.Droid.ProductCatalog.Adapter
 
         public void OnClick(View v)
         {
-            v.Tag = AdapterPosition;
-            click.OnClick(v);
+            itemClick.Invoke(AdapterPosition);
         }
     }
 }

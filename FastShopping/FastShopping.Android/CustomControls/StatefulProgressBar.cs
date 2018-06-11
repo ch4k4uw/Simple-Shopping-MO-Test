@@ -10,68 +10,12 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using FastShopping.Droid.CustomControls.Base.State;
 using Java.Interop;
 using Java.Lang;
 
 namespace FastShopping.Droid.CustomControls
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    internal class SavedState : Java.Lang.Object, IParcelable
-    {
-        public int Visibility;
-        public IParcelable Ss;
-
-        [ExportField("CREATOR")]
-        public static MyParcelableCreator InitializeCreator()
-        {
-            Console.WriteLine("MyParcelable.InitializeCreator");
-            return new MyParcelableCreator();
-        }
-
-        public SavedState()
-        {
-        }
-
-        public SavedState(Parcel source)
-        {
-            Visibility = source.ReadInt();
-            Ss = source.ReadBundle();
-        }
-
-        public int DescribeContents()
-        {
-            Console.WriteLine("MyParcelable.DescribeContents");
-            return 0;
-        }
-
-        public void WriteToParcel(Parcel dest, [GeneratedEnum] ParcelableWriteFlags flags)
-        {
-            Console.WriteLine("MyParcelable.WriteToParcel");
-            dest.WriteInt(Visibility);
-            dest.WriteParcelable(Ss, ParcelableWriteFlags.None);
-        }
-    }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    internal class MyParcelableCreator : Java.Lang.Object, IParcelableCreator
-    {
-        public Java.Lang.Object CreateFromParcel(Parcel source)
-        {
-            Console.WriteLine("MyParcelableCreator.CreateFromParcel");
-            return new SavedState(source);
-        }
-
-        public Java.Lang.Object[] NewArray(int size)
-        {
-            Console.WriteLine("MyParcelableCreator.NewArray");
-            return new Java.Lang.Object[size];
-        }
-    }
-
     public class StatefulProgressBar : ProgressBar
     {
         public StatefulProgressBar(Context context, IAttributeSet attrs) :
@@ -116,6 +60,42 @@ namespace FastShopping.Droid.CustomControls
 
         private void Initialize()
         {
+        }
+
+        private class SavedState : Java.Lang.Object, IParcelable
+        {
+            public int Visibility;
+            public IParcelable Ss;
+
+            [ExportField("CREATOR")]
+            public static StatefulControlParcelableCreator<SavedState> InitializeCreator()
+            {
+                Console.WriteLine("MyParcelable.InitializeCreator");
+                return new StatefulControlParcelableCreator<SavedState>(parcel => new SavedState(parcel));
+            }
+
+            public SavedState()
+            {
+            }
+
+            public SavedState(Parcel source)
+            {
+                Visibility = source.ReadInt();
+                Ss = source.ReadBundle();
+            }
+
+            public int DescribeContents()
+            {
+                Console.WriteLine("MyParcelable.DescribeContents");
+                return 0;
+            }
+
+            public void WriteToParcel(Parcel dest, [GeneratedEnum] ParcelableWriteFlags flags)
+            {
+                Console.WriteLine("MyParcelable.WriteToParcel");
+                dest.WriteInt(Visibility);
+                dest.WriteParcelable(Ss, ParcelableWriteFlags.None);
+            }
         }
     }
 }

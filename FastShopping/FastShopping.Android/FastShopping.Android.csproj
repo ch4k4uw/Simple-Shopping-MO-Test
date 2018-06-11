@@ -105,7 +105,10 @@
     <Compile Include="Base\Mvp\IPresenter.cs" />
     <Compile Include="Base\Mvp\IView.cs" />
     <Compile Include="Base\Shopping\ShoppingAdapter.cs" />
+    <Compile Include="CustomControls\Base\Adapter\ISingleSelectionAdapter.cs" />
+    <Compile Include="CustomControls\Base\State\StatefulControlParcelableCreator.cs" />
     <Compile Include="CustomControls\StatefulProgressBar.cs" />
+    <Compile Include="CustomControls\StatefulRecyclerView.cs" />
     <Compile Include="LoadingActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="ProductCatalog\Adapter\ProductCatalogAdapter.cs" />
