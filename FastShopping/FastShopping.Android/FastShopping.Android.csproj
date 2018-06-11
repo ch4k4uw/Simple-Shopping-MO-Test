@@ -19,6 +19,13 @@
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <AndroidKeyStore>true</AndroidKeyStore>
+    <AndroidSigningKeyStore>D:\projects\assets\android\ch4k4uw-certs\release.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>
+    </AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>ch4k4uw</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>
+    </AndroidSigningKeyPass>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,6 +40,7 @@
     <EnableLLVM>false</EnableLLVM>
     <BundleAssemblies>false</BundleAssemblies>
     <NoWarn>NU1608</NoWarn>
+    <EnableProguard>false</EnableProguard>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,6 +51,10 @@
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <BundleAssemblies>false</BundleAssemblies>
+    <EnableProguard>true</EnableProguard>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -95,7 +107,7 @@
     <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView">
       <Version>25.4.0.2</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.550146" />
     <PackageReference Include="XamarinForms.CoordinatorLayout.Android">
       <Version>0.0.3</Version>
     </PackageReference>
@@ -115,8 +127,6 @@
     <Compile Include="ProductCatalog\Adapter\ProductCatalogViewHolder.cs" />
     <Compile Include="ProductCatalog\Adapter\ProductCategoryAdapter.cs" />
     <Compile Include="ProductCatalog\Adapter\ProductCategoryViewHolder.cs" />
-    <Compile Include="ProductCatalog\Base\IProductByCategoryFilterApplyer.cs" />
-    <Compile Include="ProductCatalog\Base\IProductCategoryFilterPresenter.cs" />
     <Compile Include="ProductCatalog\Base\Mvp\Presenter\IProductCatalogPresenter.cs" />
     <Compile Include="ProductCatalog\Base\Mvp\View\IProductCatalogView.cs" />
     <Compile Include="ProductCatalog\Fragment\ProductCatalogFragment.cs" />

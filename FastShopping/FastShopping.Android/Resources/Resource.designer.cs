@@ -5593,8 +5593,8 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f0900bc
 			public const int chronometer = 2131296444;
 			
-			// aapt resource value: 0x7f0900ca
-			public const int cl1 = 2131296458;
+			// aapt resource value: 0x7f0900cc
+			public const int cl1 = 2131296460;
 			
 			// aapt resource value: 0x7f0900d8
 			public const int clQtt = 2131296472;
@@ -5626,8 +5626,8 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090081
 			public const int coordinatorLayout = 2131296385;
 			
-			// aapt resource value: 0x7f0900c7
-			public const int coordinator_layout = 2131296455;
+			// aapt resource value: 0x7f0900c9
+			public const int coordinator_layout = 2131296457;
 			
 			// aapt resource value: 0x7f090063
 			public const int custom = 2131296355;
@@ -5635,8 +5635,8 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090062
 			public const int customPanel = 2131296354;
 			
-			// aapt resource value: 0x7f0900c8
-			public const int customers_list_appbar = 2131296456;
+			// aapt resource value: 0x7f0900ca
+			public const int customers_list_appbar = 2131296458;
 			
 			// aapt resource value: 0x7f090070
 			public const int decor_content_parent = 2131296368;
@@ -5671,11 +5671,11 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f0900df
 			public const int discount = 2131296479;
 			
-			// aapt resource value: 0x7f0900d1
-			public const int drawer_layout = 2131296465;
+			// aapt resource value: 0x7f0900c7
+			public const int drawer_layout = 2131296455;
 			
-			// aapt resource value: 0x7f0900d4
-			public const int drawer_list = 2131296468;
+			// aapt resource value: 0x7f0900d3
+			public const int drawer_list = 2131296467;
 			
 			// aapt resource value: 0x7f090074
 			public const int edit_query = 2131296372;
@@ -5722,8 +5722,8 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f09003f
 			public const int @fixed = 2131296319;
 			
-			// aapt resource value: 0x7f0900d2
-			public const int fl = 2131296466;
+			// aapt resource value: 0x7f0900c8
+			public const int fl = 2131296456;
 			
 			// aapt resource value: 0x7f090087
 			public const int floatingActionButton = 2131296391;
@@ -5731,8 +5731,8 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090086
 			public const int fragmentContainer = 2131296390;
 			
-			// aapt resource value: 0x7f0900d3
-			public const int fragment_container = 2131296467;
+			// aapt resource value: 0x7f0900d4
+			public const int fragment_container = 2131296468;
 			
 			// aapt resource value: 0x7f0900e5
 			public const int gd2 = 2131296485;
@@ -5740,11 +5740,11 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f0900dd
 			public const int gdl = 2131296477;
 			
-			// aapt resource value: 0x7f0900ce
-			public const int gdl1 = 2131296462;
+			// aapt resource value: 0x7f0900d0
+			public const int gdl1 = 2131296464;
 			
-			// aapt resource value: 0x7f0900cf
-			public const int gdl2 = 2131296463;
+			// aapt resource value: 0x7f0900d1
+			public const int gdl2 = 2131296465;
 			
 			// aapt resource value: 0x7f0900e1
 			public const int gdl3 = 2131296481;
@@ -5950,8 +5950,8 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090007
 			public const int progress_horizontal = 2131296263;
 			
-			// aapt resource value: 0x7f0900cb
-			public const int progressbar = 2131296459;
+			// aapt resource value: 0x7f0900cd
+			public const int progressbar = 2131296461;
 			
 			// aapt resource value: 0x7f0900d5
 			public const int promotion = 2131296469;
@@ -5962,8 +5962,8 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f09006b
 			public const int radio = 2131296363;
 			
-			// aapt resource value: 0x7f0900cc
-			public const int recyclerView = 2131296460;
+			// aapt resource value: 0x7f0900ce
+			public const int recyclerView = 2131296462;
 			
 			// aapt resource value: 0x7f0900d9
 			public const int remove = 2131296473;
@@ -6028,11 +6028,11 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090080
 			public const int select_dialog_listview = 2131296384;
 			
-			// aapt resource value: 0x7f0900cd
-			public const int shoppingCartCL = 2131296461;
+			// aapt resource value: 0x7f0900cf
+			public const int shoppingCartCL = 2131296463;
 			
-			// aapt resource value: 0x7f0900d0
-			public const int shopping_cart = 2131296464;
+			// aapt resource value: 0x7f0900d2
+			public const int shopping_cart = 2131296466;
 			
 			// aapt resource value: 0x7f09006a
 			public const int shortcut = 2131296362;
@@ -6133,8 +6133,8 @@ namespace FastShopping.Droid
 			// aapt resource value: 0x7f090065
 			public const int title_template = 2131296357;
 			
-			// aapt resource value: 0x7f0900c9
-			public const int toolbar = 2131296457;
+			// aapt resource value: 0x7f0900cb
+			public const int toolbar = 2131296459;
 			
 			// aapt resource value: 0x7f090029
 			public const int top = 2131296297;

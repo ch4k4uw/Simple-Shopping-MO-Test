@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
+﻿using Android.App;
 using Android.OS;
-using Android.Runtime;
+using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Support.V7.Widget;
-using Android.Util;
 using Android.Views;
 using Android.Widget;
 using Application.Dto.Result;
@@ -18,17 +11,23 @@ using FastShopping.Droid.ProductCatalog.Base;
 using FastShopping.Droid.ProductCatalog.Base.Mvp.Presenter;
 using FastShopping.Droid.ProductCatalog.Base.Mvp.View;
 using FastShopping.Droid.ShoppingCart.Fragment;
+using System.Collections.Generic;
+using System.Linq;
 using Unity;
 
 namespace FastShopping.Droid.ProductCatalog.Fragment
 {
-    public class ProductCatalogFragment : Android.Support.V4.App.Fragment, IProductCatalogView, IProductByCategoryFilterApplyer
+    public class ProductCatalogFragment : Android.Support.V4.App.Fragment, IProductCatalogView
     {
         private IProductCatalogPresenter presenter;
         private ProgressBar progress;
         private RecyclerView recycler;
         private Android.Support.V7.Widget.Toolbar toolbar;
         private Button shoppingCart;
+        private DrawerLayout drawerLayout;
+        private RecyclerView drawerRecycler;
+
+        private IList<ProductCategory> recyclerDataSource;
 
         private bool alreadyStarted;
 
@@ -57,6 +56,8 @@ namespace FastShopping.Droid.ProductCatalog.Fragment
             recycler = view.FindViewById<RecyclerView>(Resource.Id.recyclerView);
             toolbar = view.FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             shoppingCart = view.FindViewById<Button>(Resource.Id.shopping_cart);
+            drawerLayout = view.FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
+            drawerRecycler = view.FindViewById<RecyclerView>(Resource.Id.drawer_list);
 
             shoppingCart.Click += delegate
             {
@@ -71,6 +72,9 @@ namespace FastShopping.Droid.ProductCatalog.Fragment
             recycler.SetLayoutManager(
                     new LinearLayoutManager(Activity, LinearLayoutManager.Vertical, false)
             );
+
+            drawerRecycler.HasFixedSize = true;
+            drawerRecycler.SetLayoutManager(new LinearLayoutManager(Activity));
 
             //
             var activity = Activity as AppCompatActivity;
@@ -103,8 +107,7 @@ namespace FastShopping.Droid.ProductCatalog.Fragment
             switch (item.ItemId)
             {
                 case Resource.Id.filter:
-                    (Activity as IProductCategoryFilterPresenter)
-                        .ShowFilterOptions();
+                    drawerLayout.OpenDrawer((int)GravityFlags.Right, true);
                     break;
             }
             return base.OnOptionsItemSelected(item);
@@ -149,15 +152,27 @@ namespace FastShopping.Droid.ProductCatalog.Fragment
             adapter.NotifyItemChanged(item);
         }
 
-        public void ApplyCategoryFilter(long id)
-        {
-            presenter.FilterByCategoryAction(id);
-        }
-
         public void SetProductCategoryFilterOptions(IList<ProductCategory> productCategories)
         {
-            (Activity as IProductCategoryFilterPresenter)
-                .SetFilterOptions(productCategories);
+            recyclerDataSource = new List<ProductCategory>();
+            recyclerDataSource.Add(new ProductCategory
+            {
+                Id = -1,
+                Name = GetString(Resource.String.all_categories_menu_item)
+            });
+
+            productCategories.OrderBy(x => x.Name).Select(x =>
+            {
+                recyclerDataSource.Add(x);
+                return x;
+            }).ToList();
+
+
+            drawerRecycler.SetAdapter(new ProductCategoryAdapter(Activity, recyclerDataSource, item =>
+            {
+                presenter.FilterByCategoryAction(recyclerDataSource[item].Id);
+                drawerLayout.CloseDrawer((int)GravityFlags.Right, true);
+            }));
         }
 
         public void UpdateTotal(double total)
